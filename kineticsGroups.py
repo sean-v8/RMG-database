@@ -42,7 +42,7 @@ def getRateCoefficientUnits(family):
     """
     if family.label in ['H_Abstraction', 'R_Addition_MultipleBond', 'R_Recombination', 'Disproportionation', '1+2_Cycloaddition', '2+2_cycloaddition_Cd', '2+2_cycloaddition_CO', '2+2_cycloaddition_CCO', 'Diels_alder_addition', '1,2_Insertion', '1,3_Insertion_CO2', '1,3_Insertion_ROR', 'R_Addition_COm', 'Oa_R_Recombination']:
         return 'm^3/(mol*s)'
-    elif family.label in ['intra_H_migration', 'Birad_recombination', 'intra_OH_migration', 'HO2_Elimination_from_PeroxyRadical', 'Cyclic_Ether_Formation', 'Intra_R_Add_Exocyclic', 'Intra_R_Add_Endocyclic', '1,2-Birad_to_alkene', 'Intra_Disproportionation']:
+    elif family.label in ['intra_H_migration', 'Birad_recombination', 'intra_OH_migration', 'HO2_Elimination_from_PeroxyRadical', 'Cyclic_Ether_Formation', 'Intra_R_Add_Exocyclic', 'Intra_R_Add_Endocyclic', '1,2-Birad_to_alkene', 'Intra_Disproportionation', 'Korcek_step1', 'Korcek_step2']:
         return 's^-1'
     else:
         raise ValueError('Unable to determine units of rate coefficient for reaction family "{0}".'.format(family.label))
