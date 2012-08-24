@@ -2,112 +2,122 @@
 # encoding: utf-8
 
 """
-This script imports an RMG-Java database from the output directory and saves
-it in the input directory.
+This script imports an old RMG-Java database and saves it to
+the input directory in the new RMG-Py format.
 """
 
 import math
-import os.path
+import os
+import subprocess
 import sys
 import time
-import subprocess
-import os
 
 from rmgpy.data.rmg import RMGDatabase
-from rmgpy.kinetics import KineticsData
-from rmgpy.data.kinetics import KineticsDatabase, KineticsGroups
 
-################################################################################
+###############################################################################
+
+
+def main():
+
+    if len(sys.argv) != 2:
+        raise Exception('You must provide the path to a folder containing '
+                        'a valid RMG_database directory.')
+
+    importDatabase(sys.argv[1])
+
+
+###############################################################################
+
+
+def importDatabase(oldPath):
+
+    print 'Loading old RMG-Java database...'
+    database = RMGDatabase()
+    database.loadOld(os.path.join(oldPath, 'RMG_database'))
+
+    print 'Setting history...'
+    setHistory(database, user=getUsername())
+
+    print 'Saving new RMG-Py database...'
+    database.save('input')
+
+
+###############################################################################
+
 
 def getUsername():
     """
-    Figure out what the current username is in the form "Richard West <rwest@mit.edu>"
-    
-    It should be in the format "Richard West <rwest@mit.edu>". We do this by
-    interrogating git, if possible
+    Grab the user's name and email from git if possible.
     """
-    name = ''
-    email = ''
+
     try:
-        p=subprocess.Popen('git config --get user.name'.split(),
-                stdout=subprocess.PIPE)
-        name = p.stdout.read()
-    except OSError:
-        pass
-    if name:
-        name = name.strip()
-    else:
-        print "Couldn't find user.name from git."
+        name = subprocess.check_output(['git', 'config',
+                                        '--get', 'user.name']).strip()
+    except:
+        print "Couldn't find user.name in git config."
         name = os.getlogin()
-    
+
     try:
-        p=subprocess.Popen('git config --get user.email'.split(),
-                stdout=subprocess.PIPE)
-        email = p.stdout.read()
-    except OSError:
-        pass
-    if email:
-        email = email.strip()
-    else:
-        print "Couldn't find user.email from git."
-        email = os.getlogin() + "@" + os.uname()[1]
-    
-    return '{0} <{1}>'.format(name,email)
+        email = subprocess.check_output(['git', 'config',
+                                        '--get', 'user.email']).strip()
+    except:
+        print "Couldn't find user.email in git config."
+        email = '{0}@{1}'.format(os.getlogin(), os.uname()[1])
+
+    return '{0} <{1}>'.format(name, email)
+
+
+###############################################################################
+
 
 def setHistory(database, user):
     """
-    For each entry in each component of the database, add a note to the history
-    indicating the import event and its time.
+    Update the history of every entry in the database.
     """
-    # Add history item to each entry in each database
-    event = [time.asctime(),user,'action','{0} imported this entry from the old RMG database.'.format(user)]
-    
+
+    event = [time.asctime(),
+             user,
+             'action',
+             'Imported from the old RMG database.'
+             ]
+
+    # Thermo
     for depository in database.thermo.depository.values():
-        for label, entry in depository.entries.iteritems():
+        for entry in depository.entries.values():
             entry.history.append(event)
     for library in database.thermo.libraries.values():
-        for label, entry in library.entries.iteritems():
+        for entry in library.entries.values():
             entry.history.append(event)
     for groups in database.thermo.groups.values():
-        for label, entry in groups.entries.iteritems():
+        for entry in groups.entries.values():
             entry.history.append(event)
-    
+
+    # Kinetics
     for family in database.kinetics.families.values():
-        for label, entry in family.groups.entries.iteritems():
+        for entry in family.groups.entries.values():
             entry.history.append(event)
-        for label, entry in family.rules.entries.iteritems():
+        for entry in family.rules.entries.values():
             entry.history.append(event)
         for depository in family.depositories.values():
-            for label, entry in depository.entries.iteritems():
+            for entry in depository.entries.values():
                 entry.history.append(event)
     for library in database.kinetics.libraries.values():
-        for label, entry in library.entries.iteritems():
+        for entry in library.entries.values():
             entry.history.append(event)
-    
+
+    # States
     groups = database.states.groups
-    for label, entry in groups.entries.iteritems():
+    for entry in groups.entries.values():
         entry.history.append(event)
-    
-    for label, entry in database.forbiddenStructures.entries.iteritems():
+
+    # Forbidden structures
+    for entry in database.forbiddenStructures.entries.values():
         entry.history.append(event)
-    
-################################################################################
+
+
+###############################################################################
+
 
 if __name__ == '__main__':
-    
-    #figure out the username
-    user = getUsername()
 
-    # Set the import and export paths
-    oldPath = 'output/RMG_database'
-    newPath = 'input'
-    
-    print 'Loading old RMG-Java database...'
-    database = RMGDatabase()
-    database.loadOld(oldPath)
-    
-    print 'Setting history of all entries in database...'
-    setHistory(database, user=user)
-      
-    print 'Saving the new RMG-Py database...'
-    database.save(newPath)
+    main()
