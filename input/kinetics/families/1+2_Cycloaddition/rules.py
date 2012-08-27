@@ -39,46 +39,6 @@ u"""
 )
 
 entry(
-    index = 583,
-    label = "o_atom;mb_db_onecdisub_Nd",
-    group1 = 
-"""
-1 *3 O {2S,2T}
-""",
-    group2 = 
-"""
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cd     0 {1,D} {5,S} {6,S}
-3    H      0 {1,S}
-4    H      0 {1,S}
-5    {Cs,O} 0 {2,S}
-6    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (7.6e+12,"cm^3/(mol*s)","*|/",1.2),
-        n = 0,
-        alpha = 0,
-        E0 = (0.1,"kcal/mol","+|-",0.4),
-        Tmin = (298,"K"),
-        Tmax = (410,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Smith [196]""",
-    longDesc = 
-u"""
-[196] Smith, I.W.M. Trans. Faraday Soc. 1968, 64, 378.
-Data derived from fitting to a complex mechanism. Excitation: flash photolysis, analysis : UV-Vis absorption. Pressure 0.13 atm
-
-O + iso-C4H8 --> 2,2- dimethyloxirane. Original uncertainty 1.2E+12
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 584,
     label = "o_atom;mb_db_twocdisub_Nd",
     group1 = 
