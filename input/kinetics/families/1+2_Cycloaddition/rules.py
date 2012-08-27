@@ -39,44 +39,6 @@ u"""
 )
 
 entry(
-    index = 581,
-    label = "o_atom;mb_db_monosub_Nd",
-    group1 = 
-"""
-1 *3 O {2S,2T}
-""",
-    group2 = 
-"""
-1 *1 Cd     0 {2,D} {3,S} {4,S}
-2 *2 Cd     0 {1,D} {5,S} {6,S}
-3    H      0 {1,S}
-4    H      0 {1,S}
-5    H      0 {2,S}
-6    {Cs,O} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (4.2e+12,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (0.5,"kcal/mol"),
-        Tmin = (275,"K"),
-        Tmax = (360,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Herbrechtsmeier et al [195]""",
-    longDesc = 
-u"""
-[195] Herbrechtsmeier, P. Reactions of O(3P) Atoms with Unsaturated C3 Hydrocarbons. In Combust. Inst. European Symp., 1973; pp13.
-Absolute values measured directly. Excitation: discharge, analysis :GC, Pressure 0.01 atm. O + CH3CH=CH2 --> methyloxirane
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 582,
     label = "o_atom;mb_db_monosub_Nd",
     group1 = 

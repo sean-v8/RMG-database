@@ -157,3 +157,53 @@ Analytical technique: Vis-UV absorption
         ("Mon Aug 27 17:17:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973GAE/GLA295:7"""),
     ],
 )
+
+entry(
+    index = 4,
+    label = "1973HER13C:2",
+    reactant1 =
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    reactant2 =
+"""
+1 *3 O 2T
+""",
+    product1 =
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2 *2 C 0 {1,S} {4,S}
+3    C 0 {1,S}
+4 *3 O 0 {1,S} {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.2e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (2.104,"kJ/mol"),
+        T0 = 1,
+        Tmin = (275,"K"),
+        Tmax = (360,"K"),
+        Pmin = (667,"Pa"),
+    ),
+    reference = Book(
+        authors = ["Herbrechtsmeier, P."],
+        title = u'Reactions of O(3P) Atoms with Unsaturated C3-Hydrocarbons',
+        publisher = "ed. F. J. Weinberg, pub. Academic Press, London,",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973HER13C:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc =
+u"""
+Bath gas: CH3CH=CH2
+Excitation technique: Electron beam
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Aug 27 17:20:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973HER13C:2"""),
+    ],
+)
