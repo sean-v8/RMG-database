@@ -39,43 +39,6 @@ u"""
 )
 
 entry(
-    index = 579,
-    label = "o_atom;mb_db_unsub",
-    group1 = 
-"""
-1 *3 O {2S,2T}
-""",
-    group2 = 
-"""
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Cd 0 {1,D} {5,S} {6,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (7e+11,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Gaedtke et al [194]""",
-    longDesc = 
-u"""
-[194] Gaedtke, H. Symp. Int. Combust. Proc. 1973, 14, 295. 
-Excitation: direct photolysis, analysis: UV-Vis absorption, Pressure 0.1 - 1000 atm. O + C2H4 --> Oxirane
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 580,
     label = "o_atom;mb_db_monosub_Nd",
     group1 = 

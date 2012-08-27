@@ -59,3 +59,51 @@ Analytical technique: Gas chromatography
         ("Mon Aug 27 16:56:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1957FRE/KIS6373-6379:1"""),
     ],
 )
+
+entry(
+    index = 2,
+    label = "1973GAE/GLA295:2",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    reactant2 = 
+"""
+1 *3 O 2T
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2 *2 C 0 {1,S} {3,S}
+3 *3 O 0 {1,S} {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (700000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+    ),
+    reference = Article(
+        authors = ["Gaedtke, H.", "Glaenzer, K.", "Hippler, H.", "Luther, K.", "Troe, J."],
+        title = u'Addition Reactions of Oxygen Atoms at High Pressures',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "14",
+        pages = """295""",
+        year = "1973",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1973GAE/GLA295:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""High or low pressure extrapolation""",
+    longDesc = 
+u"""
+Bath gas: N2
+Excitation technique: Direct photolysis
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Aug 27 17:03:40 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973GAE/GLA295:2"""),
+    ],
+)
