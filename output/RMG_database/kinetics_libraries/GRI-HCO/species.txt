@@ -1,7 +1,3 @@
-// This is a selection from GRI-Mech3.0 seed mechanism.
-// It's purpose is to selectively over-rule parts of a different seed mechanism. 
-
-
 C2H6
 1 C 0 {2,S}
 2 C 0 {1,S}
@@ -9,13 +5,9 @@ C2H6
 CH4
 1 C 0
 
-HCO
-1 C 1 {2,D}
-2 O 0 {1,D}
-
 CO
 1 C 2T {2,D}
-2 O 0 {1,D}
+2 O 0  {1,D}
 
 CO2
 1 C 0 {2,D} {3,D}
@@ -31,3 +23,8 @@ H2
 
 H2O
 1 O 0
+
+HCO
+1 C 1 {2,D}
+2 O 0 {1,D}
+

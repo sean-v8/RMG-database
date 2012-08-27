@@ -1,8 +1,8 @@
-// intramolecular addition to form an endo radical
-// R(.)()nR'<->R" ---->cyclic endo radical
-// from Sumathy, Jan, 29, 2003
-
-// f29_intramolecular_addition_form_endocyclic_radical
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Intra_R_Add_Endocyclic/groups tree
+//
+////////////////////////////////////////////////////////////////////////////////
 
 L1: Rn
     L2: R3
@@ -24,8 +24,8 @@ L1: Rn
             L4: R4_T_CO
         L3: R4_B
             L4: R4_B_D
-            L4: R4_B_T 
-            L4: R4_B_CO    
+            L4: R4_B_T
+            L4: R4_B_CO
     L2: R5
         L3: R5_SS
             L4: R5_SS_D
@@ -62,7 +62,6 @@ L1: Rn
             L4: R5_BB_D
             L4: R5_BB_T
             L4: R5_BB_CO
-//        L3: R5_SDD
     L2: R6
         L3: R6_RSR
             L4: R6_SSR
@@ -113,7 +112,6 @@ L1: Rn
             L4: R6_BBS_D
             L4: R6_BBS_T
             L4: R6_BBS_CO
-
 L1: multiplebond_intra
     L2: doublebond_intra
         L3: doublebond_intra_pri
@@ -122,7 +120,7 @@ L1: multiplebond_intra
             L4: doublebond_intra_pri_HDe
             L4: doublebond_intra_pri_NdNd
             L4: doublebond_intra_pri_NdDe
-            L4: doublebond_intra_pri_DeDe                               
+            L4: doublebond_intra_pri_DeDe
         L3: doublebond_intra_secNd
             L4: doublebond_intra_secNd_2H
             L4: doublebond_intra_secNd_HNd
@@ -145,7 +143,6 @@ L1: multiplebond_intra
         L3: carbonyl_intra_H
         L3: carbonyl_intra_Nd
         L3: carbonyl_intra_De
-
 L1: radadd_intra
     L2: radadd_intra_cs
         L3: radadd_intra_cs2H
@@ -154,12 +151,12 @@ L1: radadd_intra
         L3: radadd_intra_csNdNd
         L3: radadd_intra_csNdDe
         L3: radadd_intra_csDeDe
+    L2: radadd_intra_O
+    L2: radadd_intra_Cb
     L2: radadd_intra_cdsingle
         L3: radadd_intra_cdsingleH
         L3: radadd_intra_cdsingleNd
         L3: radadd_intra_cdsingleDe
     L2: radadd_intra_cddouble
     L2: radadd_intra_CO
-    L2: radadd_intra_O
-    L2: radadd_intra_Cb
     L2: radadd_intra_Ct
