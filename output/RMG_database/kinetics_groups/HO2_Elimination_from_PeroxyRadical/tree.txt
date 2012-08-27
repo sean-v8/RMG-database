@@ -1,8 +1,6 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-//  HO2_Elimination_from_PeroxyRadical tree
-//
-////////////////////////////////////////////////////////////////////////////////
+//HO2 elimination from peroxy radical
+
+//f34_ho2_elimination_from_peroxy
 
 L1: R2OO
     L2: R2OO_2H
@@ -48,3 +46,5 @@ L1: R2OO
         L3: R2OO_DeDe_NdNd
         L3: R2OO_DeDe_NdDe
         L3: R2OO_DeDe_DeDe
+    L2: OCOO
+        L3: HOCH[OO]CH3
