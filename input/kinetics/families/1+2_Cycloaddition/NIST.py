@@ -316,3 +316,57 @@ Note: Invalid Ea value uncertainty (1671.0 J/mol) found and ignored
         ("Mon Aug 27 17:28:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968SMI378-389:4"""),
     ],
 )
+
+entry(
+    index = 7,
+    label = "1959CVE19-26:15",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {4,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {2,S} {3,D}
+""",
+    reactant2 = 
+"""
+1 *3 O 2T
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2 *2 C 0 {1,S} {4,S} {5,S}
+3    C 0 {1,S}
+4    C 0 {2,S}
+5 *3 O 0 {1,S} {2,S}
+""",
+    degeneracy = 2,
+    kinetics = Arrhenius(
+        A = (1.54e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (298,"K"),
+        Pmin = (40000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Cvetanovic, R.J."],
+        title = u'Relative rates of reactions of oxygen atoms with olefins',
+        journal = "J. Chem. Phys.",
+        volume = "30",
+        pages = """19-26""",
+        year = "1959",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1959CVE19-26:15",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Relative rate value measured""",
+    longDesc = 
+u"""
+Reference reaction: C2H4 + O· → Oxirane (1973GAE/GLA295:2)
+Bath gas: N2O
+Excitation technique: Sensitized photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Aug 27 17:43:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959CVE19-26:15"""),
+    ],
+)
