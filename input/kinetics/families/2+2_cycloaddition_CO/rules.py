@@ -13,36 +13,6 @@ or in a section(s) titled 'General'
 recommended = True
 
 entry(
-    index = 587,
-    label = "CO;doublebond",
-    group1 = 
-"""
-1 *1 CO 0 {2,D}
-2 *2 Od 0 {1,D}
-""",
-    group2 = "OR{mb_CO, mb_OC, mb_CCO, mb_COC}",
-    kinetics = ArrheniusEP(
-        A = (6.92e+10,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (43.72,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 0,
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 588,
     label = "CH2CHO;mb_CO_2H",
     group1 = 
