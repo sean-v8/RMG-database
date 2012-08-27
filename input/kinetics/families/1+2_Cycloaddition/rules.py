@@ -39,45 +39,6 @@ u"""
 )
 
 entry(
-    index = 577,
-    label = "carbene;mb_db_unsub",
-    group1 = 
-"""
-1 *3 C {2S,2T} {2,S} {3,S}
-2    H 0       {1,S}
-3    H 0       {1,S}
-""",
-    group2 = 
-"""
-1 *1 Cd 0 {2,D} {3,S} {4,S}
-2 *2 Cd 0 {1,D} {5,S} {6,S}
-3    H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {2,S}
-6    H  0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.98e+12,"cm^3/(mol*s)","*|/",3.2),
-        n = 0,
-        alpha = 0,
-        E0 = (5.29,"kcal/mol","+|-",0.26),
-        Tmin = (296,"K"),
-        Tmax = (728,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""Frey et al [192]""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 579,
     label = "o_atom;mb_db_unsub",
     group1 = 
