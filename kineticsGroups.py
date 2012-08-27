@@ -420,21 +420,25 @@ def generateKineticsGroupValues(family, database, trainingSetLabels, method):
     changed = False
     event = [time.asctime(),user,'action','Generated new group additivity values for this entry.']
     for label, entry in family.groups.entries.iteritems():
-        if entry.data is not None and old_entries.has_key(label):
-            if (isinstance(entry.data, KineticsData) and 
-                isinstance(old_entries[label], KineticsData) and
-                len(entry.data.kdata.values) == len(old_entries[label].kdata.values) and
-                all(abs(entry.data.kdata.values / old_entries[label].kdata.values - 1) < 0.01)):
-                #print "New group values within 1% of old."
-                pass
-            elif (isinstance(entry.data, Arrhenius) and 
-                isinstance(old_entries[label], Arrhenius) and
-                abs(entry.data.A.value / old_entries[label].A.value - 1) < 0.01 and
-                abs(entry.data.n.value / old_entries[label].n.value - 1) < 0.01 and
-                abs(entry.data.Ea.value / old_entries[label].Ea.value - 1) < 0.01 and
-                abs(entry.data.T0.value / old_entries[label].T0.value - 1) < 0.01):
-                #print "New group values within 1% of old."
-                pass
+        if entry.data is not None:
+            if old_entries.has_key(label):
+                if (isinstance(entry.data, KineticsData) and 
+                    isinstance(old_entries[label], KineticsData) and
+                    len(entry.data.kdata.values) == len(old_entries[label].kdata.values) and
+                    all(abs(entry.data.kdata.values / old_entries[label].kdata.values - 1) < 0.01)):
+                    #print "New group values within 1% of old."
+                    pass
+                elif (isinstance(entry.data, Arrhenius) and 
+                    isinstance(old_entries[label], Arrhenius) and
+                    abs(entry.data.A.value / old_entries[label].A.value - 1) < 0.01 and
+                    abs(entry.data.n.value / old_entries[label].n.value - 1) < 0.01 and
+                    abs(entry.data.Ea.value / old_entries[label].Ea.value - 1) < 0.01 and
+                    abs(entry.data.T0.value / old_entries[label].T0.value - 1) < 0.01):
+                    #print "New group values within 1% of old."
+                    pass
+                else:
+                    changed = True
+                    entry.history.append(event)
             else:
                 changed = True
                 entry.history.append(event)
