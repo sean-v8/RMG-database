@@ -207,3 +207,57 @@ Analytical technique: Gas chromatography
         ("Mon Aug 27 17:20:11 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1973HER13C:2"""),
     ],
 )
+
+entry(
+    index = 5,
+    label = "1968SMI378-389:2",
+    reactant1 =
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {3,D}
+""",
+    reactant2 =
+"""
+1 *3 O 2T
+""",
+    product1 =
+"""
+1 *1 C 0 {2,S} {3,S} {5,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 0 {1,S} {5,S}
+4    C 0 {2,S}
+5 *3 O 0 {1,S} {3,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.9e+06,"m^3/(mol*s)","+|-",300000),
+        n = 0,
+        Ea = (3.342,"kJ/mol","+|-",1.671),
+        T0 = 1,
+        Tmin = (298,"K"),
+        Tmax = (410,"K"),
+    ),
+    reference = Article(
+        authors = ["Smith, I.W.M."],
+        title = u'Rate parameters for reactions of O(3P) with CS2, NO2 and olefins',
+        journal = "Trans. Faraday Soc.",
+        volume = "64",
+        pages = """378-389""",
+        year = "1968",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1968SMI378-389:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc =
+u"""
+Reference Reaction: CS2 + O· → CS + SO
+Bath gas: Ar
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Vis-UV absorption
+""",
+    history = [
+        ("Mon Aug 27 17:22:58 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1968SMI378-389:2"""),
+    ],
+)
