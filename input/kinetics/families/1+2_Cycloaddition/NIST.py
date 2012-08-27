@@ -370,3 +370,61 @@ Analytical technique: Gas chromatography
         ("Mon Aug 27 17:43:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959CVE19-26:15"""),
     ],
 )
+
+entry(
+    index = 8,
+    label = "1959CVE19-26:14",
+    reactant1 = 
+"""
+1    C 0 {5,S}
+2    C 0 {5,S}
+3    C 0 {6,S}
+4    C 0 {6,S}
+5 *1 C 0 {1,S} {2,S} {6,D}
+6 *2 C 0 {3,S} {4,S} {5,D}
+""",
+    reactant2 = 
+"""
+1 *3 O 2T
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {7,S}
+2 *2 C 0 {1,S} {5,S} {6,S} {7,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5    C 0 {2,S}
+6    C 0 {2,S}
+7 *3 O 0 {1,S} {2,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.44e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (298,"K"),
+        Pmin = (40000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Cvetanovic, R.J."],
+        title = u'Relative rates of reactions of oxygen atoms with olefins',
+        journal = "J. Chem. Phys.",
+        volume = "30",
+        pages = """19-26""",
+        year = "1959",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1959CVE19-26:14",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Relative rate value measured""",
+    longDesc = 
+u"""
+Reference reaction: iso-C4H8 + O· → 2,2-Dimethyloxirane (1959CVE19-26:15)
+Bath gas: N2O
+Excitation technique: Sensitized photolysis
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Mon Aug 27 17:46:37 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1959CVE19-26:14"""),
+    ],
+)
