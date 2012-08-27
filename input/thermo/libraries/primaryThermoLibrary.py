@@ -6,15 +6,15 @@ shortDesc = u""
 longDesc = u"""
 
 """
-recommended = True
+recommended = False
 
 entry(
     index = 1,
     label = "H2",
     molecule = 
 """
-1     H     0 {2,S}
-2     H     0 {1,S}
+1 H 0 {2,S}
+2 H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -28,7 +28,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -37,7 +37,7 @@ entry(
     label = "H",
     molecule = 
 """
-1     H     1
+1 H 1
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -51,7 +51,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -60,8 +60,8 @@ entry(
     label = "O2",
     molecule = 
 """
-1     O     1 {2,S}
-2     O     1 {1,S}
+1 O 1 {2,S}
+2 O 1 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -75,7 +75,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -84,7 +84,7 @@ entry(
     label = "OH",
     molecule = 
 """
-1     O     1
+1 O 1
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -98,7 +98,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -107,10 +107,10 @@ entry(
     label = "CO3s1",
     molecule = 
 """
-1     C     0 {2,D} {3,S} {4,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     0 {1,S} {3,S}
+1 C 0 {2,D} {3,S} {4,S}
+2 O 0 {1,D}
+3 O 0 {1,S} {4,S}
+4 O 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -124,7 +124,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -133,10 +133,10 @@ entry(
     label = "CO3t1",
     molecule = 
 """
-1     C     0 {2,D} {3,S} {4,S}
-2     O     0 {1,D}
-3     O     1 {1,S}
-4     O     1 {1,S}
+1 C 0 {2,D} {3,S} {4,S}
+2 O 0 {1,D}
+3 O 1 {1,S}
+4 O 1 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -150,7 +150,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -159,10 +159,10 @@ entry(
     label = "CO3t2",
     molecule = 
 """
-1     C     1 {2,D} {3,S}
-2     O     0 {1,D}
-3     O     0 {1,S} {4,S}
-4     O     1 {3,S}
+1 C 1 {2,D} {3,S}
+2 O 0 {1,D}
+3 O 0 {1,S} {4,S}
+4 O 1 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -176,7 +176,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -185,9 +185,9 @@ entry(
     label = "cyclopropene12diyl",
     molecule = 
 """
-1     C     1 {2,D} {3,S}
-2     C     1 {1,D} {3,S}
-3     C     0 {1,S} {2,S}
+1 C 1 {2,D} {3,S}
+2 C 1 {1,D} {3,S}
+3 C 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -201,7 +201,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -210,9 +210,9 @@ entry(
     label = "cyclopropynylidyne",
     molecule = 
 """
-1     C     0 {2,T} {3,S}
-2     C     0 {1,T} {3,S}
-3     C     1 {1,S} {2,S}
+1 C 0 {2,T} {3,S}
+2 C 0 {1,T} {3,S}
+3 C 1 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -226,7 +226,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -235,10 +235,10 @@ entry(
     label = "OCCO(S)",
     molecule = 
 """
-1     O     0 {2,D}
-2     C     0 {1,D} {3,D}
-3     C     0 {2,D} {4,D}
-4     O     0 {3,D}
+1 O 0 {2,D}
+2 C 0 {1,D} {3,D}
+3 C 0 {2,D} {4,D}
+4 O 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -252,7 +252,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -261,10 +261,10 @@ entry(
     label = "OCCO",
     molecule = 
 """
-1     O     1 {2,S}
-2     C     0 {1,S} {3,T}
-3     C     0 {2,T} {4,S}
-4     O     1 {3,S}
+1 O 1 {2,S}
+2 C 0 {1,S} {3,T}
+3 C 0 {2,T} {4,S}
+4 O 1 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -278,7 +278,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -287,9 +287,9 @@ entry(
     label = "C3H2",
     molecule = 
 """
-1     C     2S {2,S} {3,S}
-2     C     0 {1,S} {3,D}
-3     C     0 {1,S} {2,D}
+1 C 2S {2,S} {3,S}
+2 C 0  {1,S} {3,D}
+3 C 0  {1,S} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -303,101 +303,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
-    ],
-)
-
-entry(
-    index = 13,
-    label = "Ar",
-    molecule = 
-"""
-1     Ar    0
-""",
-    thermo = MultiNASA(
-        polynomials = [
-            NASA(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
-            NASA(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.5,0,0,0,0,-745.375,4.366]),
-        ],
-        Tmin = (298,"K"),
-        Tmax = (5000,"K"),
-    ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
-    referenceType = "review",
-    shortDesc = u"""Copied from GRI-Mech 3.0""",
-    longDesc = 
-u"""
-This was copied from the GRI-Mech3.0 library.
-The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
-This prevents it from being used to evaluate the standard properties at 298K as required
-by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
-introduces less error than not using the thermo at all, so the range has been extended
-to 298K.
-""",
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
-)
-
-entry(
-    index = 14,
-    label = "N2",
-    molecule = 
-"""
-1     N     0 {2,T}
-2     N     0 {1,T}
-""",
-    thermo = MultiNASA(
-        polynomials = [
-            NASA(Tmin=(298,"K"), Tmax=(1000,"K"), coeffs=[3.29868,0.00140824,-3.96322e-06,5.64152e-09,-2.44485e-12,-1020.9,3.95037]),
-            NASA(Tmin=(1000,"K"), Tmax=(5000,"K"), coeffs=[2.92664,0.00148798,-5.68476e-07,1.0097e-10,-6.75335e-15,-922.798,5.98053]),
-        ],
-        Tmin = (298,"K"),
-        Tmax = (5000,"K"),
-    ),
-    reference = Reference(authors=["G. P. Smith", "D. M. Golden", "M. Frenklach", "N. W. Moriarty", "B. Eiteneer", "M. Goldenberg", "C. T. Bowman", "R. K. Hanson", "S. Song", "W. C. Gardiner, Jr.", "V. V. Lissianski", "Z. Qin."], title='GRI-Mech 3.0.', year="1999", url="http://www.me.berkeley.edu/gri-mech/version30/text30.html"),
-    referenceType = "review",
-    shortDesc = u"""Copied from GRI-Mech 3.0""",
-    longDesc = 
-u"""
-This was copied from the GRI-Mech3.0 library.
-The official GRI-Mech 3.0 has the minimum temperature on the NASA polynomial at 300K.
-This prevents it from being used to evaluate the standard properties at 298K as required
-by some parts of RMG. Extrapolating 2 degrees beyond the the recommended range probably
-introduces less error than not using the thermo at all, so the range has been extended
-to 298K.
-""",
-    history = [
-        ("Tue May 24 11:29:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
-        ("Sat Jun 11 11:51:00 2011","Richard West <rwest@mit.edu>","action","""Changed the Tmin from 300K to 298K."""),
-    ],
-)
-
-entry(
-    index = 15,
-    label = "He",
-    molecule = 
-"""
-1     He    0
-""",
-    thermo = MultiNASA(
-        polynomials = [
-            NASA(Tmin=(200,"K"), Tmax=(1000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
-            NASA(Tmin=(1000,"K"), Tmax=(6000,"K"), coeffs=[2.5,0,0,0,0,-745.375,0.9287]),
-        ],
-        Tmin = (200,"K"),
-        Tmax = (6000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    shortDesc = u"""""",
-    longDesc = 
-u"""
-
-""",
-    history = [
-        ("Thu Sep 22 15:44:29 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen added this entry to the database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

@@ -13,7 +13,7 @@ entry(
     label = "Ring",
     group = 
 """
-1  *  R 0
+1 * R 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -27,7 +27,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -36,9 +36,9 @@ entry(
     label = "ThreeMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {3,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {1,{S,D}} {2,{S,D}}
+1 * R!H 0 {2,{S,D}} {3,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {1,{S,D}} {2,{S,D}}
 """,
     thermo = 'Cyclopropane',
     shortDesc = u"""""",
@@ -47,7 +47,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -56,9 +56,9 @@ entry(
     label = "Cyclopropane",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1 * Cs 0 {2,S} {3,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -72,7 +72,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -81,9 +81,9 @@ entry(
     label = "Cyclopropene",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {1,S} {2,D}
+1 * Cs 0 {2,S} {3,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {1,S} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -97,7 +97,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -106,9 +106,9 @@ entry(
     label = "Cyclopropadiene",
     group = 
 """
-1  *  Cd 0 {2,S} {3,D}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {1,D} {2,D}
+1 * Cd  0 {2,S} {3,D}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {1,D} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -122,7 +122,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -131,9 +131,9 @@ entry(
     label = "Cyclopropatriene",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {3,D}
-3     Cdd 0 {1,D} {2,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {3,D}
+3   Cdd 0 {1,D} {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -147,7 +147,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -156,9 +156,9 @@ entry(
     label = "Ethylene_oxide",
     group = 
 """
-1  *  O 0 {2,S} {3,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1 * O  0 {2,S} {3,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -172,7 +172,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -181,9 +181,9 @@ entry(
     label = "dioxirane",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -197,7 +197,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -206,9 +206,9 @@ entry(
     label = "2(co)oxirane",
     group = 
 """
-1     CO 0 {2,S} {3,S}
-2  *  Os 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1   CO 0 {2,S} {3,S}
+2 * Os 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -222,7 +222,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -231,9 +231,9 @@ entry(
     label = "cyclopropanedione",
     group = 
 """
-1     CO 0 {2,S} {3,S}
-2  *  CO 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
+1   CO 0 {2,S} {3,S}
+2 * CO 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -247,7 +247,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -256,9 +256,9 @@ entry(
     label = "cyclopropenone",
     group = 
 """
-1     Cd 0 {2,S} {3,D}
-2  *  CO 0 {1,S} {3,S}
-3     Cd 0 {1,D} {2,S}
+1   Cd 0 {2,S} {3,D}
+2 * CO 0 {1,S} {3,S}
+3   Cd 0 {1,D} {2,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -272,7 +272,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -281,10 +281,10 @@ entry(
     label = "Methylene_cyclopropane",
     group = 
 """
-1  *  Cd 0 {2,S} {3,S} {4,D}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {1,D}
+1 * Cd 0 {2,S} {3,S} {4,D}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -298,7 +298,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -307,10 +307,10 @@ entry(
     label = "cyclopropanone",
     group = 
 """
-1  *  C 0 {2,S} {3,S} {4,D}
-2     C 0 {1,S} {3,S}
-3     C 0 {1,S} {2,S}
-4     O 0 {1,D}
+1 * C 0 {2,S} {3,S} {4,D}
+2   C 0 {1,S} {3,S}
+3   C 0 {1,S} {2,S}
+4   O 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -324,7 +324,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -333,10 +333,10 @@ entry(
     label = "methylenecyclopropene",
     group = 
 """
-1     Cd 0 {2,S} {3,D}
-2  *  Cd 0 {1,S} {3,S} {4,D}
-3     Cd 0 {1,D} {2,S}
-4     Cd 0 {2,D}
+1   Cd 0 {2,S} {3,D}
+2 * Cd 0 {1,S} {3,S} {4,D}
+3   Cd 0 {1,D} {2,S}
+4   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -350,7 +350,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -359,10 +359,10 @@ entry(
     label = "methylenecyclopropanone",
     group = 
 """
-1     CO 0 {2,S} {3,S}
-2  *  Cd 0 {1,S} {3,S} {4,D}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {2,D}
+1   CO 0 {2,S} {3,S}
+2 * Cd 0 {1,S} {3,S} {4,D}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -376,7 +376,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -385,10 +385,10 @@ entry(
     label = "methyleneoxirane",
     group = 
 """
-1     Os 0 {2,S} {3,S}
-2  *  Cd 0 {1,S} {3,S} {4,D}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {2,D}
+1   Os 0 {2,S} {3,S}
+2 * Cd 0 {1,S} {3,S} {4,D}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -402,7 +402,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -411,11 +411,11 @@ entry(
     label = "12Methylenecyclopropane",
     group = 
 """
-1     Cd 0 {2,S} {3,S} {4,D}
-2  *  Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {1,S} {2,S}
-4     Cd 0 {1,D}
-5     Cd 0 {2,D}
+1   Cd 0 {2,S} {3,S} {4,D}
+2 * Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {1,S} {2,S}
+4   Cd 0 {1,D}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -429,7 +429,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -438,10 +438,10 @@ entry(
     label = "FourMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {4,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {1,{S,D}} {3,{S,D}}
+1 * R!H 0 {2,{S,D}} {4,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {1,{S,D}} {3,{S,D}}
 """,
     thermo = 'Cyclobutane',
     shortDesc = u"""""",
@@ -450,7 +450,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -459,10 +459,10 @@ entry(
     label = "Cyclobutane",
     group = 
 """
-1  *  Cs 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * Cs 0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -476,7 +476,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -485,10 +485,10 @@ entry(
     label = "Cyclobutene",
     group = 
 """
-1  *  Cs 0 {2,S} {4,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * Cs 0 {2,S} {4,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -502,7 +502,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -511,10 +511,10 @@ entry(
     label = "Oxetane",
     group = 
 """
-1  *  O 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * O  0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -528,7 +528,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -537,10 +537,10 @@ entry(
     label = "Beta-Propiolactone",
     group = 
 """
-1  *  O 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     CO 0 {1,S} {3,S}
+1 * O  0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   CO 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -554,7 +554,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -563,10 +563,10 @@ entry(
     label = "Cyclobutanone",
     group = 
 """
-1  *  CO 0 {2,S} {4,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
+1 * CO 0 {2,S} {4,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -580,7 +580,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -589,10 +589,10 @@ entry(
     label = "12dioxetane",
     group = 
 """
-1     Cs 0 {2,S} {4,S}
-2  *  Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Os 0 {1,S} {3,S}
+1   Cs 0 {2,S} {4,S}
+2 * Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Os 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -606,7 +606,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -615,10 +615,10 @@ entry(
     label = "dioxerene",
     group = 
 """
-1     Cd 0 {2,D} {4,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Os 0 {1,S} {3,S}
+1   Cd 0 {2,D} {4,S}
+2 * Cd 0 {1,D} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Os 0 {1,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -632,7 +632,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -641,10 +641,10 @@ entry(
     label = "cyclobutadiene",
     group = 
 """
-1     Cd 0 {2,D} {4,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {1,S} {3,D}
+1   Cd 0 {2,D} {4,S}
+2 * Cd 0 {1,D} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {1,S} {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -658,7 +658,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -667,11 +667,11 @@ entry(
     label = "4-Methylene-2-oxetanone",
     group = 
 """
-1  *  O 0 {2,S} {4,S}
-2     Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {2,S} {4,S}
-4     CO 0 {1,S} {3,S}
-5     Cd 0 {2,D}
+1 * O  0 {2,S} {4,S}
+2   Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {2,S} {4,S}
+4   CO 0 {1,S} {3,S}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -685,7 +685,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -694,11 +694,11 @@ entry(
     label = "methylenecyclobutane",
     group = 
 """
-1     Cs 0 {2,S} {4,S}
-2  *  Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
-5     Cd 0 {2,D}
+1   Cs 0 {2,S} {4,S}
+2 * Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -712,7 +712,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -721,11 +721,11 @@ entry(
     label = "2methyleneoxetane",
     group = 
 """
-1     Os 0 {2,S} {4,S}
-2  *  Cd 0 {1,S} {3,S} {5,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
-5     Cd 0 {2,D}
+1   Os 0 {2,S} {4,S}
+2 * Cd 0 {1,S} {3,S} {5,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
+5   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -739,7 +739,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -748,12 +748,12 @@ entry(
     label = "12methylenecyclobutane",
     group = 
 """
-1  *  Cd 0 {2,S} {4,S} {5,D}
-2     Cd 0 {1,S} {3,S} {6,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {1,S} {3,S}
-5     Cd 0 {1,D}
-6     Cd 0 {2,D}
+1 * Cd 0 {2,S} {4,S} {5,D}
+2   Cd 0 {1,S} {3,S} {6,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {1,S} {3,S}
+5   Cd 0 {1,D}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -767,7 +767,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -776,11 +776,11 @@ entry(
     label = "FiveMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {5,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {1,{S,D}} {4,{S,D}}
+1 * R!H 0 {2,{S,D}} {5,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {1,{S,D}} {4,{S,D}}
 """,
     thermo = 'Cyclopentane',
     shortDesc = u"""""",
@@ -789,7 +789,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -798,11 +798,11 @@ entry(
     label = "Cyclopentane",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * Cs 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -816,7 +816,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -825,11 +825,11 @@ entry(
     label = "Cyclopentene",
     group = 
 """
-1     Cs 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5  *  Cs 0 {1,S} {4,S}
+1   Cs 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5 * Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -843,7 +843,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -852,11 +852,11 @@ entry(
     label = "Cyclopentadiene",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
+1 * Cs 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -870,7 +870,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -879,11 +879,11 @@ entry(
     label = "Tetrahydrofuran",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -897,7 +897,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -906,11 +906,11 @@ entry(
     label = "2,3-Dihydrofuran",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -924,7 +924,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -933,11 +933,11 @@ entry(
     label = "1,3-Dioxolane",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     O 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     O 0 {1,S} {4,S}
+1 * Cs 0 {2,S} {5,S}
+2   O  0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   O  0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -951,7 +951,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -960,11 +960,11 @@ entry(
     label = "Furan",
     group = 
 """
-1     Cd 0 {2,D} {5,S}
-2     Cd 0 {1,D} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5  *  O 0 {1,S} {4,S}
+1   Cd 0 {2,D} {5,S}
+2   Cd 0 {1,D} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5 * O  0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -978,7 +978,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -987,11 +987,11 @@ entry(
     label = "Dihydro-2,5-furandione",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     CO 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     CO 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   CO 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   CO 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1005,7 +1005,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1014,11 +1014,11 @@ entry(
     label = "2,5-Furandione",
     group = 
 """
-1  *  O 0 {2,S} {5,S}
-2     CO 0 {1,S} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     CO 0 {1,S} {4,S}
+1 * O  0 {2,S} {5,S}
+2   CO 0 {1,S} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   CO 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1032,7 +1032,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1041,11 +1041,11 @@ entry(
     label = "Cyclopentanone",
     group = 
 """
-1  *  CO 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * CO 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1059,7 +1059,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1068,11 +1068,11 @@ entry(
     label = "butyrolactone",
     group = 
 """
-1  *  CO 0 {2,S} {5,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
+1 * CO 0 {2,S} {5,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1086,7 +1086,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1095,11 +1095,11 @@ entry(
     label = "25dihydrofuran",
     group = 
 """
-1  *  Cs 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Cs 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1113,7 +1113,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1122,11 +1122,11 @@ entry(
     label = "12dioxolane",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1140,7 +1140,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1149,11 +1149,11 @@ entry(
     label = "12dioxolene",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1167,7 +1167,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1176,11 +1176,11 @@ entry(
     label = "123trioxolane",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1194,7 +1194,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1203,11 +1203,11 @@ entry(
     label = "124trioxolane",
     group = 
 """
-1  *  Os 0 {2,S} {5,S}
-2     Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {1,S} {4,S}
+1 * Os 0 {2,S} {5,S}
+2   Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {1,S} {4,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1221,7 +1221,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1230,12 +1230,12 @@ entry(
     label = "methylenecyclopentane",
     group = 
 """
-1  *  Cd 0 {2,S} {5,S} {6,D}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
-6     Cd 0 {1,D}
+1 * Cd 0 {2,S} {5,S} {6,D}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
+6   Cd 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1249,7 +1249,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1258,12 +1258,12 @@ entry(
     label = "Fulvene",
     group = 
 """
-1  *  Cd 0 {2,S} {5,S} {6,D}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
-6     Cd 0 {1,D}
+1 * Cd 0 {2,S} {5,S} {6,D}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
+6   Cd 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1277,7 +1277,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1286,13 +1286,13 @@ entry(
     label = "12methylenecyclopentane",
     group = 
 """
-1  *  Cd 0 {2,S} {5,S} {6,D}
-2     Cd 0 {1,S} {3,S} {7,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {1,S} {4,S}
-6     Cd 0 {1,D}
-7     Cd 0 {2,D}
+1 * Cd 0 {2,S} {5,S} {6,D}
+2   Cd 0 {1,S} {3,S} {7,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {1,S} {4,S}
+6   Cd 0 {1,D}
+7   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1306,7 +1306,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1315,12 +1315,12 @@ entry(
     label = "SixMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {6,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {1,{S,D}} {5,{S,D}}
+1 * R!H 0 {2,{S,D}} {6,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {1,{S,D}} {5,{S,D}}
 """,
     thermo = 'Cyclohexane',
     shortDesc = u"""""",
@@ -1329,7 +1329,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1338,12 +1338,12 @@ entry(
     label = "sixnosidedouble",
     group = 
 """
-1  *  {Cs,Os} 0 {2,S} {6,S}
-2     {Cs,Os} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1 * {Cs,Os} 0 {2,S} {6,S}
+2   {Cs,Os} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'Cyclohexane',
     shortDesc = u"""""",
@@ -1352,7 +1352,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1361,12 +1361,12 @@ entry(
     label = "Cyclohexane",
     group = 
 """
-1  *  Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1 * Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1380,7 +1380,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1389,12 +1389,12 @@ entry(
     label = "12dioxane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * Cs 0 {3,S} {5,S}
+5   Os 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1408,7 +1408,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1417,12 +1417,12 @@ entry(
     label = "1,3-Dioxane",
     group = 
 """
-1     O 0 {2,S} {6,S}
-2  *  Cs 0 {1,S} {3,S}
-3     O 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1   O  0 {2,S} {6,S}
+2 * Cs 0 {1,S} {3,S}
+3   O  0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1436,7 +1436,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1445,12 +1445,12 @@ entry(
     label = "1,4-Dioxane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3  *  O 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     O 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3 * O  0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   O  0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1464,7 +1464,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1473,12 +1473,12 @@ entry(
     label = "1,3,5-Trioxane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     O 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  O 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     O 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   O  0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * O  0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   O  0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1492,7 +1492,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1501,12 +1501,12 @@ entry(
     label = "124trioxane",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4  *  Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4 * Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1520,7 +1520,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1529,12 +1529,12 @@ entry(
     label = "123trioxane",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1548,7 +1548,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1557,12 +1557,12 @@ entry(
     label = "Oxane",
     group = 
 """
-1  *  Cs 0 {2,S} {6,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1 * Cs 0 {2,S} {6,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1576,7 +1576,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1585,12 +1585,12 @@ entry(
     label = "six-sidedoubles",
     group = 
 """
-1     {C,O} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {C,O} 0 {2,S} {4,S}
-4     {C,O} 0 {3,S} {5,S}
-5     {C,O} 0 {4,S} {6,S}
-6     {C,O} 0 {1,S} {5,S}
+1   {C,O}   0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {C,O}   0 {2,S} {4,S}
+4   {C,O}   0 {3,S} {5,S}
+5   {C,O}   0 {4,S} {6,S}
+6   {C,O}   0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1604,7 +1604,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1613,12 +1613,12 @@ entry(
     label = "six-onesidedouble",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'Cyclohexanone',
     shortDesc = u"""""",
@@ -1627,7 +1627,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1636,12 +1636,12 @@ entry(
     label = "Cyclohexanone",
     group = 
 """
-1  *  CO 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1 * CO 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1655,7 +1655,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1664,12 +1664,12 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-para",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cd,CO} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cd,CO} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = '14methylenecyclohexane',
     shortDesc = u"""""",
@@ -1678,7 +1678,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1687,14 +1687,14 @@ entry(
     label = "14methylenecyclohexane",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,S} {7,D}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,S} {8,D}
-6     Cs 0 {1,S} {5,S}
-7     Cd 0 {2,D}
-8     Cd 0 {5,D}
+1   Cs 0 {2,S} {6,S}
+2 * Cd 0 {1,S} {3,S} {7,D}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cd 0 {4,S} {6,S} {8,D}
+6   Cs 0 {1,S} {5,S}
+7   Cd 0 {2,D}
+8   Cd 0 {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1708,7 +1708,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1717,12 +1717,12 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-ortho",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cd,CO} 0 {2,S} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cd,CO} 0 {2,S} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'six-sidedoubles',
     shortDesc = u"""""",
@@ -1731,7 +1731,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1740,12 +1740,12 @@ entry(
     label = "sixmembd-allsingles-twosidedoubles-meta",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  {Cd,CO} 0 {1,S} {3,S}
-3     {Cs,Os} 0 {2,S} {4,S}
-4     {Cd,CO} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * {Cd,CO} 0 {1,S} {3,S}
+3   {Cs,Os} 0 {2,S} {4,S}
+4   {Cd,CO} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'six-sidedoubles',
     shortDesc = u"""""",
@@ -1754,7 +1754,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1763,12 +1763,12 @@ entry(
     label = "six-inringonedouble",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = 'Cyclohexene',
     shortDesc = u"""""",
@@ -1777,7 +1777,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1786,12 +1786,12 @@ entry(
     label = "34dihydro12dioxin",
     group = 
 """
-1     O 0 {2,S} {6,S}
-2     O 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5  *  Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   O  0 {2,S} {6,S}
+2   O  0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5 * Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1805,7 +1805,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1814,12 +1814,12 @@ entry(
     label = "36dihydro2hpyran",
     group = 
 """
-1  *  Cd 0 {2,S} {6,D}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cd 0 {1,D} {5,S}
+1 * Cd 0 {2,S} {6,D}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Os 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cd 0 {1,D} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1833,7 +1833,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1842,12 +1842,12 @@ entry(
     label = "Cyclohexene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3  *  Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3 * Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1861,7 +1861,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1870,12 +1870,12 @@ entry(
     label = "3,4-Dihydro-2H-pyran",
     group = 
 """
-1     O 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5  *  Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   O  0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5 * Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1889,7 +1889,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1898,12 +1898,12 @@ entry(
     label = "36dihydro12dioxin",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Os 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2 * Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Os 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1917,7 +1917,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1926,12 +1926,12 @@ entry(
     label = "24dihydro13dioxin",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Os 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cd 0 {2,D} {6,S}
+2 * Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Os 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1945,7 +1945,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1954,12 +1954,12 @@ entry(
     label = "23dihydro14dioxin",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2  *  Cd 0 {1,D} {3,S}
-3     Os 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cd 0 {2,D} {6,S}
+2 * Cd 0 {1,D} {3,S}
+3   Os 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1973,7 +1973,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1982,12 +1982,12 @@ entry(
     label = "124trioxene",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3     Os 0 {2,S} {4,S}
-4  *  Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3   Os 0 {2,S} {4,S}
+4 * Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2001,7 +2001,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2010,12 +2010,12 @@ entry(
     label = "123trioxene",
     group = 
 """
-1     Os 0 {2,S} {6,S}
-2     Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4  *  Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Os 0 {2,S} {6,S}
+2   Os 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4 * Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2029,7 +2029,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2038,12 +2038,12 @@ entry(
     label = "six-inringtwodouble-13",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   Cd      0 {3,S} {5,D}
+5   Cd      0 {4,D} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = '1,3-Cyclohexadiene',
     shortDesc = u"""""",
@@ -2052,7 +2052,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2061,12 +2061,12 @@ entry(
     label = "1,3-Cyclohexadiene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cs 0 {1,S} {3,S}
-3  *  Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   Cs 0 {2,S} {6,S}
+2   Cs 0 {1,S} {3,S}
+3 * Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2080,7 +2080,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2089,12 +2089,12 @@ entry(
     label = "six-inringtwodouble-14",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     {Cs,Os} 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   {Cs,Os} 0 {3,S} {5,S}
+5   Cd      0 {4,S} {6,D}
+6   Cd      0 {1,S} {5,D}
 """,
     thermo = '1,4-Cyclohexadiene',
     shortDesc = u"""""",
@@ -2103,7 +2103,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2112,12 +2112,12 @@ entry(
     label = "1,4-Cyclohexadiene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   Cs 0 {2,S} {6,S}
+2 * Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2131,7 +2131,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2140,12 +2140,12 @@ entry(
     label = "14dioxin",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2     Cd 0 {1,D} {3,S}
-3     Os 0 {2,S} {4,S}
-4  *  Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Os 0 {1,S} {5,S}
+1   Cd 0 {2,D} {6,S}
+2   Cd 0 {1,D} {3,S}
+3   Os 0 {2,S} {4,S}
+4 * Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Os 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2159,7 +2159,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2168,12 +2168,12 @@ entry(
     label = "six-inringtwodouble-12",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2  *  Cd 0 {1,S} {3,D}
-3     C 0 {2,D} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     {Cs,Os} 0 {4,S} {6,S}
-6     {Cs,Os} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2 * Cd      0 {1,S} {3,D}
+3   C       0 {2,D} {4,D}
+4   Cd      0 {3,D} {5,S}
+5   {Cs,Os} 0 {4,S} {6,S}
+6   {Cs,Os} 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2187,7 +2187,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2196,12 +2196,12 @@ entry(
     label = "six-oneside-twoindoubles-25",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4  *  {Cd,CO} 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   {Cs,Os} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4 * {Cd,CO} 0 {3,S} {5,S}
+5   Cd      0 {4,S} {6,D}
+6   Cd      0 {1,S} {5,D}
 """,
     thermo = '14cyclohexadiene3methylene',
     shortDesc = u"""""",
@@ -2210,7 +2210,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2219,12 +2219,12 @@ entry(
     label = "25cyclohexadienone",
     group = 
 """
-1  *  CO 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1 * CO 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2238,7 +2238,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2247,13 +2247,13 @@ entry(
     label = "14cyclohexadiene3methylene",
     group = 
 """
-1     Cd 0 {2,D} {6,S}
-2     Cd 0 {1,D} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  Cd 0 {1,S} {5,S} {7,D}
-7     Cd 0 {6,D}
+1   Cd 0 {2,D} {6,S}
+2   Cd 0 {1,D} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6 * Cd 0 {1,S} {5,S} {7,D}
+7   Cd 0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2267,7 +2267,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2276,12 +2276,12 @@ entry(
     label = "six-oneside-twoindoubles-24",
     group = 
 """
-1     {Cs,Os} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  {Cd,CO} 0 {1,S} {5,S}
+1   {Cs,Os} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   Cd      0 {3,S} {5,D}
+5   Cd      0 {4,D} {6,S}
+6 * {Cd,CO} 0 {1,S} {5,S}
 """,
     thermo = '13cyclohexadiene5methylene',
     shortDesc = u"""""",
@@ -2290,7 +2290,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2299,12 +2299,12 @@ entry(
     label = "24cyclohexadienone",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  CO 0 {1,S} {5,S}
+1   Cs 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6 * CO 0 {1,S} {5,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2318,7 +2318,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2327,13 +2327,13 @@ entry(
     label = "13cyclohexadiene5methylene",
     group = 
 """
-1     Cs 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  Cd 0 {1,S} {5,S} {7,D}
-7     Cd 0 {6,D}
+1   Cs 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6 * Cd 0 {1,S} {5,S} {7,D}
+7   Cd 0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2347,7 +2347,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2356,12 +2356,12 @@ entry(
     label = "six-twoin13-twoout",
     group = 
 """
-1     {CO,Cd} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6  *  {Cd,CO} 0 {1,S} {5,S}
+1   {CO,Cd} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4   Cd      0 {3,S} {5,D}
+5   Cd      0 {4,D} {6,S}
+6 * {Cd,CO} 0 {1,S} {5,S}
 """,
     thermo = 'oxylene',
     shortDesc = u"""""",
@@ -2370,7 +2370,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2379,13 +2379,13 @@ entry(
     label = "fg6",
     group = 
 """
-1  *  CO 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,S} {7,D}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
-7     Cd 0 {2,D}
+1 * CO 0 {2,S} {6,S}
+2   Cd 0 {1,S} {3,S} {7,D}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {1,S} {5,D}
+7   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2399,7 +2399,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2408,14 +2408,14 @@ entry(
     label = "oxylene",
     group = 
 """
-1  *  Cd 0 {5,S} {6,S} {8,D}
-2     Cd 0 {3,D} {6,S}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
-6     Cd 0 {1,S} {2,S} {7,D}
-7     Cd 0 {6,D}
-8     Cd 0 {1,D}
+1 * Cd 0 {5,S} {6,S} {8,D}
+2   Cd 0 {3,D} {6,S}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
+6   Cd 0 {1,S} {2,S} {7,D}
+7   Cd 0 {6,D}
+8   Cd 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2429,7 +2429,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2438,14 +2438,14 @@ entry(
     label = "obenzoquinone",
     group = 
 """
-1  *  C 0 {5,S} {6,S} {8,D}
-2     Cd 0 {3,D} {6,S}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {1,S} {4,D}
-6     C 0 {1,S} {2,S} {7,D}
-7     Od 0 {6,D}
-8     Od 0 {1,D}
+1 * C  0 {5,S} {6,S} {8,D}
+2   Cd 0 {3,D} {6,S}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {1,S} {4,D}
+6   C  0 {1,S} {2,S} {7,D}
+7   Od 0 {6,D}
+8   Od 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2459,7 +2459,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2468,12 +2468,12 @@ entry(
     label = "six-twoin14-twoout",
     group = 
 """
-1     {Cd,CO} 0 {2,S} {6,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4  *  {Cd,CO} 0 {3,S} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {1,S} {5,D}
+1   {Cd,CO} 0 {2,S} {6,S}
+2   Cd      0 {1,S} {3,D}
+3   Cd      0 {2,D} {4,S}
+4 * {Cd,CO} 0 {3,S} {5,S}
+5   Cd      0 {4,S} {6,D}
+6   Cd      0 {1,S} {5,D}
 """,
     thermo = 'pxylene',
     shortDesc = u"""""",
@@ -2482,7 +2482,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2491,12 +2491,12 @@ entry(
     label = "pbenzoquinone",
     group = 
 """
-1  *  CO 0 {4,S} {5,S}
-2     Cd 0 {5,D} {6,S}
-3     Cd 0 {4,D} {6,S}
-4     Cd 0 {1,S} {3,D}
-5     Cd 0 {1,S} {2,D}
-6     CO 0 {2,S} {3,S}
+1 * CO 0 {4,S} {5,S}
+2   Cd 0 {5,D} {6,S}
+3   Cd 0 {4,D} {6,S}
+4   Cd 0 {1,S} {3,D}
+5   Cd 0 {1,S} {2,D}
+6   CO 0 {2,S} {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2510,7 +2510,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2519,14 +2519,14 @@ entry(
     label = "pxylene",
     group = 
 """
-1  *  Cd 0 {4,S} {5,S} {6,D}
-2     Cd 0 {5,D} {7,S}
-3     Cd 0 {4,D} {7,S}
-4     Cd 0 {1,S} {3,D}
-5     Cd 0 {1,S} {2,D}
-6     Cd 0 {1,D}
-7     Cd 0 {2,S} {3,S} {8,D}
-8     Cd 0 {7,D}
+1 * Cd 0 {4,S} {5,S} {6,D}
+2   Cd 0 {5,D} {7,S}
+3   Cd 0 {4,D} {7,S}
+4   Cd 0 {1,S} {3,D}
+5   Cd 0 {1,S} {2,D}
+6   Cd 0 {1,D}
+7   Cd 0 {2,S} {3,S} {8,D}
+8   Cd 0 {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2540,7 +2540,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2549,13 +2549,13 @@ entry(
     label = "SevenMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {7,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {1,{S,D}} {6,{S,D}}
+1 * R!H 0 {2,{S,D}} {7,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {5,{S,D}} {7,{S,D}}
+7   R!H 0 {1,{S,D}} {6,{S,D}}
 """,
     thermo = 'Cycloheptane',
     shortDesc = u"""""",
@@ -2564,7 +2564,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2573,13 +2573,13 @@ entry(
     label = "Cycloheptane",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * Cs 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2593,7 +2593,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2602,13 +2602,13 @@ entry(
     label = "Cycloheptene",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * Cs 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2622,7 +2622,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2631,13 +2631,13 @@ entry(
     label = "1,3-Cycloheptadiene",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {5,D} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * Cs 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {5,D} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2651,7 +2651,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2660,13 +2660,13 @@ entry(
     label = "1,3,5-Cycloheptatriene",
     group = 
 """
-1  *  Cs 0 {2,S} {7,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D} {4,S}
-4     Cd 0 {3,S} {5,D}
-5     Cd 0 {4,D} {6,S}
-6     Cd 0 {5,S} {7,D}
-7     Cd 0 {1,S} {6,D}
+1 * Cs 0 {2,S} {7,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D} {4,S}
+4   Cd 0 {3,S} {5,D}
+5   Cd 0 {4,D} {6,S}
+6   Cd 0 {5,S} {7,D}
+7   Cd 0 {1,S} {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2680,7 +2680,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2689,13 +2689,13 @@ entry(
     label = "Cycloheptanone",
     group = 
 """
-1  *  CO 0 {2,S} {7,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {1,S} {6,S}
+1 * CO 0 {2,S} {7,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {1,S} {6,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2709,7 +2709,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2718,14 +2718,14 @@ entry(
     label = "EightMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {8,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {6,{S,D}} {8,{S,D}}
-8     R!H 0 {1,{S,D}} {7,{S,D}}
+1 * R!H 0 {2,{S,D}} {8,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {5,{S,D}} {7,{S,D}}
+7   R!H 0 {6,{S,D}} {8,{S,D}}
+8   R!H 0 {1,{S,D}} {7,{S,D}}
 """,
     thermo = 'Cyclooctane',
     shortDesc = u"""""",
@@ -2734,7 +2734,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2743,14 +2743,14 @@ entry(
     label = "Cyclooctane",
     group = 
 """
-1  *  Cs 0 {2,S} {8,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {1,S} {7,S}
+1 * Cs 0 {2,S} {8,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2764,7 +2764,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2773,14 +2773,14 @@ entry(
     label = "1,3,5-Cyclooctatriene",
     group = 
 """
-1  *  Cs 0 {2,S} {8,S}
-2     Cs 0 {1,S} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {5,D} {7,S}
-7     Cd 0 {6,S} {8,D}
-8     Cd 0 {1,S} {7,D}
+1 * Cs 0 {2,S} {8,S}
+2   Cs 0 {1,S} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {5,D} {7,S}
+7   Cd 0 {6,S} {8,D}
+8   Cd 0 {1,S} {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2794,7 +2794,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2803,14 +2803,14 @@ entry(
     label = "Cyclooctatetraene",
     group = 
 """
-1  *  Cd 0 {2,D} {8,S}
-2     Cd 0 {1,D} {3,S}
-3     Cd 0 {2,S} {4,D}
-4     Cd 0 {3,D} {5,S}
-5     Cd 0 {4,S} {6,D}
-6     Cd 0 {5,D} {7,S}
-7     Cd 0 {6,S} {8,D}
-8     Cd 0 {1,S} {7,D}
+1 * Cd 0 {2,D} {8,S}
+2   Cd 0 {1,D} {3,S}
+3   Cd 0 {2,S} {4,D}
+4   Cd 0 {3,D} {5,S}
+5   Cd 0 {4,S} {6,D}
+6   Cd 0 {5,D} {7,S}
+7   Cd 0 {6,S} {8,D}
+8   Cd 0 {1,S} {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2824,7 +2824,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2833,14 +2833,14 @@ entry(
     label = "Cyclooctanone",
     group = 
 """
-1  *  CO 0 {2,S} {8,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {1,S} {7,S}
+1 * CO 0 {2,S} {8,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {1,S} {7,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2854,7 +2854,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2863,15 +2863,15 @@ entry(
     label = "NineMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {9,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {6,{S,D}} {8,{S,D}}
-8     R!H 0 {7,{S,D}} {9,{S,D}}
-9     R!H 0 {1,{S,D}} {8,{S,D}}
+1 * R!H 0 {2,{S,D}} {9,{S,D}}
+2   R!H 0 {1,{S,D}} {3,{S,D}}
+3   R!H 0 {2,{S,D}} {4,{S,D}}
+4   R!H 0 {3,{S,D}} {5,{S,D}}
+5   R!H 0 {4,{S,D}} {6,{S,D}}
+6   R!H 0 {5,{S,D}} {7,{S,D}}
+7   R!H 0 {6,{S,D}} {8,{S,D}}
+8   R!H 0 {7,{S,D}} {9,{S,D}}
+9   R!H 0 {1,{S,D}} {8,{S,D}}
 """,
     thermo = 'Cyclononane',
     shortDesc = u"""""",
@@ -2880,7 +2880,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2889,15 +2889,15 @@ entry(
     label = "Cyclononane",
     group = 
 """
-1  *  Cs 0 {2,S} {9,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {1,S} {8,S}
+1 * Cs 0 {2,S} {9,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {7,S} {9,S}
+9   Cs 0 {1,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2911,7 +2911,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2920,15 +2920,15 @@ entry(
     label = "Cyclononanone",
     group = 
 """
-1  *  CO 0 {2,S} {9,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {1,S} {8,S}
+1 * CO 0 {2,S} {9,S}
+2   Cs 0 {1,S} {3,S}
+3   Cs 0 {2,S} {4,S}
+4   Cs 0 {3,S} {5,S}
+5   Cs 0 {4,S} {6,S}
+6   Cs 0 {5,S} {7,S}
+7   Cs 0 {6,S} {8,S}
+8   Cs 0 {7,S} {9,S}
+9   Cs 0 {1,S} {8,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2942,7 +2942,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2951,16 +2951,16 @@ entry(
     label = "TenMember",
     group = 
 """
-1  *  R!H 0 {2,{S,D}} {10,{S,D}}
-2     R!H 0 {1,{S,D}} {3,{S,D}}
-3     R!H 0 {2,{S,D}} {4,{S,D}}
-4     R!H 0 {3,{S,D}} {5,{S,D}}
-5     R!H 0 {4,{S,D}} {6,{S,D}}
-6     R!H 0 {5,{S,D}} {7,{S,D}}
-7     R!H 0 {6,{S,D}} {8,{S,D}}
-8     R!H 0 {7,{S,D}} {9,{S,D}}
-9     R!H 0 {8,{S,D}} {10,{S,D}}
-10    R!H 0 {1,{S,D}} {9,{S,D}}
+1  * R!H 0 {2,{S,D}} {10,{S,D}}
+2    R!H 0 {1,{S,D}} {3,{S,D}}
+3    R!H 0 {2,{S,D}} {4,{S,D}}
+4    R!H 0 {3,{S,D}} {5,{S,D}}
+5    R!H 0 {4,{S,D}} {6,{S,D}}
+6    R!H 0 {5,{S,D}} {7,{S,D}}
+7    R!H 0 {6,{S,D}} {8,{S,D}}
+8    R!H 0 {7,{S,D}} {9,{S,D}}
+9    R!H 0 {8,{S,D}} {10,{S,D}}
+10   R!H 0 {1,{S,D}} {9,{S,D}}
 """,
     thermo = 'Cyclodecane',
     shortDesc = u"""""",
@@ -2969,7 +2969,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2978,16 +2978,16 @@ entry(
     label = "Cyclodecane",
     group = 
 """
-1  *  Cs 0 {2,S} {10,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {8,S} {10,S}
-10    Cs 0 {1,S} {9,S}
+1  * Cs 0 {2,S} {10,S}
+2    Cs 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S}
+4    Cs 0 {3,S} {5,S}
+5    Cs 0 {4,S} {6,S}
+6    Cs 0 {5,S} {7,S}
+7    Cs 0 {6,S} {8,S}
+8    Cs 0 {7,S} {9,S}
+9    Cs 0 {8,S} {10,S}
+10   Cs 0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3001,7 +3001,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3010,16 +3010,16 @@ entry(
     label = "Cyclodecanone",
     group = 
 """
-1  *  CO 0 {2,S} {10,S}
-2     Cs 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S}
-4     Cs 0 {3,S} {5,S}
-5     Cs 0 {4,S} {6,S}
-6     Cs 0 {5,S} {7,S}
-7     Cs 0 {6,S} {8,S}
-8     Cs 0 {7,S} {9,S}
-9     Cs 0 {8,S} {10,S}
-10    Cs 0 {1,S} {9,S}
+1  * CO 0 {2,S} {10,S}
+2    Cs 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S}
+4    Cs 0 {3,S} {5,S}
+5    Cs 0 {4,S} {6,S}
+6    Cs 0 {5,S} {7,S}
+7    Cs 0 {6,S} {8,S}
+8    Cs 0 {7,S} {9,S}
+9    Cs 0 {8,S} {10,S}
+10   Cs 0 {1,S} {9,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3033,7 +3033,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

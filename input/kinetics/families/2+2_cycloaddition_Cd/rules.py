@@ -33,7 +33,7 @@ C2H4 + C2H4 --> cyclobutane, absolute value measured directly using thermal exci
 and mass spectrometry. Pressure  0.40 - 1.73 bar.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -42,15 +42,15 @@ entry(
     label = "db_2H;mb_OC",
     group1 = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cd 0 {1,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D}
+3    H  0 {1,S}
+4    H  0 {1,S}
 """,
     group2 = 
 """
-1  *3 Od 0 {2,D}
-2  *4 CO 0 {1,D}
+1 *3 Od 0 {2,D}
+2 *4 CO 0 {1,D}
 """,
     kinetics = ArrheniusEP(
         A = (2.33e+06,"cm^3/(mol*s)","*|/",5),
@@ -69,7 +69,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

@@ -13,11 +13,11 @@ entry(
     label = "Y_rad;Oa",
     group1 = 
 """
-1  *1 R 1
+1 *1 R 1
 """,
     group2 = 
 """
-1  *2 O 2T
+1 *2 O 2T
 """,
     kinetics = ArrheniusEP(
         A = (1e+13,"cm^3/(mol*s)"),
@@ -36,7 +36,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

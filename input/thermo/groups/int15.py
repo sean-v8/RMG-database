@@ -13,14 +13,14 @@ entry(
     label = "CsOs",
     group = 
 """
-1  *  {Cs,Os} 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
+1 * {Cs,Os} 0 {2,S} {3,S}
+2   Cs      0 {1,S} {4,S} {5,S} {6,S}
+3   Cs      0 {1,S} {7,S} {8,S}
+4   Cs      0 {2,S}
+5   Cs      0 {2,S}
+6   Cs      0 {2,S}
+7   Cs      0 {3,S}
+8   Cs      0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -34,7 +34,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -43,14 +43,14 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsR)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
+1 * Cs 0 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   Cs 0 {1,S} {7,S} {8,S}
+4   Cs 0 {2,S}
+5   Cs 0 {2,S}
+6   Cs 0 {2,S}
+7   Cs 0 {3,S}
+8   Cs 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -64,7 +64,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -73,15 +73,15 @@ entry(
     label = "Cs(Cs(CsCsCs)Cs(CsCsCs)RR)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
-9     Cs 0 {3,S}
+1 * Cs 0 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   Cs 0 {1,S} {7,S} {8,S} {9,S}
+4   Cs 0 {2,S}
+5   Cs 0 {2,S}
+6   Cs 0 {2,S}
+7   Cs 0 {3,S}
+8   Cs 0 {3,S}
+9   Cs 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -95,7 +95,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -104,14 +104,14 @@ entry(
     label = "Os(Cs(CsCsCs)Cs(CsCsR))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   Cs 0 {1,S} {7,S} {8,S}
+4   Cs 0 {2,S}
+5   Cs 0 {2,S}
+6   Cs 0 {2,S}
+7   Cs 0 {3,S}
+8   Cs 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -125,7 +125,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -134,15 +134,15 @@ entry(
     label = "Os(Cs(CsCsCs)Cs(CsCsCs))",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S} {4,S} {5,S} {6,S}
-3     Cs 0 {1,S} {7,S} {8,S} {9,S}
-4     Cs 0 {2,S}
-5     Cs 0 {2,S}
-6     Cs 0 {2,S}
-7     Cs 0 {3,S}
-8     Cs 0 {3,S}
-9     Cs 0 {3,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S} {4,S} {5,S} {6,S}
+3   Cs 0 {1,S} {7,S} {8,S} {9,S}
+4   Cs 0 {2,S}
+5   Cs 0 {2,S}
+6   Cs 0 {2,S}
+7   Cs 0 {3,S}
+8   Cs 0 {3,S}
+9   Cs 0 {3,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -156,7 +156,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

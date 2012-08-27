@@ -14,9 +14,9 @@ entry(
     group1 = "OR{Y_1centerbirad, Y_rad}",
     group2 = 
 """
-1  *2 R!H 0 {2,S} {3,S}
-2  *3 R!H 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 R!H 0 {2,S} {3,S}
+2 *3 R!H 1 {1,S}
+3 *4 H   0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3e+11,"cm^3/(mol*s)"),
@@ -35,7 +35,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -44,29 +44,29 @@ entry(
     label = "O2_birad;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (1.05833e+10,"cm^3/(mol*s)","*|/",3),
+        A = (7.23e+12,"cm^3/(mol*s)","*|/",3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
+        E0 = (15.99,"kcal/mol"),
         Tmin = (700,"K"),
         Tmax = (2500,"K"),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'sp') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
@@ -87,7 +87,7 @@ Divide the rate constant by 12 to account for symmetry of 2 (O2) and 6 (i-C3H7, 
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -96,17 +96,17 @@ entry(
     label = "CH2_triplet;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 2T {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *1 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.01e+13,"cm^3/(mol*s)","*|/",2),
@@ -134,7 +134,7 @@ i-butyl radical.  Rate coefficient is estimate.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -143,15 +143,15 @@ entry(
     label = "H_rad;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.61e+12,"cm^3/(mol*s)","*|/",2),
@@ -178,7 +178,7 @@ expression equal to double the rate expression of H+C2H5=H2+C2H4.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -187,15 +187,15 @@ entry(
     label = "H_rad;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.81e+12,"cm^3/(mol*s)","*|/",3),
@@ -222,7 +222,7 @@ Camilleri, et al. (1974)
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -231,18 +231,18 @@ entry(
     label = "C_methyl;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.19e+14,"cm^3/(mol*s)","*|/",1.1),
@@ -285,7 +285,7 @@ These are the values that now reside in the database.  The online NIST database
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -294,18 +294,18 @@ entry(
     label = "C_rad/H2/Cs;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.3e+13,"cm^3/(mol*s)","*|/",1.1),
@@ -334,7 +334,7 @@ disproportionation to addition is that reported by Gibian and Corley (1973).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -343,18 +343,18 @@ entry(
     label = "C_rad/H2/Cd;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.29e+13,"cm^3/(mol*s)","*|/",3),
@@ -384,7 +384,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and iC3H7+iC3H7-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -393,18 +393,18 @@ entry(
     label = "C_rad/H2/O;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    O 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.89e+12,"cm^3/(mol*s)","*|/",5),
@@ -431,7 +431,7 @@ of 4.8x10^-12 based on the rate expression of i-C3H7+C2H5=C2H6+C3H6
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -440,18 +440,18 @@ entry(
     label = "C_rad/H/NonDeC;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.11e+14,"cm^3/(mol*s)","*|/",2),
@@ -479,7 +479,7 @@ ratio agrees well with most of the experimental data.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -488,18 +488,18 @@ entry(
     label = "C_rad/Cs3;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.86e+15,"cm^3/(mol*s)","*|/",1.7),
@@ -528,7 +528,7 @@ reported branching ratio.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -537,17 +537,17 @@ entry(
     label = "Cd_pri_rad;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *1 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.52e+14,"cm^3/(mol*s)","*|/",1.5),
@@ -576,7 +576,7 @@ C2H5+i-C3H7 system for the C2H3+i-C3H7 system.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -585,16 +585,16 @@ entry(
     label = "Ct_rad;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,T}
-2     C 0 {1,T}
+1 *1 C 1 {2,T}
+2    C 0 {1,T}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.61e+12,"cm^3/(mol*s)","*|/",2),
@@ -621,7 +621,7 @@ of 6x10^-12 cm3/molecule/s, a "typical" disproportionation rate.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -630,16 +630,16 @@ entry(
     label = "O_pri_rad;Cmethyl_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     H 0 {1,S}
+1 *1 O 1 {2,S}
+2    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+13,"cm^3/(mol*s)","*|/",3),
@@ -666,7 +666,7 @@ rxn and an addition + hot adduct decomposition rxn will result in the same produ
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -675,15 +675,15 @@ entry(
     label = "H_rad;Cmethyl_Orad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 O 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 O 1 {1,S}
+3 *4 H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.81e+13,"cm^3/(mol*s)","*|/",3.16),
@@ -709,7 +709,7 @@ by authors.  In any case, recommended data fits the reported data well.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -718,29 +718,29 @@ entry(
     label = "O2_birad;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
-        A = (2.25825e+10,"cm^3/(mol*s)","*|/",3),
+        A = (4.5825e+12,"cm^3/(mol*s)","*|/",3),
         n = 0,
         alpha = 0,
-        E0 = (0,"kcal/mol"),
+        E0 = (14.85,"kcal/mol"),
         Tmin = (500,"K"),
         Tmax = (900,"K"),
     ),
     reference = None,
     referenceType = "",
     rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
+    shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'ss') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
 [91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
@@ -760,7 +760,7 @@ Divide the rate constant by 4 to account for symmetry of 2 (O2) and 2 (n-C3H7, c
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -769,17 +769,17 @@ entry(
     label = "CH2_triplet;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 2T {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *1 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.81e+12,"cm^3/(mol*s)","*|/",5),
@@ -808,7 +808,7 @@ is an upper limit.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -817,15 +817,15 @@ entry(
     label = "H_rad;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.81e+12,"cm^3/(mol*s)","*|/",2),
@@ -852,7 +852,7 @@ of the H+C2H5=C2H4+H2 rxn for the H+n-C3H7=C3H6+H2 rxn.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -861,18 +861,18 @@ entry(
     label = "C_methyl;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.15e+13,"cm^3/(mol*s)","*|/",1.7),
@@ -903,7 +903,7 @@ measured branching ratios)
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -912,18 +912,18 @@ entry(
     label = "C_rad/H2/Cs;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.45e+12,"cm^3/(mol*s)","*|/",1.4),
@@ -954,7 +954,7 @@ branching ratios)
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -963,18 +963,18 @@ entry(
     label = "C_rad/H2/Cd;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.45e+12,"cm^3/(mol*s)","*|/",3),
@@ -1004,7 +1004,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and nC3H7+nC3H7-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1013,18 +1013,18 @@ entry(
     label = "C_rad/H2/O;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    O 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.82e+11,"cm^3/(mol*s)","*|/",3),
@@ -1052,7 +1052,7 @@ also estimates the branching ratio of disproportionation to addition as 0.051
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1061,18 +1061,18 @@ entry(
     label = "C_rad/H/NonDeC;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (5.13e+13,"cm^3/(mol*s)","*|/",2),
@@ -1102,7 +1102,7 @@ Corley (1973).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1111,18 +1111,18 @@ entry(
     label = "C_rad/Cs3;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.16e+14,"cm^3/(mol*s)","*|/",2),
@@ -1152,7 +1152,7 @@ processes".
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1161,17 +1161,17 @@ entry(
     label = "Cd_pri_rad;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *1 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.21e+12,"cm^3/(mol*s)","*|/",3),
@@ -1198,7 +1198,7 @@ based on the rxn C2H5+n-C3H7=C3H6=C2H6.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1207,16 +1207,16 @@ entry(
     label = "Ct_rad;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,T}
-2     C 0 {1,T}
+1 *1 C 1 {2,T}
+2    C 0 {1,T}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.03e+12,"cm^3/(mol*s)","*|/",3),
@@ -1244,7 +1244,7 @@ namely 1.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1253,16 +1253,16 @@ entry(
     label = "O_pri_rad;C/H2/Nd_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     H 0 {1,S}
+1 *1 O 1 {2,S}
+2    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+13,"cm^3/(mol*s)","*|/",3),
@@ -1289,7 +1289,7 @@ on the rate coefficient for OH+C2H5=C2H4+H2O, namely 4.0x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1298,16 +1298,16 @@ entry(
     label = "O2_birad;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.2044e+10,"cm^3/(mol*s)","*|/",5),
@@ -1338,7 +1338,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (i-C4H9, c
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1347,16 +1347,16 @@ entry(
     label = "Ct_rad;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,T}
-2     C 0 {1,T}
+1 *1 C 1 {2,T}
+2    C 0 {1,T}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.03e+12,"cm^3/(mol*s)","*|/",3),
@@ -1385,7 +1385,7 @@ disproportionation to be 1x10^-11 cm3/molecule/s.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1394,15 +1394,15 @@ entry(
     label = "H_rad;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (9.04e+11,"cm^3/(mol*s)","*|/",2),
@@ -1432,7 +1432,7 @@ fall-off tables and collisional efficiencies.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1441,18 +1441,18 @@ entry(
     label = "C_methyl;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.02e+12,"cm^3/(mol*s)","*|/",2),
@@ -1480,7 +1480,7 @@ on the alpha-carbon).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1489,18 +1489,18 @@ entry(
     label = "C_rad/H2/Cs;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.43e+11,"cm^3/(mol*s)","*|/",2),
@@ -1530,7 +1530,7 @@ by Gibian and Corley (1973).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1539,18 +1539,18 @@ entry(
     label = "C_rad/H2/O;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    O 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+11,"cm^3/(mol*s)","*|/",3),
@@ -1583,7 +1583,7 @@ cutting the A in the RMG_database in two. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1592,18 +1592,18 @@ entry(
     label = "C_rad/H2/Cd;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (7.83e+11,"cm^3/(mol*s)","*|/",3),
@@ -1632,7 +1632,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and iC4H9+iC4H9-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1641,18 +1641,18 @@ entry(
     label = "C_rad/H/NonDeC;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.56e+13,"cm^3/(mol*s)","*|/",2),
@@ -1684,7 +1684,7 @@ small discrepancy between the author's stated and implemented calculation. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1693,18 +1693,18 @@ entry(
     label = "C_rad/Cs3;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.08e+14,"cm^3/(mol*s)","*|/",2),
@@ -1737,7 +1737,7 @@ cutting the A in the RMG_database in two. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1746,17 +1746,17 @@ entry(
     label = "Cd_pri_rad;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *1 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.43e+11,"cm^3/(mol*s)","*|/",4),
@@ -1783,7 +1783,7 @@ coefficient based on the rate of C2H5+i-C4H9=i-C4H8+C2H6.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1792,16 +1792,16 @@ entry(
     label = "O_pri_rad;C/H/NdNd_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     H 0 {1,S}
+1 *1 O 1 {2,S}
+2    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs     1 {1,S}
+3 *4 H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.21e+13,"cm^3/(mol*s)","*|/",3),
@@ -1829,7 +1829,7 @@ on the alpha-carbon).
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1838,14 +1838,14 @@ entry(
     label = "O2_birad;Cdpri_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.022e+11,"cm^3/(mol*s)"),
@@ -1882,7 +1882,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (allyl, ca
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1891,13 +1891,13 @@ entry(
     label = "H_rad;Cdpri_Csrad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.81e+13,"cm^3/(mol*s)","*|/",3),
@@ -1924,7 +1924,7 @@ Entry 47,4(c): No data available at the time.  Author assigns a rate coefficient
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1933,16 +1933,16 @@ entry(
     label = "C_methyl;Cdpri_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.01e+12,"cm^3/(mol*s)","*|/",3),
@@ -1978,7 +1978,7 @@ Multiplying by 0.03 results in the recommended rate coefficient expression.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1987,16 +1987,16 @@ entry(
     label = "C_rad/H2/Cs;Cdpri_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (9.64e+11,"cm^3/(mol*s)","*|/",2),
@@ -2025,7 +2025,7 @@ mean rule of the rxns C2H5+C2H5-->adduct and C3H5+C3H5-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2034,16 +2034,16 @@ entry(
     label = "C_rad/H2/Cd;Cdpri_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.43e+10,"cm^3/(mol*s)","*|/",2.5),
@@ -2072,7 +2072,7 @@ of Tulloch et al.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2081,16 +2081,16 @@ entry(
     label = "C_rad/H/NonDeC;Cdpri_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.58e+12,"cm^3/(mol*s)","*|/",3),
@@ -2120,7 +2120,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and iC3H7+iC3H7-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2129,16 +2129,16 @@ entry(
     label = "C_rad/Cs3;Cdpri_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.89e+13,"cm^3/(mol*s)","*|/",3),
@@ -2168,7 +2168,7 @@ mean rule for the rxns C3H5+C3H5-->adduct and tC4H9+tC4H9-->adduct.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2177,15 +2177,15 @@ entry(
     label = "Cd_pri_rad;Cdpri_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *1 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+12,"cm^3/(mol*s)","*|/",3),
@@ -2212,7 +2212,7 @@ of 4x10^-12 cm3/molecule/s for the disproportionation rxn.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2221,14 +2221,14 @@ entry(
     label = "O_pri_rad;Cdpri_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     H 0 {1,S}
+1 *1 O 1 {2,S}
+2    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 Cd 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 Cd 0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.03e+12,"cm^3/(mol*s)","*|/",3),
@@ -2255,7 +2255,7 @@ of 1x10^-11 cm3/molecule/s, based on "comparable rxns".
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2264,14 +2264,14 @@ entry(
     label = "O2_birad;O_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (5.7209e+12,"cm^3/(mol*s)","*|/",2),
@@ -2298,7 +2298,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH3CHOH, 
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2307,14 +2307,14 @@ entry(
     label = "O2_birad;O_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.92067e+12,"cm^3/(mol*s)","*|/",1.3),
@@ -2341,7 +2341,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, ox
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2350,14 +2350,14 @@ entry(
     label = "O2_birad;O_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.74001e+12,"cm^3/(mol*s)","*|/",1.3),
@@ -2386,7 +2386,7 @@ Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, ox
 JDM 31-Mar-2010
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2395,13 +2395,13 @@ entry(
     label = "O_atom_triplet;O_Csrad",
     group1 = 
 """
-1  *1 O 2T
+1 *1 O 2T
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (9.04e+13,"cm^3/(mol*s)","+|-",3.01e+13),
@@ -2430,7 +2430,7 @@ pg.965-967: Discussion on measured rate coefficients.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2439,15 +2439,15 @@ entry(
     label = "CH2_triplet;O_Csrad",
     group1 = 
 """
-1  *1 C 2T {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 *1 C 2T {2,S} {3,S}
+2    H 0  {1,S}
+3    H 0  {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.21e+12,"cm^3/(mol*s)","*|/",3),
@@ -2475,7 +2475,7 @@ Author estimates the rate of disproportionation as 2.0x10^-12 cm3/molecule/s.  N
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2484,13 +2484,13 @@ entry(
     label = "H_rad;O_Csrad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2e+13,"cm^3/(mol*s)","+|-",1e+13),
@@ -2522,7 +2522,7 @@ value the authors used was 3.6x10^13 cm3/mol/s.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2531,13 +2531,13 @@ entry(
     label = "H_rad;O_Csrad",
     group1 = 
 """
-1  *1 H 1
+1 *1 H 1
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.03e+12,"cm^3/(mol*s)","*|/",3),
@@ -2566,7 +2566,7 @@ and reports rate coefficient as 1.0x10^-11 cm3/molecule/s.  No data at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2575,16 +2575,16 @@ entry(
     label = "C_methyl;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.49e+13,"cm^3/(mol*s)"),
@@ -2617,7 +2617,7 @@ The value of A in the database is consistent with that reported in Table 2.
 MRH 1-Sept-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2626,16 +2626,16 @@ entry(
     label = "C_methyl;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+12,"cm^3/(mol*s)","*|/",5),
@@ -2664,7 +2664,7 @@ namely 4x10^-12 cm3/molecule/s.  No data at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2673,16 +2673,16 @@ entry(
     label = "C_rad/H2/Cs;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+12,"cm^3/(mol*s)","*|/",5),
@@ -2711,7 +2711,7 @@ No data at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2720,16 +2720,16 @@ entry(
     label = "C_rad/H2/Cd;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     Cd 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    H  0 {1,S}
+4    Cd 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.81e+13,"cm^3/(mol*s)","*|/",2.5),
@@ -2758,7 +2758,7 @@ coefficient of 3x10^-11 cm3/molecule/s.
 MRH 31-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2767,16 +2767,16 @@ entry(
     label = "C_rad/H2/O;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     O 0 {1,S}
+1 *1 C 1 {2,S} {3,S} {4,S}
+2    H 0 {1,S}
+3    H 0 {1,S}
+4    O 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (4.82e+12,"cm^3/(mol*s)","*|/",2),
@@ -2812,7 +2812,7 @@ MRH 30-Aug-2009
 *** NEED TO INVESTIGATE ***
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2821,16 +2821,16 @@ entry(
     label = "C_rad/H/NonDeC;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.35e+12,"cm^3/(mol*s)","*|/",5),
@@ -2857,7 +2857,7 @@ on rxn C2H5+i-C3H7=C3H8+C2H4, namely 3.9x10^-12 cm3/molecule/s
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2866,16 +2866,16 @@ entry(
     label = "C_rad/Cs3;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,S} {3,S} {4,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 *1 C  1 {2,S} {3,S} {4,S}
+2    Cs 0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.47e+14,"cm^3/(mol*s)","*|/",3),
@@ -2907,7 +2907,7 @@ the rate for the disproportionation rxn. ***
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2916,15 +2916,15 @@ entry(
     label = "Cd_pri_rad;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,D} {3,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
+1 *1 C 1 {2,D} {3,S}
+2    C 0 {1,D}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.01e+13,"cm^3/(mol*s)","*|/",2.5),
@@ -2953,7 +2953,7 @@ to rxn's exothermicity.  No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2962,14 +2962,14 @@ entry(
     label = "Ct_rad;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,T}
-2     C 0 {1,T}
+1 *1 C 1 {2,T}
+2    C 0 {1,T}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3.61e+13,"cm^3/(mol*s)","*|/",5),
@@ -2998,7 +2998,7 @@ to very exothermic rxn.  No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3007,15 +3007,15 @@ entry(
     label = "CO_pri_rad;O_Csrad",
     group1 = 
 """
-1  *1 C 1 {2,D} {3,S}
-2     O 0 {1,D}
-3     H 0 {1,S}
+1 *1 C 1 {2,D} {3,S}
+2    O 0 {1,D}
+3    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.81e+14,"cm^3/(mol*s)","*|/",3),
@@ -3044,7 +3044,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3053,14 +3053,14 @@ entry(
     label = "O_pri_rad;O_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     H 0 {1,S}
+1 *1 O 1 {2,S}
+2    H 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+13,"cm^3/(mol*s)","*|/",2),
@@ -3089,7 +3089,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3098,14 +3098,14 @@ entry(
     label = "O_rad/NonDeC;O_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     Cs 0 {1,S}
+1 *1 O  1 {2,S}
+2    Cs 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.41e+13,"cm^3/(mol*s)","*|/",2),
@@ -3134,7 +3134,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3143,14 +3143,14 @@ entry(
     label = "O_rad/NonDeO;O_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 0 {1,S}
+1 *1 O 1 {2,S}
+2    O 0 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.21e+13,"cm^3/(mol*s)","*|/",2),
@@ -3179,7 +3179,7 @@ No data available at the time.
 MRH 30-Aug-2009
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3188,14 +3188,14 @@ entry(
     label = "O2_birad;O_Csrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 Cs 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 Cs 1 {1,S}
+3 *4 H  0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.3413e+11,"cm^3/(mol*s)"),
@@ -3245,7 +3245,7 @@ This rate coefficient recommendation is up to 3x slower than the previous RMG-em
 	Proc. Combust. Inst. 32 (2009) 271-277
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3254,14 +3254,14 @@ entry(
     label = "O2_birad;XH_Rrad",
     group1 = 
 """
-1  *1 O 1 {2,S}
-2     O 1 {1,S}
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
 """,
     group2 = 
 """
-1  *2 R!H 0 {2,S} {3,S}
-2  *3 R!H 1 {1,S}
-3  *4 H 0 {1,S}
+1 *2 R!H 0 {2,S} {3,S}
+2 *3 R!H 1 {1,S}
+3 *4 H   0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (3e+11,"cm^3/(mol*s)"),
@@ -3280,7 +3280,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

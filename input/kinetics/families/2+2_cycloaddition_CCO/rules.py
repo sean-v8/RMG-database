@@ -13,9 +13,9 @@ entry(
     label = "CCO;doublebond",
     group1 = 
 """
-1  *1 Cd 0 {2,D}
-2  *2 Cdd 0 {1,D} {3,D}
-3     Od 0 {2,D}
+1 *1 Cd  0 {2,D}
+2 *2 Cdd 0 {1,D} {3,D}
+3    Od  0 {2,D}
 """,
     group2 = "OR{mb_CCO, mb_COC}",
     kinetics = ArrheniusEP(
@@ -35,7 +35,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

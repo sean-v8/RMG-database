@@ -13,7 +13,7 @@ entry(
     label = "H",
     molecule = 
 """
-1     H     1
+1 H 1
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -27,7 +27,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -36,8 +36,8 @@ entry(
     label = "H2",
     molecule = 
 """
-1     H     0 {2,S}
-2     H     0 {1,S}
+1 H 0 {2,S}
+2 H 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -51,7 +51,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -60,7 +60,7 @@ entry(
     label = "O",
     molecule = 
 """
-1     O     2T
+1 O 2T
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -74,7 +74,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -83,7 +83,7 @@ entry(
     label = "OH",
     molecule = 
 """
-1     O     1
+1 O 1
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -97,7 +97,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -106,7 +106,7 @@ entry(
     label = "H2O",
     molecule = 
 """
-1     O     0
+1 O 0
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -120,7 +120,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -129,8 +129,8 @@ entry(
     label = "O2",
     molecule = 
 """
-1     O     1 {2,S}
-2     O     1 {1,S}
+1 O 1 {2,S}
+2 O 1 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -144,7 +144,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -153,8 +153,8 @@ entry(
     label = "HO2",
     molecule = 
 """
-1     O     0 {2,S}
-2     O     1 {1,S}
+1 O 0 {2,S}
+2 O 1 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -168,7 +168,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -177,8 +177,8 @@ entry(
     label = "H2O2",
     molecule = 
 """
-1     O     0 {2,S}
-2     O     0 {1,S}
+1 O 0 {2,S}
+2 O 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -192,7 +192,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -201,8 +201,8 @@ entry(
     label = "CO",
     molecule = 
 """
-1     C     2T {2,D}
-2     O     0 {1,D}
+1 C 2T {2,D}
+2 O 0  {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -216,7 +216,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -225,9 +225,9 @@ entry(
     label = "CO2",
     molecule = 
 """
-1     C     0 {2,D} {3,D}
-2     O     0 {1,D}
-3     O     0 {1,D}
+1 C 0 {2,D} {3,D}
+2 O 0 {1,D}
+3 O 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -241,7 +241,7 @@ u"""
 
 """,
     history = [
-        ("Thu Sep  8 09:54:43 2011","Josh Allen <jwallen@mit.edu>","action","""Josh Allen <jwallen@mit.edu> imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

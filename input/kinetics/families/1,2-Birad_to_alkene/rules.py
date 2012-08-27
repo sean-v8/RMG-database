@@ -29,7 +29,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -38,12 +38,12 @@ entry(
     label = "Y_12_00",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {2,S}
-6     H 0 {2,S}
+1 *1 Cs 1 {2,S} {3,S} {4,S}
+2 *2 Cs 1 {1,S} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (1e+08,"s^-1"),
@@ -62,7 +62,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -71,12 +71,12 @@ entry(
     label = "Y_12_10",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cs,Os} 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {2,S}
-6     H 0 {2,S}
+1 *1 Cs      1 {2,S} {3,S} {4,S}
+2 *2 Cs      1 {1,S} {5,S} {6,S}
+3    {Cs,Os} 0 {1,S}
+4    H       0 {1,S}
+5    H       0 {2,S}
+6    H       0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.31e+07,"s^-1"),
@@ -95,7 +95,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -120,7 +120,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -129,12 +129,12 @@ entry(
     label = "Y_12_30",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cs,Os} 0 {1,S}
-4     {Cs,Os} 0 {1,S}
-5     {Cs,Os} 0 {2,S}
-6     H 0 {2,S}
+1 *1 Cs      1 {2,S} {3,S} {4,S}
+2 *2 Cs      1 {1,S} {5,S} {6,S}
+3    {Cs,Os} 0 {1,S}
+4    {Cs,Os} 0 {1,S}
+5    {Cs,Os} 0 {2,S}
+6    H       0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.51e+07,"s^-1"),
@@ -153,7 +153,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -162,12 +162,12 @@ entry(
     label = "Y_12_40",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cs,Os} 0 {1,S}
-4     {Cs,Os} 0 {1,S}
-5     {Cs,Os} 0 {2,S}
-6     {Cs,Os} 0 {2,S}
+1 *1 Cs      1 {2,S} {3,S} {4,S}
+2 *2 Cs      1 {1,S} {5,S} {6,S}
+3    {Cs,Os} 0 {1,S}
+4    {Cs,Os} 0 {1,S}
+5    {Cs,Os} 0 {2,S}
+6    {Cs,Os} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.58e+07,"s^-1"),
@@ -186,7 +186,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -195,12 +195,12 @@ entry(
     label = "Y_12_01",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {2,S}
-6     H 0 {2,S}
+1 *1 Cs            1 {2,S} {3,S} {4,S}
+2 *2 Cs            1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    H             0 {1,S}
+5    H             0 {2,S}
+6    H             0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (5.01e+07,"s^-1"),
@@ -219,7 +219,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -244,7 +244,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -253,12 +253,12 @@ entry(
     label = "Y_12_03",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     {Cd,Ct,Cb,CO} 0 {2,S}
-6     H 0 {2,S}
+1 *1 Cs            1 {2,S} {3,S} {4,S}
+2 *2 Cs            1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    {Cd,Ct,Cb,CO} 0 {2,S}
+6    H             0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.26e+07,"s^-1"),
@@ -277,7 +277,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -286,12 +286,12 @@ entry(
     label = "Y_12_04",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     {Cd,Ct,Cb,CO} 0 {2,S}
-6     {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cs            1 {2,S} {3,S} {4,S}
+2 *2 Cs            1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    {Cd,Ct,Cb,CO} 0 {2,S}
+6    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (6.31e+06,"s^-1"),
@@ -310,7 +310,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -335,7 +335,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -360,7 +360,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -385,7 +385,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -410,7 +410,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -419,12 +419,12 @@ entry(
     label = "Y_12_13",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cd,Ct,Cb,CO} 0 {1,S}
-4     {Cd,Ct,Cb,CO} 0 {1,S}
-5     {Cd,Ct,Cb,CO} 0 {2,S}
-6     {Cs,Os} 0 {2,S}
+1 *1 Cs            1 {2,S} {3,S} {4,S}
+2 *2 Cs            1 {1,S} {5,S} {6,S}
+3    {Cd,Ct,Cb,CO} 0 {1,S}
+4    {Cd,Ct,Cb,CO} 0 {1,S}
+5    {Cd,Ct,Cb,CO} 0 {2,S}
+6    {Cs,Os}       0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (7.94e+06,"s^-1"),
@@ -443,7 +443,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -452,12 +452,12 @@ entry(
     label = "Y_12_31",
     group1 = 
 """
-1  *1 Cs 1 {2,S} {3,S} {4,S}
-2  *2 Cs 1 {1,S} {5,S} {6,S}
-3     {Cs,Os} 0 {1,S}
-4     {Cs,Os} 0 {1,S}
-5     {Cs,Os} 0 {2,S}
-6     {Cd,Ct,Cb,CO} 0 {2,S}
+1 *1 Cs            1 {2,S} {3,S} {4,S}
+2 *2 Cs            1 {1,S} {5,S} {6,S}
+3    {Cs,Os}       0 {1,S}
+4    {Cs,Os}       0 {1,S}
+5    {Cs,Os}       0 {2,S}
+6    {Cd,Ct,Cb,CO} 0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (1.26e+07,"s^-1"),
@@ -476,7 +476,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

@@ -15,8 +15,8 @@ entry(
     label = "CO_birad;RR'",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = "OR{R_H, R_R'}",
     kinetics = ArrheniusEP(
@@ -36,7 +36,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -45,19 +45,19 @@ entry(
     label = "CO_birad;C_methyl_C_methyl",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     H 0 {2,S}
-7     H 0 {2,S}
-8     H 0 {2,S}
+1 *2 Cs 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 Cs 0 {1,S} {6,S} {7,S} {8,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {1,S}
+6    H  0 {2,S}
+7    H  0 {2,S}
+8    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (538,"cm^3/(mol*s)"),
@@ -76,7 +76,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -85,13 +85,13 @@ entry(
     label = "CO_birad;H2",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 H 0 {2,S}
-2  *3 H 0 {1,S}
+1 *2 H 0 {2,S}
+2 *3 H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (2.89e+09,"cm^3/(mol*s)"),
@@ -110,7 +110,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -119,16 +119,16 @@ entry(
     label = "CO_birad;C_methane",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H 0 {1,S}
+3    H 0 {1,S}
+4    H 0 {1,S}
+5    H 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (16400,"cm^3/(mol*s)"),
@@ -147,7 +147,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -156,16 +156,16 @@ entry(
     label = "CO_birad;C_pri/NonDeC",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (91400,"cm^3/(mol*s)"),
@@ -184,7 +184,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -193,16 +193,16 @@ entry(
     label = "CO_birad;C/H2/NonDeC",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     H 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3    H  0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (766000,"cm^3/(mol*s)"),
@@ -221,7 +221,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -230,16 +230,16 @@ entry(
     label = "CO_birad;C/H/Cs3",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2  *3 H 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
+4    Cs 0 {1,S}
+5    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (8.89e+07,"cm^3/(mol*s)"),
@@ -258,7 +258,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -267,14 +267,14 @@ entry(
     label = "CO_birad;CsO_H",
     group1 = 
 """
-1  *1 C {2S,2T} {2,D}
-2     O 0 {1,D}
+1 *1 C {2S,2T} {2,D}
+2    O 0       {1,D}
 """,
     group2 = 
 """
-1  *2 O 0 {2,S} {3,S}
-2  *3 H 0 {1,S}
-3     Cs 0 {1,S}
+1 *2 O  0 {2,S} {3,S}
+2 *3 H  0 {1,S}
+3    Cs 0 {1,S}
 """,
     kinetics = ArrheniusEP(
         A = (0.127,"cm^3/(mol*s)"),
@@ -294,7 +294,7 @@ CBS-QB3 calculations by CFG, Jan 2010
 Methyl group was hindered rotor. ester CO bond also a rotor.
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

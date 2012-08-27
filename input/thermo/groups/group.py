@@ -13,7 +13,7 @@ entry(
     label = "R",
     group = 
 """
-1  *  R 0
+1 * R 0
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -22,7 +22,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -31,7 +31,7 @@ entry(
     label = "C",
     group = 
 """
-1  *  C 0
+1 * C 0
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = u"""""",
@@ -40,7 +40,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -49,7 +49,7 @@ entry(
     label = "Cbf",
     group = 
 """
-1  *  Cbf 0
+1 * Cbf 0
 """,
     thermo = 'Cbf-CbCbCbf',
     shortDesc = u"""""",
@@ -58,7 +58,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -67,10 +67,10 @@ entry(
     label = "Cbf-CbCbCbf",
     group = 
 """
-1  *  Cbf 0 {2,B} {3,B} {4,B}
-2     Cb 0 {1,B}
-3     Cb 0 {1,B}
-4     Cbf 0 {1,B}
+1 * Cbf 0 {2,B} {3,B} {4,B}
+2   Cb  0 {1,B}
+3   Cb  0 {1,B}
+4   Cbf 0 {1,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -84,7 +84,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -93,10 +93,10 @@ entry(
     label = "Cbf-CbCbfCbf",
     group = 
 """
-1  *  Cbf 0 {2,B} {3,B} {4,B}
-2     Cb 0 {1,B}
-3     Cbf 0 {1,B}
-4     Cbf 0 {1,B}
+1 * Cbf 0 {2,B} {3,B} {4,B}
+2   Cb  0 {1,B}
+3   Cbf 0 {1,B}
+4   Cbf 0 {1,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -110,7 +110,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -119,10 +119,10 @@ entry(
     label = "Cbf-CbfCbfCbf",
     group = 
 """
-1  *  Cbf 0 {2,B} {3,B} {4,B}
-2     Cbf 0 {1,B}
-3     Cbf 0 {1,B}
-4     Cbf 0 {1,B}
+1 * Cbf 0 {2,B} {3,B} {4,B}
+2   Cbf 0 {1,B}
+3   Cbf 0 {1,B}
+4   Cbf 0 {1,B}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -136,7 +136,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -145,7 +145,7 @@ entry(
     label = "Cb",
     group = 
 """
-1  *  Cb 0
+1 * Cb 0
 """,
     thermo = 'Cb-Cs',
     shortDesc = u"""""",
@@ -154,7 +154,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -163,8 +163,8 @@ entry(
     label = "Cb-H",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     H 0 {1,S}
+1 * Cb 0 {2,S}
+2   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -178,7 +178,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -187,8 +187,8 @@ entry(
     label = "Cb-Os",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Os 0 {1,S}
+1 * Cb 0 {2,S}
+2   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -202,7 +202,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -211,8 +211,8 @@ entry(
     label = "Cb-C",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     C 0 {1,S}
+1 * Cb 0 {2,S}
+2   C  0 {1,S}
 """,
     thermo = 'Cb-Cs',
     shortDesc = u"""""",
@@ -221,7 +221,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -230,8 +230,8 @@ entry(
     label = "Cb-Cs",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Cs 0 {1,S}
+1 * Cb 0 {2,S}
+2   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -245,7 +245,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -254,8 +254,8 @@ entry(
     label = "Cb-Cds",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     {Cd,CO} 0 {1,S}
+1 * Cb      0 {2,S}
+2   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cb-(Cds-Cds)',
     shortDesc = u"""""",
@@ -264,7 +264,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -273,8 +273,8 @@ entry(
     label = "Cb-(Cds-Od)",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     CO 0 {1,S}
+1 * Cb 0 {2,S}
+2   CO 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -288,7 +288,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -297,8 +297,8 @@ entry(
     label = "Cb-(Cds-Cd)",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Cd 0 {1,S}
+1 * Cb 0 {2,S}
+2   Cd 0 {1,S}
 """,
     thermo = 'Cb-(Cds-Cds)',
     shortDesc = u"""""",
@@ -307,7 +307,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -316,9 +316,9 @@ entry(
     label = "Cb-(Cds-Cds)",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D}
+1 * Cb 0 {2,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -332,7 +332,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -341,9 +341,9 @@ entry(
     label = "Cb-(Cds-Cdd)",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {2,D}
+1 * Cb  0 {2,S}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {2,D}
 """,
     thermo = 'Cb-(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -352,7 +352,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -361,10 +361,10 @@ entry(
     label = "Cb-(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {2,D} {4,D}
-4     Od 0 {3,D}
+1 * Cb  0 {2,S}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {2,D} {4,D}
+4   Od  0 {3,D}
 """,
     thermo = 'Cb-(Cds-Cds)',
     shortDesc = u"""""",
@@ -373,7 +373,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -382,10 +382,10 @@ entry(
     label = "Cb-(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {2,D} {4,D}
-4     C 0 {3,D}
+1 * Cb  0 {2,S}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {2,D} {4,D}
+4   C   0 {3,D}
 """,
     thermo = 'Cb-(Cds-Cds)',
     shortDesc = u"""""",
@@ -394,7 +394,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -403,8 +403,8 @@ entry(
     label = "Cb-Ct",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Ct 0 {1,S}
+1 * Cb 0 {2,S}
+2   Ct 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -418,7 +418,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -427,8 +427,8 @@ entry(
     label = "Cb-Cb",
     group = 
 """
-1  *  Cb 0 {2,S}
-2     Cb 0 {1,S}
+1 * Cb 0 {2,S}
+2   Cb 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -442,7 +442,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -451,7 +451,7 @@ entry(
     label = "Ct",
     group = 
 """
-1  *  Ct 0
+1 * Ct 0
 """,
     thermo = 'Ct-Cs',
     shortDesc = u"""""",
@@ -460,7 +460,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -469,8 +469,8 @@ entry(
     label = "Ct-H",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     H 0 {1,S}
+1 * Ct 0 {2,S}
+2   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -484,7 +484,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -493,8 +493,8 @@ entry(
     label = "Ct-Os",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Os 0 {1,S}
+1 * Ct 0 {2,S}
+2   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -508,7 +508,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -517,8 +517,8 @@ entry(
     label = "Ct-C",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     C 0 {1,S}
+1 * Ct 0 {2,S}
+2   C  0 {1,S}
 """,
     thermo = 'Ct-Cs',
     shortDesc = u"""""",
@@ -527,7 +527,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -536,8 +536,8 @@ entry(
     label = "Ct-Cs",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Cs 0 {1,S}
+1 * Ct 0 {2,S}
+2   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -551,7 +551,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -560,8 +560,8 @@ entry(
     label = "Ct-Cds",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     {Cd,CO} 0 {1,S}
+1 * Ct      0 {2,S}
+2   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Ct-(Cds-Cds)',
     shortDesc = u"""""",
@@ -570,7 +570,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -579,8 +579,8 @@ entry(
     label = "Ct-(Cds-Od)",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     CO 0 {1,S}
+1 * Ct 0 {2,S}
+2   CO 0 {1,S}
 """,
     thermo = 'Ct-Cs',
     shortDesc = u"""""",
@@ -589,7 +589,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -598,8 +598,8 @@ entry(
     label = "Ct-(Cds-Cd)",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Cd 0 {1,S}
+1 * Ct 0 {2,S}
+2   Cd 0 {1,S}
 """,
     thermo = 'Ct-(Cds-Cds)',
     shortDesc = u"""""",
@@ -608,7 +608,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -617,9 +617,9 @@ entry(
     label = "Ct-(Cds-Cds)",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cd 0 {2,D}
+1 * Ct 0 {2,S}
+2   Cd 0 {1,S} {3,D}
+3   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -633,7 +633,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -642,9 +642,9 @@ entry(
     label = "Ct-(Cds-Cdd)",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {2,D}
+1 * Ct  0 {2,S}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {2,D}
 """,
     thermo = 'Ct-(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -653,7 +653,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -662,10 +662,10 @@ entry(
     label = "Ct-(Cds-Cdd-Od)",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {2,D} {4,D}
-4     Od 0 {3,D}
+1 * Ct  0 {2,S}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {2,D} {4,D}
+4   Od  0 {3,D}
 """,
     thermo = 'Ct-(Cds-Cds)',
     shortDesc = u"""""",
@@ -674,7 +674,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -683,10 +683,10 @@ entry(
     label = "Ct-(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Cd 0 {1,S} {3,D}
-3     Cdd 0 {2,D} {4,D}
-4     C 0 {3,D}
+1 * Ct  0 {2,S}
+2   Cd  0 {1,S} {3,D}
+3   Cdd 0 {2,D} {4,D}
+4   C   0 {3,D}
 """,
     thermo = 'Ct-(Cds-Cds)',
     shortDesc = u"""""",
@@ -695,7 +695,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -704,8 +704,8 @@ entry(
     label = "Ct-Ct",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Ct 0 {1,S}
+1 * Ct 0 {2,S}
+2   Ct 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -719,7 +719,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -728,8 +728,8 @@ entry(
     label = "Ct-Cb",
     group = 
 """
-1  *  Ct 0 {2,S}
-2     Cb 0 {1,S}
+1 * Ct 0 {2,S}
+2   Cb 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -743,7 +743,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -752,7 +752,7 @@ entry(
     label = "Cdd",
     group = 
 """
-1  *  Cdd 0
+1 * Cdd 0
 """,
     thermo = 'Cdd-CdsCds',
     shortDesc = u"""""",
@@ -761,7 +761,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -770,9 +770,9 @@ entry(
     label = "Cdd-OdOd",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Od 0 {1,D}
-3     Od 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Od  0 {1,D}
+3   Od  0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -786,7 +786,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -795,9 +795,9 @@ entry(
     label = "Cdd-CdOd",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     C 0 {1,D}
-3     Od 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   C   0 {1,D}
+3   Od  0 {1,D}
 """,
     thermo = 'Cdd-CdsOd',
     shortDesc = u"""""",
@@ -806,7 +806,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -815,9 +815,9 @@ entry(
     label = "Cdd-CdsOd",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cd 0 {1,D}
-3     Od 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cd  0 {1,D}
+3   Od  0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -831,7 +831,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -840,9 +840,9 @@ entry(
     label = "Cdd-CddOd",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D}
-3     Od 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D}
+3   Od  0 {1,D}
 """,
     thermo = 'Cdd-(Cdd-Cd)Od',
     shortDesc = u"""""",
@@ -851,7 +851,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -860,10 +860,10 @@ entry(
     label = "Cdd-(Cdd-Od)Od",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {4,D}
-3     Od 0 {1,D}
-4     Od 0 {2,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {4,D}
+3   Od  0 {1,D}
+4   Od  0 {2,D}
 """,
     thermo = 'Cdd-CdsOd',
     shortDesc = u"""""",
@@ -872,7 +872,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -881,10 +881,10 @@ entry(
     label = "Cdd-(Cdd-Cd)Od",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {4,D}
-3     Od 0 {1,D}
-4     C 0 {2,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {4,D}
+3   Od  0 {1,D}
+4   C   0 {2,D}
 """,
     thermo = 'Cdd-CdsOd',
     shortDesc = u"""O=C*=C= currently not defined. Assigned same value as Ca""",
@@ -893,7 +893,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -902,9 +902,9 @@ entry(
     label = "Cdd-CdCd",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     C 0 {1,D}
-3     C 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   C   0 {1,D}
+3   C   0 {1,D}
 """,
     thermo = 'Cdd-CdsCds',
     shortDesc = u"""""",
@@ -913,7 +913,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -922,9 +922,9 @@ entry(
     label = "Cdd-CddCdd",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D}
-3     Cdd 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D}
+3   Cdd 0 {1,D}
 """,
     thermo = 'Cdd-(Cdd-Cd)(Cdd-Cd)',
     shortDesc = u"""""",
@@ -933,7 +933,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -942,11 +942,11 @@ entry(
     label = "Cdd-(Cdd-Od)(Cdd-Od)",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {4,D}
-3     Cdd 0 {1,D} {5,D}
-4     Od 0 {2,D}
-5     Od 0 {3,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {4,D}
+3   Cdd 0 {1,D} {5,D}
+4   Od  0 {2,D}
+5   Od  0 {3,D}
 """,
     thermo = 'Cdd-CdsCds',
     shortDesc = u"""O=C=C*=C=O, currently not defined. Assigned same value as Ca""",
@@ -955,7 +955,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -964,11 +964,11 @@ entry(
     label = "Cdd-(Cdd-Od)(Cdd-Cd)",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {4,D}
-3     Cdd 0 {1,D} {5,D}
-4     Od 0 {2,D}
-5     C 0 {3,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {4,D}
+3   Cdd 0 {1,D} {5,D}
+4   Od  0 {2,D}
+5   C   0 {3,D}
 """,
     thermo = 'Cdd-(Cdd-Od)Cds',
     shortDesc = u"""O=C=C*=C=C, currently not defined. Assigned same value as Ca""",
@@ -977,7 +977,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -986,11 +986,11 @@ entry(
     label = "Cdd-(Cdd-Cd)(Cdd-Cd)",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {4,D}
-3     Cdd 0 {1,D} {5,D}
-4     C 0 {2,D}
-5     C 0 {3,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {4,D}
+3   Cdd 0 {1,D} {5,D}
+4   C   0 {2,D}
+5   C   0 {3,D}
 """,
     thermo = 'Cdd-CdsCds',
     shortDesc = u"""C=C=C*=C=C, currently not defined. Assigned same value as Ca""",
@@ -999,7 +999,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1008,9 +1008,9 @@ entry(
     label = "Cdd-CddCds",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D}
-3     Cd 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D}
+3   Cd  0 {1,D}
 """,
     thermo = 'Cdd-(Cdd-Cd)(Cdd-Cd)',
     shortDesc = u"""""",
@@ -1019,7 +1019,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1028,10 +1028,10 @@ entry(
     label = "Cdd-(Cdd-Od)Cds",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {4,D}
-3     Cd 0 {1,D}
-4     Od 0 {2,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {4,D}
+3   Cd  0 {1,D}
+4   Od  0 {2,D}
 """,
     thermo = 'Cdd-CdsCds',
     shortDesc = u"""O=C=C*=C<, currently not defined. Assigned same value as Ca """,
@@ -1040,7 +1040,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1049,10 +1049,10 @@ entry(
     label = "Cdd-(Cdd-Cd)Cds",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cdd 0 {1,D} {4,D}
-3     Cd 0 {1,D}
-4     C 0 {2,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cdd 0 {1,D} {4,D}
+3   Cd  0 {1,D}
+4   C   0 {2,D}
 """,
     thermo = 'Cdd-CdsCds',
     shortDesc = u"""C=C=C*=C<, currently not defined. Assigned same value as Ca """,
@@ -1061,7 +1061,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1070,9 +1070,9 @@ entry(
     label = "Cdd-CdsCds",
     group = 
 """
-1  *  Cdd 0 {2,D} {3,D}
-2     Cd 0 {1,D}
-3     Cd 0 {1,D}
+1 * Cdd 0 {2,D} {3,D}
+2   Cd  0 {1,D}
+3   Cd  0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1086,7 +1086,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1095,7 +1095,7 @@ entry(
     label = "Cds",
     group = 
 """
-1  *  {Cd,CO} 0
+1 * {Cd,CO} 0
 """,
     thermo = 'Cds-CdsCsCs',
     shortDesc = u"""""",
@@ -1104,7 +1104,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1113,10 +1113,10 @@ entry(
     label = "Cds-OdHH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   H  0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1130,7 +1130,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1139,10 +1139,10 @@ entry(
     label = "Cds-OdOsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Os 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1156,7 +1156,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1165,10 +1165,10 @@ entry(
     label = "Cds-OdOsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1182,7 +1182,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1191,10 +1191,10 @@ entry(
     label = "Cds-OdCH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     C 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   C  0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = 'Cds-OdCsH',
     shortDesc = u"""""",
@@ -1203,7 +1203,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1212,10 +1212,10 @@ entry(
     label = "Cds-OdCsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1229,7 +1229,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1238,10 +1238,10 @@ entry(
     label = "Cds-OdCdsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     H 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   H       0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
     shortDesc = u"""""",
@@ -1250,7 +1250,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1259,10 +1259,10 @@ entry(
     label = "Cds-Od(Cds-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     CO 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   CO 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1276,7 +1276,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1285,10 +1285,10 @@ entry(
     label = "Cds-Od(Cds-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
     shortDesc = u"""""",
@@ -1297,7 +1297,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1306,11 +1306,11 @@ entry(
     label = "Cds-Od(Cds-Cds)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   H  0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1324,7 +1324,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1333,11 +1333,11 @@ entry(
     label = "Cds-Od(Cds-Cdd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   H   0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -1346,7 +1346,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1355,12 +1355,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   H   0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
     shortDesc = u"""""",
@@ -1369,7 +1369,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1378,12 +1378,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   H   0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
     shortDesc = u"""""",
@@ -1392,7 +1392,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1401,10 +1401,10 @@ entry(
     label = "Cds-OdCtH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Ct 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
     shortDesc = u"""""",
@@ -1413,7 +1413,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1422,10 +1422,10 @@ entry(
     label = "Cds-OdCbH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)H',
     shortDesc = u"""""",
@@ -1434,7 +1434,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1443,10 +1443,10 @@ entry(
     label = "Cds-OdCOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     C 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   C  0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = 'Cds-OdCsOs',
     shortDesc = u"""""",
@@ -1455,7 +1455,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1464,10 +1464,10 @@ entry(
     label = "Cds-OdCsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1481,7 +1481,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1490,10 +1490,10 @@ entry(
     label = "Cds-OdCdsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -1502,7 +1502,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1511,10 +1511,10 @@ entry(
     label = "Cds-Od(Cds-Od)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     CO 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   CO 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1528,7 +1528,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1537,10 +1537,10 @@ entry(
     label = "Cds-Od(Cds-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -1549,7 +1549,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1558,11 +1558,11 @@ entry(
     label = "Cds-Od(Cds-Cds)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Os 0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1576,7 +1576,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1585,11 +1585,11 @@ entry(
     label = "Cds-Od(Cds-Cdd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Os  0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -1598,7 +1598,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1607,12 +1607,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Os  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -1621,7 +1621,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1630,12 +1630,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Os  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -1644,7 +1644,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1653,10 +1653,10 @@ entry(
     label = "Cds-OdCtOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -1665,7 +1665,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1674,10 +1674,10 @@ entry(
     label = "Cds-OdCbOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1691,7 +1691,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1700,10 +1700,10 @@ entry(
     label = "Cds-OdCC",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     C 0 {1,S}
-4     C 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   C  0 {1,S}
+4   C  0 {1,S}
 """,
     thermo = 'Cds-OdCsCs',
     shortDesc = u"""""",
@@ -1712,7 +1712,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1721,10 +1721,10 @@ entry(
     label = "Cds-OdCsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1738,7 +1738,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1747,10 +1747,10 @@ entry(
     label = "Cds-OdCdsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -1759,7 +1759,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1768,10 +1768,10 @@ entry(
     label = "Cds-Od(Cds-Od)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     CO 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   CO 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1785,7 +1785,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1794,10 +1794,10 @@ entry(
     label = "Cds-Od(Cds-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -1806,7 +1806,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1815,11 +1815,11 @@ entry(
     label = "Cds-Od(Cds-Cds)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Cs 0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -1833,7 +1833,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1842,11 +1842,11 @@ entry(
     label = "Cds-Od(Cds-Cdd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cs  0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -1855,7 +1855,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1864,12 +1864,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cs  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -1878,7 +1878,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1887,12 +1887,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cs  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -1901,7 +1901,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1910,10 +1910,10 @@ entry(
     label = "Cds-OdCdsCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -1922,7 +1922,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1931,10 +1931,10 @@ entry(
     label = "Cds-Od(Cds-Od)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
 """,
     thermo = 'Cds-OdCsCs',
     shortDesc = u"""""",
@@ -1943,7 +1943,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1952,10 +1952,10 @@ entry(
     label = "Cds-Od(Cds-Cd)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S}
-4     CO 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S}
+4   CO 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -1964,7 +1964,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1973,11 +1973,11 @@ entry(
     label = "Cds-Od(Cds-Cds)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     CO 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   CO 0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Od)Cs',
     shortDesc = u"""""",
@@ -1986,7 +1986,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -1995,11 +1995,11 @@ entry(
     label = "Cds-Od(Cds-Cdd)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     CO 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   CO  0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)(Cds-Od)',
     shortDesc = u"""""",
@@ -2008,7 +2008,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2017,12 +2017,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Od)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     CO 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   CO  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -2031,7 +2031,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2040,12 +2040,12 @@ entry(
     label = "Cds-Od(Cds-Cdd-Cd)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     CO 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   CO  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -2054,7 +2054,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2063,10 +2063,10 @@ entry(
     label = "Cds-Od(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2075,7 +2075,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2084,12 +2084,12 @@ entry(
     label = "Cds-Od(Cds-Cds)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {3,D}
-6     Cd 0 {4,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Cd 0 {1,S} {6,D}
+5   Cd 0 {3,D}
+6   Cd 0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2103,7 +2103,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2112,12 +2112,12 @@ entry(
     label = "Cds-Od(Cds-Cdd)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D}
-6     Cd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D}
+6   Cd  0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2126,7 +2126,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2135,13 +2135,13 @@ entry(
     label = "Cds-Od(Cds-Cdd-Od)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cd 0 {4,D}
-7     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cd  0 {4,D}
+7   Od  0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -2150,7 +2150,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2159,13 +2159,13 @@ entry(
     label = "Cds-Od(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cd 0 {4,D}
-7     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cd  0 {4,D}
+7   C   0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2174,7 +2174,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2183,12 +2183,12 @@ entry(
     label = "Cds-Od(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D}
-6     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -2197,7 +2197,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2206,14 +2206,14 @@ entry(
     label = "Cds-Od(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Od 0 {5,D}
-8     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Od  0 {5,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2222,7 +2222,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2231,14 +2231,14 @@ entry(
     label = "Cds-Od(Cds-Cdd-Cd)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     C 0 {5,D}
-8     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   C   0 {5,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2247,7 +2247,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2256,14 +2256,14 @@ entry(
     label = "Cds-Od(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     C 0 {5,D}
-8     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   C   0 {5,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2272,7 +2272,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2281,10 +2281,10 @@ entry(
     label = "Cds-OdCtCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -2293,7 +2293,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2302,10 +2302,10 @@ entry(
     label = "Cds-OdCtCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
     shortDesc = u"""""",
@@ -2314,7 +2314,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2323,10 +2323,10 @@ entry(
     label = "Cds-OdCt(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     CO 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Ct 0 {1,S}
+4   CO 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -2335,7 +2335,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2344,10 +2344,10 @@ entry(
     label = "Cds-OdCt(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Ct 0 {1,S}
+4   Cd 0 {1,S}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
     shortDesc = u"""""",
@@ -2356,7 +2356,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2365,11 +2365,11 @@ entry(
     label = "Cds-OdCt(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cd 0 {4,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Ct 0 {1,S}
+4   Cd 0 {1,S} {5,D}
+5   Cd 0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2378,7 +2378,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2387,11 +2387,11 @@ entry(
     label = "Cds-OdCt(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D}
 """,
     thermo = 'Cds-OdCt(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -2400,7 +2400,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2409,12 +2409,12 @@ entry(
     label = "Cds-OdCt(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2423,7 +2423,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2432,12 +2432,12 @@ entry(
     label = "Cds-OdCt(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
     shortDesc = u"""""",
@@ -2446,7 +2446,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2455,10 +2455,10 @@ entry(
     label = "Cds-OdCtCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2467,7 +2467,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2476,10 +2476,10 @@ entry(
     label = "Cds-OdCbCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -2488,7 +2488,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2497,10 +2497,10 @@ entry(
     label = "Cds-OdCbCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Od      0 {1,D}
+3   Cb      0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
     shortDesc = u"""""",
@@ -2509,7 +2509,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2518,10 +2518,10 @@ entry(
     label = "Cds-OdCb(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     CO 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   CO 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -2530,7 +2530,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2539,10 +2539,10 @@ entry(
     label = "Cds-OdCb(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   Cd 0 {1,S}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
     shortDesc = u"""""",
@@ -2551,7 +2551,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2560,11 +2560,11 @@ entry(
     label = "Cds-OdCb(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cd 0 {4,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   Cd 0 {1,S} {5,D}
+5   Cd 0 {4,D}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2573,7 +2573,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2582,11 +2582,11 @@ entry(
     label = "Cds-OdCb(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cb  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D}
 """,
     thermo = 'Cds-OdCb(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -2595,7 +2595,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2604,12 +2604,12 @@ entry(
     label = "Cds-OdCb(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cb  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Od(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2618,7 +2618,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2627,12 +2627,12 @@ entry(
     label = "Cds-OdCb(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Od  0 {1,D}
+3   Cb  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-OdCb(Cds-Cds)',
     shortDesc = u"""""",
@@ -2641,7 +2641,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2650,10 +2650,10 @@ entry(
     label = "Cds-OdCbCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
 """,
     thermo = 'Cds-OdCt(Cds-Cds)',
     shortDesc = u"""""",
@@ -2662,7 +2662,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2671,10 +2671,10 @@ entry(
     label = "Cds-OdCbCb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Od 0 {1,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Od 0 {1,D}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
 """,
     thermo = 'Cds-Od(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -2683,7 +2683,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2692,10 +2692,10 @@ entry(
     label = "Cds-CdHH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D}
+3   H 0 {1,S}
+4   H 0 {1,S}
 """,
     thermo = 'Cds-CdsHH',
     shortDesc = u"""""",
@@ -2704,7 +2704,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2713,10 +2713,10 @@ entry(
     label = "Cds-CdsHH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   H  0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2730,7 +2730,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2739,10 +2739,10 @@ entry(
     label = "Cds-CddHH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)HH',
     shortDesc = u"""""",
@@ -2751,7 +2751,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2760,11 +2760,11 @@ entry(
     label = "Cds-(Cdd-Od)HH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2778,7 +2778,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2787,11 +2787,11 @@ entry(
     label = "Cds-(Cdd-Cd)HH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsHH',
     shortDesc = u"""""",
@@ -2800,7 +2800,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2809,10 +2809,10 @@ entry(
     label = "Cds-CdOsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   C  0 {1,D}
+3   Os 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = 'Cds-CdsOsH',
     shortDesc = u"""""",
@@ -2821,7 +2821,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2830,10 +2830,10 @@ entry(
     label = "Cds-CdsOsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Os 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2847,7 +2847,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2856,10 +2856,10 @@ entry(
     label = "Cds-CddOsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Os  0 {1,S}
+4   H   0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)OsH',
     shortDesc = u"""""",
@@ -2868,7 +2868,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2877,11 +2877,11 @@ entry(
     label = "Cds-(Cdd-Od)OsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Os  0 {1,S}
+4   H   0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -2895,7 +2895,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2904,11 +2904,11 @@ entry(
     label = "Cds-(Cdd-Cd)OsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Os  0 {1,S}
+4   H   0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsOsH',
     shortDesc = u"""""",
@@ -2917,7 +2917,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2926,10 +2926,10 @@ entry(
     label = "Cds-CdOsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   C  0 {1,D}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = 'Cds-CdsOsOs',
     shortDesc = u"""""",
@@ -2938,7 +2938,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2947,10 +2947,10 @@ entry(
     label = "Cds-CdsOsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = 'Cds-CdsCsCs',
     shortDesc = u"""""",
@@ -2959,7 +2959,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2968,10 +2968,10 @@ entry(
     label = "Cds-CddOsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)OsOs',
     shortDesc = u"""""",
@@ -2980,7 +2980,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -2989,11 +2989,11 @@ entry(
     label = "Cds-(Cdd-Od)OsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3007,7 +3007,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3016,11 +3016,11 @@ entry(
     label = "Cds-(Cdd-Cd)OsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsOsOs',
     shortDesc = u"""""",
@@ -3029,7 +3029,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3038,10 +3038,10 @@ entry(
     label = "Cds-CdCH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3     C 0 {1,S}
-4     H 0 {1,S}
+1 * C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D}
+3   C 0 {1,S}
+4   H 0 {1,S}
 """,
     thermo = 'Cds-CdsCsH',
     shortDesc = u"""""",
@@ -3050,7 +3050,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3059,10 +3059,10 @@ entry(
     label = "Cds-CdsCsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3076,7 +3076,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3085,10 +3085,10 @@ entry(
     label = "Cds-CdsCdsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     H 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cd      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   H       0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3097,7 +3097,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3106,10 +3106,10 @@ entry(
     label = "Cds-Cds(Cds-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   CO 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3123,7 +3123,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3132,10 +3132,10 @@ entry(
     label = "Cds-Cds(Cds-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3144,7 +3144,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3153,11 +3153,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   H  0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3171,7 +3171,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3180,11 +3180,11 @@ entry(
     label = "Cds-Cds(Cds-Cdd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   H   0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -3193,7 +3193,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3202,12 +3202,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   H   0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3216,7 +3216,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3225,12 +3225,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     H 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   H   0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3239,7 +3239,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3248,10 +3248,10 @@ entry(
     label = "Cds-CdsCtH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Ct 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3265,7 +3265,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3274,10 +3274,10 @@ entry(
     label = "Cds-CdsCbH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cb 0 {1,S}
+4   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3291,7 +3291,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3300,10 +3300,10 @@ entry(
     label = "Cds-CddCsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsH',
     shortDesc = u"""""",
@@ -3312,7 +3312,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3321,11 +3321,11 @@ entry(
     label = "Cds-(Cdd-Od)CsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3339,7 +3339,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3348,11 +3348,11 @@ entry(
     label = "Cds-(Cdd-Cd)CsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCsH',
     shortDesc = u"""""",
@@ -3361,7 +3361,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3370,10 +3370,10 @@ entry(
     label = "Cds-CddCdsH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     H 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cdd     0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   H       0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3382,7 +3382,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3391,11 +3391,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   H   0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsH',
     shortDesc = u"""""",
@@ -3404,7 +3404,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3413,11 +3413,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   H   0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3426,7 +3426,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3435,12 +3435,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cds)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     Od 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   Od  0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsH',
     shortDesc = u"""""",
@@ -3449,7 +3449,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3458,12 +3458,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -3472,7 +3472,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3481,13 +3481,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3501,7 +3501,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3510,13 +3510,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3525,7 +3525,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3534,11 +3534,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     H 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   H   0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)H',
     shortDesc = u"""""",
@@ -3547,7 +3547,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3556,11 +3556,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     H 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   H   0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3569,7 +3569,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3578,12 +3578,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     C 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   C   0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3592,7 +3592,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3601,12 +3601,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -3615,7 +3615,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3624,13 +3624,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -3639,7 +3639,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3648,13 +3648,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3663,7 +3663,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3672,10 +3672,10 @@ entry(
     label = "Cds-CddCtH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Ct  0 {1,S}
+4   H   0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtH',
     shortDesc = u"""""",
@@ -3684,7 +3684,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3693,11 +3693,11 @@ entry(
     label = "Cds-(Cdd-Od)CtH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   H   0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3706,7 +3706,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3715,11 +3715,11 @@ entry(
     label = "Cds-(Cdd-Cd)CtH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   H   0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCtH',
     shortDesc = u"""""",
@@ -3728,7 +3728,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3737,10 +3737,10 @@ entry(
     label = "Cds-CddCbH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cb  0 {1,S}
+4   H   0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbH',
     shortDesc = u"""""",
@@ -3749,7 +3749,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3758,11 +3758,11 @@ entry(
     label = "Cds-(Cdd-Od)CbH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   H   0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -3771,7 +3771,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3780,11 +3780,11 @@ entry(
     label = "Cds-(Cdd-Cd)CbH",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   H   0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCbH',
     shortDesc = u"""""",
@@ -3793,7 +3793,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3802,10 +3802,10 @@ entry(
     label = "Cds-CdCO",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3     C 0 {1,S}
-4     O 0 {1,S}
+1 * C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D}
+3   C 0 {1,S}
+4   O 0 {1,S}
 """,
     thermo = 'Cds-CdsCsOs',
     shortDesc = u"""""",
@@ -3814,7 +3814,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3823,10 +3823,10 @@ entry(
     label = "Cds-CdsCsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3840,7 +3840,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3849,10 +3849,10 @@ entry(
     label = "Cds-CdsCdsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cd      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -3861,7 +3861,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3870,10 +3870,10 @@ entry(
     label = "Cds-Cds(Cds-Od)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   CO 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3887,7 +3887,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3896,10 +3896,10 @@ entry(
     label = "Cds-Cds(Cds-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -3908,7 +3908,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3917,11 +3917,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Os 0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -3935,7 +3935,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3944,11 +3944,11 @@ entry(
     label = "Cds-Cds(Cds-Cdd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Os  0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -3957,7 +3957,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3966,12 +3966,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Os  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -3980,7 +3980,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -3989,12 +3989,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Os 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Os  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4003,7 +4003,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4012,10 +4012,10 @@ entry(
     label = "Cds-CdsCtOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4024,7 +4024,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4033,10 +4033,10 @@ entry(
     label = "Cds-CdsCbOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4050,7 +4050,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4059,10 +4059,10 @@ entry(
     label = "Cds-CddCsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsOs',
     shortDesc = u"""""",
@@ -4071,7 +4071,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4080,11 +4080,11 @@ entry(
     label = "Cds-(Cdd-Od)CsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4098,7 +4098,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4107,11 +4107,11 @@ entry(
     label = "Cds-(Cdd-Cd)CsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCsOs',
     shortDesc = u"""""",
@@ -4120,7 +4120,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4129,10 +4129,10 @@ entry(
     label = "Cds-CddCdsOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cdd     0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4141,7 +4141,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4150,11 +4150,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Od)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsOs',
     shortDesc = u"""""",
@@ -4163,7 +4163,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4172,11 +4172,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4185,7 +4185,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4194,12 +4194,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cds)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsOs',
     shortDesc = u"""""",
@@ -4208,7 +4208,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4217,12 +4217,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -4231,7 +4231,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4240,13 +4240,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4260,7 +4260,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4269,13 +4269,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4284,7 +4284,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4293,11 +4293,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Os  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4306,7 +4306,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4315,12 +4315,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     C 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   C   0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4329,7 +4329,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4338,12 +4338,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -4352,7 +4352,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4361,13 +4361,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -4376,7 +4376,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4385,13 +4385,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4400,7 +4400,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4409,10 +4409,10 @@ entry(
     label = "Cds-CddCtOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtOs',
     shortDesc = u"""""",
@@ -4421,7 +4421,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4430,11 +4430,11 @@ entry(
     label = "Cds-(Cdd-Od)CtOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4443,7 +4443,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4452,11 +4452,11 @@ entry(
     label = "Cds-(Cdd-Cd)CtOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCtOs',
     shortDesc = u"""""",
@@ -4465,7 +4465,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4474,10 +4474,10 @@ entry(
     label = "Cds-CddCbOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbOs',
     shortDesc = u"""""",
@@ -4486,7 +4486,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4495,11 +4495,11 @@ entry(
     label = "Cds-(Cdd-Od)CbOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -4508,7 +4508,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4517,11 +4517,11 @@ entry(
     label = "Cds-(Cdd-Cd)CbOs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCbOs',
     shortDesc = u"""""",
@@ -4530,7 +4530,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4539,10 +4539,10 @@ entry(
     label = "Cds-CdCC",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     C 0 {1,D}
-3     C 0 {1,S}
-4     C 0 {1,S}
+1 * C 0 {2,D} {3,S} {4,S}
+2   C 0 {1,D}
+3   C 0 {1,S}
+4   C 0 {1,S}
 """,
     thermo = 'Cds-CdsCsCs',
     shortDesc = u"""""",
@@ -4551,7 +4551,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4560,10 +4560,10 @@ entry(
     label = "Cds-CdsCsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4577,7 +4577,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4586,10 +4586,10 @@ entry(
     label = "Cds-CdsCdsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cd      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -4598,7 +4598,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4607,10 +4607,10 @@ entry(
     label = "Cds-Cds(Cds-Od)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   CO 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4624,7 +4624,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4633,10 +4633,10 @@ entry(
     label = "Cds-Cds(Cds-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -4645,7 +4645,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4654,11 +4654,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Cs 0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4672,7 +4672,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4681,11 +4681,11 @@ entry(
     label = "Cds-Cds(Cds-Cdd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cs  0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -4694,7 +4694,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4703,12 +4703,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cs  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -4717,7 +4717,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4726,12 +4726,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cs 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cs  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -4740,7 +4740,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4749,10 +4749,10 @@ entry(
     label = "Cds-CdsCdsCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cd      0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -4761,7 +4761,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4770,10 +4770,10 @@ entry(
     label = "Cds-Cds(Cds-Od)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
 """,
     thermo = 'Cds-CdsCsCs',
     shortDesc = u"""""",
@@ -4782,7 +4782,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4791,10 +4791,10 @@ entry(
     label = "Cds-Cds(Cds-Od)(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   CO 0 {1,S}
+4   Cd 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -4803,7 +4803,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4812,11 +4812,11 @@ entry(
     label = "Cds-Cds(Cds-Od)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cd 0 {4,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   CO 0 {1,S}
+4   Cd 0 {1,S} {5,D}
+5   Cd 0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4830,7 +4830,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4839,11 +4839,11 @@ entry(
     label = "Cds-Cds(Cds-Od)(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -4852,7 +4852,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4861,12 +4861,12 @@ entry(
     label = "Cds-Cds(Cds-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -4875,7 +4875,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4884,12 +4884,12 @@ entry(
     label = "Cds-Cds(Cds-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {5,D}
-5     Cdd 0 {4,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {5,D}
+5   Cdd 0 {4,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -4898,7 +4898,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4907,10 +4907,10 @@ entry(
     label = "Cds-Cds(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -4919,7 +4919,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4928,12 +4928,12 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {3,D}
-6     Cd 0 {4,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Cd 0 {1,S} {6,D}
+5   Cd 0 {3,D}
+6   Cd 0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -4947,7 +4947,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4956,12 +4956,12 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {3,D}
-6     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {3,D}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -4970,7 +4970,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -4979,13 +4979,13 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {3,D}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {3,D}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -4994,7 +4994,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5003,13 +5003,13 @@ entry(
     label = "Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {3,D}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {3,D}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -5018,7 +5018,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5027,12 +5027,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D}
-6     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -5041,7 +5041,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5050,14 +5050,14 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Od 0 {5,D}
-8     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Od  0 {5,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -5066,7 +5066,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5075,14 +5075,14 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Od 0 {5,D}
-8     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Od  0 {5,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -5091,7 +5091,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5100,14 +5100,14 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cd 0 {1,S} {6,D}
-5     Cdd 0 {3,D} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     C 0 {5,D}
-8     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cd  0 {1,S} {6,D}
+5   Cdd 0 {3,D} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   C   0 {5,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -5116,7 +5116,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5125,10 +5125,10 @@ entry(
     label = "Cds-CdsCtCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5142,7 +5142,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5151,10 +5151,10 @@ entry(
     label = "Cds-CdsCtCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cd      0 {1,D}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -5163,7 +5163,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5172,10 +5172,10 @@ entry(
     label = "Cds-CdsCt(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Ct 0 {1,S}
-4     CO 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Ct 0 {1,S}
+4   CO 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -5184,7 +5184,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5193,10 +5193,10 @@ entry(
     label = "Cds-CdsCt(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Ct 0 {1,S}
+4   Cd 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -5205,7 +5205,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5214,11 +5214,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Ct 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Ct 0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5232,7 +5232,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5241,11 +5241,11 @@ entry(
     label = "Cds-Cds(Cds-Cdd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Ct 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Ct  0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -5254,7 +5254,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5263,12 +5263,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Ct 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Ct  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -5277,7 +5277,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5286,12 +5286,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Ct 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Ct  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -5300,7 +5300,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5309,10 +5309,10 @@ entry(
     label = "Cds-CdsCtCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5326,7 +5326,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5335,10 +5335,10 @@ entry(
     label = "Cds-CdsCbCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5352,7 +5352,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5361,10 +5361,10 @@ entry(
     label = "Cds-CdsCbCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cb 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cd      0 {1,D}
+3   Cb      0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -5373,7 +5373,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5382,10 +5382,10 @@ entry(
     label = "Cds-CdsCb(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cb 0 {1,S}
-4     CO 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cb 0 {1,S}
+4   CO 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -5394,7 +5394,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5403,10 +5403,10 @@ entry(
     label = "Cds-Cds(Cds-Cd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -5415,7 +5415,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5424,11 +5424,11 @@ entry(
     label = "Cds-Cds(Cds-Cds)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cb 0 {1,S}
-5     Cd 0 {3,D}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cd 0 {1,S} {5,D}
+4   Cb 0 {1,S}
+5   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5442,7 +5442,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5451,11 +5451,11 @@ entry(
     label = "Cds-Cds(Cds-Cdd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cb 0 {1,S}
-5     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cb  0 {1,S}
+5   Cdd 0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -5464,7 +5464,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5473,12 +5473,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cb 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     Od 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cb  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   Od  0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -5487,7 +5487,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5496,12 +5496,12 @@ entry(
     label = "Cds-Cds(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cd 0 {1,S} {5,D}
-4     Cb 0 {1,S}
-5     Cdd 0 {3,D} {6,D}
-6     C 0 {5,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cd  0 {1,D}
+3   Cd  0 {1,S} {5,D}
+4   Cb  0 {1,S}
+5   Cdd 0 {3,D} {6,D}
+6   C   0 {5,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -5510,7 +5510,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5519,10 +5519,10 @@ entry(
     label = "Cds-CdsCbCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5536,7 +5536,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5545,10 +5545,10 @@ entry(
     label = "Cds-CdsCbCb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cd 0 {1,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
+1 * C  0 {2,D} {3,S} {4,S}
+2   Cd 0 {1,D}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5562,7 +5562,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5571,10 +5571,10 @@ entry(
     label = "Cds-CddCsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CsCs',
     shortDesc = u"""""",
@@ -5583,7 +5583,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5592,11 +5592,11 @@ entry(
     label = "Cds-(Cdd-Od)CsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5610,7 +5610,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5619,11 +5619,11 @@ entry(
     label = "Cds-(Cdd-Cd)CsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCsCs',
     shortDesc = u"""""",
@@ -5632,7 +5632,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5641,10 +5641,10 @@ entry(
     label = "Cds-CddCdsCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cdd     0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -5653,7 +5653,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5662,11 +5662,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Od)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -5675,7 +5675,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5684,11 +5684,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -5697,7 +5697,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5706,12 +5706,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cds)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -5720,7 +5720,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5729,12 +5729,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -5743,7 +5743,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5752,13 +5752,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -5772,7 +5772,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5781,13 +5781,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -5796,7 +5796,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5805,11 +5805,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -5818,7 +5818,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5827,12 +5827,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -5841,7 +5841,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5850,12 +5850,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -5864,7 +5864,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5873,13 +5873,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -5888,7 +5888,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5897,13 +5897,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -5912,7 +5912,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5921,10 +5921,10 @@ entry(
     label = "Cds-CddCdsCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cdd     0 {1,D}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -5933,7 +5933,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5942,11 +5942,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Od)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   CO  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -5955,7 +5955,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5964,11 +5964,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cd)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     CO 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   CO  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -5977,7 +5977,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -5986,12 +5986,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     CO 0 {1,S}
-5     Od 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   CO  0 {1,S}
+5   Od  0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Od)Cs',
     shortDesc = u"""""",
@@ -6000,7 +6000,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6009,12 +6009,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     CO 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   CO  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Od)',
     shortDesc = u"""""",
@@ -6023,7 +6023,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6032,13 +6032,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     CO 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   CO  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -6047,7 +6047,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6056,13 +6056,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     CO 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   CO  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -6071,7 +6071,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6080,11 +6080,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Cd  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6093,7 +6093,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6102,13 +6102,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cd  0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -6117,7 +6117,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6126,13 +6126,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
-7     Cd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6141,7 +6141,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6150,14 +6150,14 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -6166,7 +6166,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6175,14 +6175,14 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6191,7 +6191,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6200,13 +6200,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -6215,7 +6215,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6224,15 +6224,15 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6241,7 +6241,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6250,15 +6250,15 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6267,7 +6267,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6276,15 +6276,15 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6293,7 +6293,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6302,11 +6302,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Od)(Cds-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   CO  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Od)',
     shortDesc = u"""""",
@@ -6315,7 +6315,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6324,11 +6324,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Od)(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6337,7 +6337,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6346,12 +6346,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Od)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     C 0 {2,D}
-6     Cd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   C   0 {2,D}
+6   Cd  0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6360,7 +6360,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6369,12 +6369,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Od)(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     C 0 {2,D}
-6     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   C   0 {2,D}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Od)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -6383,7 +6383,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6392,13 +6392,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     C 0 {2,D}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   C   0 {2,D}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -6407,7 +6407,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6416,13 +6416,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     C 0 {2,D}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   C   0 {2,D}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6431,7 +6431,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6440,11 +6440,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Cd  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6453,7 +6453,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6462,13 +6462,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cd  0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6477,7 +6477,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6486,13 +6486,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cdd 0 {3,D}
-7     Cd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cdd 0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6501,7 +6501,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6510,14 +6510,14 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -6526,7 +6526,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6535,14 +6535,14 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6551,7 +6551,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6560,13 +6560,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -6575,7 +6575,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6584,15 +6584,15 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -6601,7 +6601,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6610,15 +6610,15 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6627,7 +6627,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6636,15 +6636,15 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6653,7 +6653,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6662,10 +6662,10 @@ entry(
     label = "Cds-CddCtCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtCs',
     shortDesc = u"""""",
@@ -6674,7 +6674,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6683,11 +6683,11 @@ entry(
     label = "Cds-(Cdd-Od)CtCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -6696,7 +6696,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6705,11 +6705,11 @@ entry(
     label = "Cds-(Cdd-Cd)CtCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCtCs',
     shortDesc = u"""""",
@@ -6718,7 +6718,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6727,10 +6727,10 @@ entry(
     label = "Cds-CddCtCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cdd     0 {1,D}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -6739,7 +6739,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6748,11 +6748,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Od)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -6761,7 +6761,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6770,11 +6770,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -6783,7 +6783,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6792,12 +6792,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cds)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6806,7 +6806,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6815,12 +6815,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -6829,7 +6829,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6838,13 +6838,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -6853,7 +6853,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6862,13 +6862,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -6877,7 +6877,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6886,11 +6886,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Ct  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -6899,7 +6899,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6908,12 +6908,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     C 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   C   0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -6922,7 +6922,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6931,12 +6931,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -6945,7 +6945,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6954,13 +6954,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Ct',
     shortDesc = u"""""",
@@ -6969,7 +6969,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -6978,13 +6978,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -6993,7 +6993,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7002,10 +7002,10 @@ entry(
     label = "Cds-CddCtCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CtCt',
     shortDesc = u"""""",
@@ -7014,7 +7014,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7023,11 +7023,11 @@ entry(
     label = "Cds-(Cdd-Od)CtCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -7036,7 +7036,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7045,11 +7045,11 @@ entry(
     label = "Cds-(Cdd-Cd)CtCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCtCt',
     shortDesc = u"""""",
@@ -7058,7 +7058,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7067,10 +7067,10 @@ entry(
     label = "Cds-CddCbCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbCs',
     shortDesc = u"""""",
@@ -7079,7 +7079,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7088,11 +7088,11 @@ entry(
     label = "Cds-(Cdd-Od)CbCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -7101,7 +7101,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7110,11 +7110,11 @@ entry(
     label = "Cds-(Cdd-Cd)CbCs",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCbCs',
     shortDesc = u"""""",
@@ -7123,7 +7123,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7132,10 +7132,10 @@ entry(
     label = "Cds-CddCbCds",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cb 0 {1,S}
-4     {Cd,CO} 0 {1,S}
+1 * C       0 {2,D} {3,S} {4,S}
+2   Cdd     0 {1,D}
+3   Cb      0 {1,S}
+4   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -7144,7 +7144,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7153,11 +7153,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Od)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     CO 0 {1,S}
-4     Cb 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   CO  0 {1,S}
+4   Cb  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Od)',
     shortDesc = u"""""",
@@ -7166,7 +7166,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7175,11 +7175,11 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Cb  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -7188,7 +7188,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7197,12 +7197,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cds)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Od 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Od  0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -7211,7 +7211,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7220,12 +7220,12 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -7234,7 +7234,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7243,13 +7243,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -7258,7 +7258,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7267,13 +7267,13 @@ entry(
     label = "Cds-(Cdd-Od)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Od 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Od  0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -7282,7 +7282,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7291,11 +7291,11 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S}
+4   Cb  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -7304,7 +7304,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7313,12 +7313,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     C 0 {2,D}
-6     Cd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   C   0 {2,D}
+6   Cd  0 {3,D}
 """,
     thermo = 'Cds-Cds(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -7327,7 +7327,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7336,12 +7336,12 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -7350,7 +7350,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7359,13 +7359,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cds-Cds(Cds-Cdd-Od)Cb',
     shortDesc = u"""""",
@@ -7374,7 +7374,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7383,13 +7383,13 @@ entry(
     label = "Cds-(Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     C 0 {2,D}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   C   0 {2,D}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cds-(Cdd-Cd)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -7398,7 +7398,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7407,10 +7407,10 @@ entry(
     label = "Cds-CddCbCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbCt',
     shortDesc = u"""""",
@@ -7419,7 +7419,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7428,11 +7428,11 @@ entry(
     label = "Cds-(Cdd-Od)CbCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -7441,7 +7441,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7450,11 +7450,11 @@ entry(
     label = "Cds-(Cdd-Cd)CbCt",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCbCt',
     shortDesc = u"""""",
@@ -7463,7 +7463,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7472,10 +7472,10 @@ entry(
     label = "Cds-CddCbCb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
 """,
     thermo = 'Cds-(Cdd-Cd)CbCb',
     shortDesc = u"""""",
@@ -7484,7 +7484,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7493,11 +7493,11 @@ entry(
     label = "Cds-(Cdd-Od)CbCb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Od 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Od  0 {2,D}
 """,
     thermo = 'Cds-(Cdd-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -7506,7 +7506,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7515,11 +7515,11 @@ entry(
     label = "Cds-(Cdd-Cd)CbCb",
     group = 
 """
-1  *  C 0 {2,D} {3,S} {4,S}
-2     Cdd 0 {1,D} {5,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     C 0 {2,D}
+1 * C   0 {2,D} {3,S} {4,S}
+2   Cdd 0 {1,D} {5,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   C   0 {2,D}
 """,
     thermo = 'Cds-CdsCbCb',
     shortDesc = u"""""",
@@ -7528,7 +7528,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7537,7 +7537,7 @@ entry(
     label = "Cs",
     group = 
 """
-1  *  Cs 0
+1 * Cs 0
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = u"""""",
@@ -7546,7 +7546,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7555,11 +7555,11 @@ entry(
     label = "Cs-HHHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7573,7 +7573,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7582,11 +7582,11 @@ entry(
     label = "Cs-CHHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsHHH',
     shortDesc = u"""""",
@@ -7595,7 +7595,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7604,11 +7604,11 @@ entry(
     label = "Cs-CsHHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7622,7 +7622,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7631,11 +7631,11 @@ entry(
     label = "Cs-CdsHHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   H       0 {1,S}
+4   H       0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)HHH',
     shortDesc = u"""""",
@@ -7644,7 +7644,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7653,11 +7653,11 @@ entry(
     label = "Cs-(Cds-Od)HHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7671,7 +7671,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7680,11 +7680,11 @@ entry(
     label = "Cs-(Cds-Cd)HHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)HHH',
     shortDesc = u"""""",
@@ -7693,7 +7693,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7702,12 +7702,12 @@ entry(
     label = "Cs-(Cds-Cds)HHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7721,7 +7721,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7730,12 +7730,12 @@ entry(
     label = "Cs-(Cds-Cdd)HHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)HHH',
     shortDesc = u"""""",
@@ -7744,7 +7744,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7753,13 +7753,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)HHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7773,7 +7773,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7782,13 +7782,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)HHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   H   0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)HHH',
     shortDesc = u"""""",
@@ -7797,7 +7797,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7806,11 +7806,11 @@ entry(
     label = "Cs-CtHHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7824,7 +7824,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7833,11 +7833,11 @@ entry(
     label = "Cs-CbHHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7851,7 +7851,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7860,11 +7860,11 @@ entry(
     label = "Cs-OsHHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Os 0 {1,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Os 0 {1,S}
+3   H  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7878,7 +7878,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7887,11 +7887,11 @@ entry(
     label = "Cs-OsOsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Os 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Os 0 {1,S}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7905,7 +7905,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7914,11 +7914,11 @@ entry(
     label = "Cs-OsOsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Os 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Os 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7932,7 +7932,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7941,11 +7941,11 @@ entry(
     label = "Cs-CCHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   C  0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsCsHH',
     shortDesc = u"""""",
@@ -7954,7 +7954,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7963,11 +7963,11 @@ entry(
     label = "Cs-CsCsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -7981,7 +7981,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -7990,11 +7990,11 @@ entry(
     label = "Cs-CdsCsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Cs      0 {1,S}
+4   H       0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsHH',
     shortDesc = u"""""",
@@ -8003,7 +8003,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8012,11 +8012,11 @@ entry(
     label = "Cs-(Cds-Od)CsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8030,7 +8030,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8039,11 +8039,11 @@ entry(
     label = "Cs-(Cds-Cd)CsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsHH',
     shortDesc = u"""""",
@@ -8052,7 +8052,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8061,12 +8061,12 @@ entry(
     label = "Cs-(Cds-Cds)CsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8080,7 +8080,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8089,12 +8089,12 @@ entry(
     label = "Cs-(Cds-Cdd)CsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsHH',
     shortDesc = u"""""",
@@ -8103,7 +8103,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8112,13 +8112,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8132,7 +8132,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8141,13 +8141,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsHH',
     shortDesc = u"""""",
@@ -8156,7 +8156,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8165,11 +8165,11 @@ entry(
     label = "Cs-CdsCdsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   H       0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8178,7 +8178,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8187,11 +8187,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8205,7 +8205,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8214,11 +8214,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8227,7 +8227,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8236,12 +8236,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   H  0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8255,7 +8255,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8264,12 +8264,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)HH',
     shortDesc = u"""""",
@@ -8278,7 +8278,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8287,13 +8287,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsHH',
     shortDesc = u"""""",
@@ -8302,7 +8302,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8311,13 +8311,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8326,7 +8326,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8335,11 +8335,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8348,7 +8348,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8357,13 +8357,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   H  0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8377,7 +8377,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8386,13 +8386,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8401,7 +8401,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8410,14 +8410,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsHH',
     shortDesc = u"""""",
@@ -8426,7 +8426,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8435,14 +8435,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8451,7 +8451,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8460,13 +8460,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH',
     shortDesc = u"""""",
@@ -8475,7 +8475,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8484,15 +8484,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8506,7 +8506,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8515,15 +8515,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8532,7 +8532,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8541,15 +8541,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)HH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8558,7 +8558,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8567,11 +8567,11 @@ entry(
     label = "Cs-CtCsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8585,7 +8585,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8594,11 +8594,11 @@ entry(
     label = "Cs-CtCdsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   H       0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtHH',
     shortDesc = u"""""",
@@ -8607,7 +8607,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8616,11 +8616,11 @@ entry(
     label = "Cs-(Cds-Od)CtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8634,7 +8634,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8643,11 +8643,11 @@ entry(
     label = "Cs-(Cds-Cd)CtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtHH',
     shortDesc = u"""""",
@@ -8656,7 +8656,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8665,12 +8665,12 @@ entry(
     label = "Cs-(Cds-Cds)CtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8684,7 +8684,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8693,12 +8693,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtHH',
     shortDesc = u"""""",
@@ -8707,7 +8707,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8716,13 +8716,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8731,7 +8731,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8740,13 +8740,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtHH',
     shortDesc = u"""""",
@@ -8755,7 +8755,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8764,11 +8764,11 @@ entry(
     label = "Cs-CtCtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8782,7 +8782,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8791,11 +8791,11 @@ entry(
     label = "Cs-CbCsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cs 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cs 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8809,7 +8809,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8818,11 +8818,11 @@ entry(
     label = "Cs-CbCdsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   H       0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbHH',
     shortDesc = u"""""",
@@ -8831,7 +8831,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8840,11 +8840,11 @@ entry(
     label = "Cs-(Cds-Od)CbHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8858,7 +8858,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8867,11 +8867,11 @@ entry(
     label = "Cs-(Cds-Cd)CbHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbHH',
     shortDesc = u"""""",
@@ -8880,7 +8880,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8889,12 +8889,12 @@ entry(
     label = "Cs-(Cds-Cds)CbHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -8908,7 +8908,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8917,12 +8917,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbHH',
     shortDesc = u"""""",
@@ -8931,7 +8931,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8940,13 +8940,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)HH',
     shortDesc = u"""""",
@@ -8955,7 +8955,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8964,13 +8964,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbHH',
     shortDesc = u"""""",
@@ -8979,7 +8979,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -8988,11 +8988,11 @@ entry(
     label = "Cs-CbCtHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9006,7 +9006,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9015,11 +9015,11 @@ entry(
     label = "Cs-CbCbHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9033,7 +9033,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9042,11 +9042,11 @@ entry(
     label = "Cs-CCCH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   C  0 {1,S}
+4   C  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsCsCsH',
     shortDesc = u"""""",
@@ -9055,7 +9055,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9064,11 +9064,11 @@ entry(
     label = "Cs-CsCsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9082,7 +9082,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9091,11 +9091,11 @@ entry(
     label = "Cs-CdsCsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Cs      0 {1,S}
+4   Cs      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsH',
     shortDesc = u"""""",
@@ -9104,7 +9104,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9113,11 +9113,11 @@ entry(
     label = "Cs-(Cds-Od)CsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9131,7 +9131,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9140,11 +9140,11 @@ entry(
     label = "Cs-(Cds-Cd)CsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsH',
     shortDesc = u"""""",
@@ -9153,7 +9153,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9162,12 +9162,12 @@ entry(
     label = "Cs-(Cds-Cds)CsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9181,7 +9181,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9190,12 +9190,12 @@ entry(
     label = "Cs-(Cds-Cdd)CsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsCsH',
     shortDesc = u"""""",
@@ -9204,7 +9204,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9213,13 +9213,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9233,7 +9233,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9242,13 +9242,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9262,7 +9262,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9271,11 +9271,11 @@ entry(
     label = "Cs-CtCsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9289,7 +9289,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9298,11 +9298,11 @@ entry(
     label = "Cs-CbCsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9316,7 +9316,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9325,11 +9325,11 @@ entry(
     label = "Cs-CdsCdsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9338,7 +9338,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9347,11 +9347,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsCsCsH',
     shortDesc = u"""""",
@@ -9360,7 +9360,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9369,11 +9369,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9382,7 +9382,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9391,12 +9391,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsH',
     shortDesc = u"""""",
@@ -9405,7 +9405,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9414,12 +9414,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CsH',
     shortDesc = u"""""",
@@ -9428,7 +9428,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9437,13 +9437,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
     shortDesc = u"""""",
@@ -9452,7 +9452,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9461,13 +9461,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9476,7 +9476,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9485,11 +9485,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9498,7 +9498,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9507,13 +9507,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9527,7 +9527,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9536,13 +9536,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9551,7 +9551,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9560,14 +9560,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
     shortDesc = u"""""",
@@ -9576,7 +9576,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9585,14 +9585,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9601,7 +9601,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9610,13 +9610,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH',
     shortDesc = u"""""",
@@ -9625,7 +9625,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9634,15 +9634,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9656,7 +9656,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9665,15 +9665,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9682,7 +9682,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9691,15 +9691,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9708,7 +9708,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9717,11 +9717,11 @@ entry(
     label = "Cs-CtCdsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsH',
     shortDesc = u"""""",
@@ -9730,7 +9730,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9739,11 +9739,11 @@ entry(
     label = "Cs-(Cds-Od)CtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9752,7 +9752,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9761,11 +9761,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsH',
     shortDesc = u"""""",
@@ -9774,7 +9774,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9783,12 +9783,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9802,7 +9802,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9811,12 +9811,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCsH',
     shortDesc = u"""""",
@@ -9825,7 +9825,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9834,13 +9834,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9849,7 +9849,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9858,13 +9858,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsH',
     shortDesc = u"""""",
@@ -9873,7 +9873,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9882,11 +9882,11 @@ entry(
     label = "Cs-CbCdsCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsH',
     shortDesc = u"""""",
@@ -9895,7 +9895,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9904,11 +9904,11 @@ entry(
     label = "Cs-(Cds-Od)CbCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -9917,7 +9917,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9926,11 +9926,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsH',
     shortDesc = u"""""",
@@ -9939,7 +9939,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9948,12 +9948,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -9967,7 +9967,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9976,12 +9976,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCsH',
     shortDesc = u"""""",
@@ -9990,7 +9990,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -9999,13 +9999,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsH',
     shortDesc = u"""""",
@@ -10014,7 +10014,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10023,13 +10023,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsH',
     shortDesc = u"""""",
@@ -10038,7 +10038,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10047,11 +10047,11 @@ entry(
     label = "Cs-CtCtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -10065,7 +10065,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10074,11 +10074,11 @@ entry(
     label = "Cs-CbCtCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -10092,7 +10092,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10101,11 +10101,11 @@ entry(
     label = "Cs-CbCbCsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -10119,7 +10119,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10128,11 +10128,11 @@ entry(
     label = "Cs-CdsCdsCdsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10141,7 +10141,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10150,11 +10150,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsCsCsH',
     shortDesc = u"""""",
@@ -10163,7 +10163,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10172,11 +10172,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10185,7 +10185,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10194,12 +10194,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   H  0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsH',
     shortDesc = u"""""",
@@ -10208,7 +10208,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10217,12 +10217,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -10231,7 +10231,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10240,13 +10240,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
     shortDesc = u"""""",
@@ -10255,7 +10255,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10264,13 +10264,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10279,7 +10279,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10288,11 +10288,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)(Cds-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10301,7 +10301,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10310,13 +10310,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cd 0 {1,S} {7,D}
+5   H  0 {1,S}
+6   Cd 0 {3,D}
+7   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsH',
     shortDesc = u"""""",
@@ -10325,7 +10325,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10334,13 +10334,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   H   0 {1,S}
+6   Cdd 0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10349,7 +10349,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10358,14 +10358,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsH',
     shortDesc = u"""""",
@@ -10374,7 +10374,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10383,14 +10383,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10399,7 +10399,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10408,13 +10408,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   H   0 {1,S}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -10423,7 +10423,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10432,15 +10432,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsH',
     shortDesc = u"""""",
@@ -10449,7 +10449,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10458,15 +10458,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10475,7 +10475,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10484,15 +10484,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10501,7 +10501,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10510,11 +10510,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10523,7 +10523,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10532,14 +10532,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cd 0 {1,S} {8,D}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
+8   Cd 0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -10553,7 +10553,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10562,14 +10562,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   H   0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -10578,7 +10578,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10587,15 +10587,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     Od 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   H   0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsH',
     shortDesc = u"""""",
@@ -10604,7 +10604,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10613,15 +10613,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     C 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   H   0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10630,7 +10630,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10639,14 +10639,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   H   0 {1,S}
+6   Cd  0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -10655,7 +10655,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10664,16 +10664,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    H   0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsH',
     shortDesc = u"""""",
@@ -10682,7 +10682,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10691,16 +10691,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    H   0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -10709,7 +10709,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10718,16 +10718,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     C 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    H   0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    C   0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10736,7 +10736,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10745,14 +10745,14 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -10761,7 +10761,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10770,17 +10770,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    H   0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10789,7 +10789,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10798,17 +10798,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    H   0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -10817,7 +10817,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10826,17 +10826,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    H   0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -10845,7 +10845,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10854,17 +10854,17 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     C 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    H   0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    C   0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10873,7 +10873,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10882,11 +10882,11 @@ entry(
     label = "Cs-CtCdsCdsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -10895,7 +10895,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10904,11 +10904,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10917,7 +10917,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10926,11 +10926,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -10939,7 +10939,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10948,12 +10948,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -10962,7 +10962,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10971,12 +10971,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtH',
     shortDesc = u"""""",
@@ -10985,7 +10985,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -10994,13 +10994,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11009,7 +11009,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11018,13 +11018,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11033,7 +11033,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11042,11 +11042,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11055,7 +11055,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11064,13 +11064,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -11084,7 +11084,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11093,13 +11093,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11108,7 +11108,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11117,14 +11117,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -11133,7 +11133,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11142,14 +11142,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11158,7 +11158,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11167,13 +11167,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtH',
     shortDesc = u"""""",
@@ -11182,7 +11182,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11191,15 +11191,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -11208,7 +11208,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11217,15 +11217,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11234,7 +11234,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11243,15 +11243,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11260,7 +11260,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11269,11 +11269,11 @@ entry(
     label = "Cs-CbCdsCdsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11282,7 +11282,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11291,11 +11291,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cb 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11304,7 +11304,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11313,11 +11313,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11326,7 +11326,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11335,12 +11335,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cb 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11349,7 +11349,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11358,12 +11358,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbH',
     shortDesc = u"""""",
@@ -11372,7 +11372,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11381,13 +11381,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11396,7 +11396,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11405,13 +11405,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11420,7 +11420,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11429,11 +11429,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11442,7 +11442,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11451,13 +11451,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cb 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -11471,7 +11471,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11480,13 +11480,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11495,7 +11495,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11504,14 +11504,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -11520,7 +11520,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11529,14 +11529,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11545,7 +11545,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11554,13 +11554,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbH',
     shortDesc = u"""""",
@@ -11569,7 +11569,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11578,15 +11578,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -11595,7 +11595,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11604,15 +11604,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11621,7 +11621,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11630,15 +11630,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbH',
     shortDesc = u"""""",
@@ -11647,7 +11647,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11656,11 +11656,11 @@ entry(
     label = "Cs-CtCtCdsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11669,7 +11669,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11678,11 +11678,11 @@ entry(
     label = "Cs-CtCt(Cds-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     CO 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   CO 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11691,7 +11691,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11700,11 +11700,11 @@ entry(
     label = "Cs-CtCt(Cds-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Cd 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11713,7 +11713,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11722,12 +11722,12 @@ entry(
     label = "Cs-CtCt(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   H  0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -11741,7 +11741,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11750,12 +11750,12 @@ entry(
     label = "Cs-CtCt(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Ct  0 {1,S}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-CtCt(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -11764,7 +11764,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11773,13 +11773,13 @@ entry(
     label = "Cs-CtCt(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Ct  0 {1,S}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -11788,7 +11788,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11797,13 +11797,13 @@ entry(
     label = "Cs-CtCt(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Ct  0 {1,S}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11812,7 +11812,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11821,11 +11821,11 @@ entry(
     label = "Cs-CbCtCdsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-CbCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11834,7 +11834,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11843,11 +11843,11 @@ entry(
     label = "Cs-CbCt(Cds-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     CO 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   CO 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11856,7 +11856,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11865,11 +11865,11 @@ entry(
     label = "Cs-CbCt(Cds-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Cd 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CbCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11878,7 +11878,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11887,12 +11887,12 @@ entry(
     label = "Cs-CbCt(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   H  0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11901,7 +11901,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11910,12 +11910,12 @@ entry(
     label = "Cs-CbCt(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cb  0 {1,S}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-CbCt(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -11924,7 +11924,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11933,13 +11933,13 @@ entry(
     label = "Cs-CbCt(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cb  0 {1,S}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -11948,7 +11948,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11957,13 +11957,13 @@ entry(
     label = "Cs-CbCt(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cb  0 {1,S}
+3   Ct  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-CbCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11972,7 +11972,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -11981,11 +11981,11 @@ entry(
     label = "Cs-CbCbCdsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Cb      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-CbCb(Cds-Cds)H',
     shortDesc = u"""""",
@@ -11994,7 +11994,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12003,11 +12003,11 @@ entry(
     label = "Cs-CbCb(Cds-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     CO 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   CO 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -12016,7 +12016,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12025,11 +12025,11 @@ entry(
     label = "Cs-CbCb(Cds-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cd 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -12038,7 +12038,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12047,12 +12047,12 @@ entry(
     label = "Cs-CbCb(Cds-Cds)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   H  0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)H',
     shortDesc = u"""""",
@@ -12061,7 +12061,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12070,12 +12070,12 @@ entry(
     label = "Cs-CbCb(Cds-Cdd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cb  0 {1,S}
+3   Cb  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-CbCb(Cds-Cdd-Cd)H',
     shortDesc = u"""""",
@@ -12084,7 +12084,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12093,13 +12093,13 @@ entry(
     label = "Cs-CbCb(Cds-Cdd-Od)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cb  0 {1,S}
+3   Cb  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)H',
     shortDesc = u"""""",
@@ -12108,7 +12108,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12117,13 +12117,13 @@ entry(
     label = "Cs-CbCb(Cds-Cdd-Cd)H",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     H 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cb  0 {1,S}
+3   Cb  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   H   0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-CbCb(Cds-Cds)H',
     shortDesc = u"""""",
@@ -12132,7 +12132,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12141,11 +12141,11 @@ entry(
     label = "Cs-CtCtCtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12159,7 +12159,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12168,11 +12168,11 @@ entry(
     label = "Cs-CbCtCtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CtCt(Cds-Cds)H',
     shortDesc = u"""""",
@@ -12181,7 +12181,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12190,11 +12190,11 @@ entry(
     label = "Cs-CbCbCtH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtH',
     shortDesc = u"""""",
@@ -12203,7 +12203,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12212,11 +12212,11 @@ entry(
     label = "Cs-CbCbCbH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12230,7 +12230,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12239,11 +12239,11 @@ entry(
     label = "Cs-CCCC",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     C 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   C  0 {1,S}
+4   C  0 {1,S}
+5   C  0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = u"""""",
@@ -12252,7 +12252,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12261,11 +12261,11 @@ entry(
     label = "Cs-CsCsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12279,7 +12279,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12288,11 +12288,11 @@ entry(
     label = "Cs-CdsCsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Cs      0 {1,S}
+4   Cs      0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
     shortDesc = u"""""",
@@ -12301,7 +12301,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12310,11 +12310,11 @@ entry(
     label = "Cs-(Cds-Od)CsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12328,7 +12328,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12337,11 +12337,11 @@ entry(
     label = "Cs-(Cds-Cd)CsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
     shortDesc = u"""""",
@@ -12350,7 +12350,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12359,12 +12359,12 @@ entry(
     label = "Cs-(Cds-Cds)CsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12378,7 +12378,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12387,12 +12387,12 @@ entry(
     label = "Cs-(Cds-Cdd)CsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsCsCs',
     shortDesc = u"""""",
@@ -12401,7 +12401,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12410,13 +12410,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12430,7 +12430,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12439,13 +12439,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsCs',
     shortDesc = u"""""",
@@ -12454,7 +12454,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12463,11 +12463,11 @@ entry(
     label = "Cs-CtCsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12481,7 +12481,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12490,11 +12490,11 @@ entry(
     label = "Cs-CbCsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12508,7 +12508,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12517,11 +12517,11 @@ entry(
     label = "Cs-CdsCdsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12530,7 +12530,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12539,11 +12539,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = u"""""",
@@ -12552,7 +12552,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12561,11 +12561,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12574,7 +12574,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12583,12 +12583,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsCs',
     shortDesc = u"""""",
@@ -12597,7 +12597,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12606,12 +12606,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CsCs',
     shortDesc = u"""""",
@@ -12620,7 +12620,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12629,13 +12629,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
     shortDesc = u"""""",
@@ -12644,7 +12644,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12653,13 +12653,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12668,7 +12668,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12677,11 +12677,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12690,7 +12690,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12699,13 +12699,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12719,7 +12719,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12728,13 +12728,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12743,7 +12743,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12752,14 +12752,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
     shortDesc = u"""""",
@@ -12768,7 +12768,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12777,14 +12777,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12793,7 +12793,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12802,13 +12802,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs',
     shortDesc = u"""""",
@@ -12817,7 +12817,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12826,15 +12826,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12848,7 +12848,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12857,15 +12857,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12874,7 +12874,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12883,15 +12883,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12900,7 +12900,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12909,11 +12909,11 @@ entry(
     label = "Cs-CtCdsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
     shortDesc = u"""""",
@@ -12922,7 +12922,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12931,11 +12931,11 @@ entry(
     label = "Cs-(Cds-Od)CtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -12944,7 +12944,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12953,11 +12953,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
     shortDesc = u"""""",
@@ -12966,7 +12966,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -12975,12 +12975,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -12994,7 +12994,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13003,12 +13003,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCsCs',
     shortDesc = u"""""",
@@ -13017,7 +13017,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13026,13 +13026,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -13041,7 +13041,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13050,13 +13050,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsCs',
     shortDesc = u"""""",
@@ -13065,7 +13065,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13074,11 +13074,11 @@ entry(
     label = "Cs-CbCdsCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
     shortDesc = u"""""",
@@ -13087,7 +13087,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13096,11 +13096,11 @@ entry(
     label = "Cs-(Cds-Od)CbCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -13109,7 +13109,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13118,11 +13118,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
     shortDesc = u"""""",
@@ -13131,7 +13131,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13140,12 +13140,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -13159,7 +13159,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13168,12 +13168,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCsCs',
     shortDesc = u"""""",
@@ -13182,7 +13182,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13191,13 +13191,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsCs',
     shortDesc = u"""""",
@@ -13206,7 +13206,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13215,13 +13215,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsCs',
     shortDesc = u"""""",
@@ -13230,7 +13230,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13239,11 +13239,11 @@ entry(
     label = "Cs-CtCtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -13257,7 +13257,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13266,11 +13266,11 @@ entry(
     label = "Cs-CbCtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -13284,7 +13284,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13293,11 +13293,11 @@ entry(
     label = "Cs-CbCbCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -13311,7 +13311,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13320,11 +13320,11 @@ entry(
     label = "Cs-CdsCdsCdsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13333,7 +13333,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13342,11 +13342,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = u"""""",
@@ -13355,7 +13355,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13364,11 +13364,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13377,7 +13377,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13386,12 +13386,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cs 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   Cs 0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsCs',
     shortDesc = u"""""",
@@ -13400,7 +13400,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13409,12 +13409,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -13423,7 +13423,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13432,13 +13432,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
     shortDesc = u"""""",
@@ -13447,7 +13447,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13456,13 +13456,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13471,7 +13471,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13480,11 +13480,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13493,7 +13493,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13502,13 +13502,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cd 0 {1,S} {7,D}
+5   Cs 0 {1,S}
+6   Cd 0 {3,D}
+7   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsCs',
     shortDesc = u"""""",
@@ -13517,7 +13517,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13526,13 +13526,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cds)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13541,7 +13541,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13550,14 +13550,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -13566,7 +13566,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13575,14 +13575,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13591,7 +13591,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13600,13 +13600,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -13615,7 +13615,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13624,15 +13624,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -13641,7 +13641,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13650,15 +13650,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13667,7 +13667,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13676,15 +13676,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13693,7 +13693,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13702,11 +13702,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13715,7 +13715,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13724,14 +13724,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cd 0 {1,S} {8,D}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
+8   Cd 0 {4,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -13745,7 +13745,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13754,14 +13754,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cs  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -13770,7 +13770,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13779,15 +13779,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     Od 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cs  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
     shortDesc = u"""""",
@@ -13796,7 +13796,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13805,15 +13805,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     C 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cs  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13822,7 +13822,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13831,14 +13831,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cs  0 {1,S}
+6   Cd  0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -13847,7 +13847,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13856,16 +13856,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cs  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -13874,7 +13874,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13883,16 +13883,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cs  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -13901,7 +13901,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13910,16 +13910,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     C 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cs  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    C   0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -13928,7 +13928,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13937,14 +13937,14 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs',
     shortDesc = u"""""",
@@ -13953,7 +13953,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13962,17 +13962,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cs  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cs',
     shortDesc = u"""""",
@@ -13981,7 +13981,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -13990,17 +13990,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cs  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -14009,7 +14009,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14018,17 +14018,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cs  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -14037,7 +14037,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14046,17 +14046,17 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     C 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cs  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    C   0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14065,7 +14065,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14074,11 +14074,11 @@ entry(
     label = "Cs-CtCdsCdsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14087,7 +14087,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14096,11 +14096,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14109,7 +14109,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14118,11 +14118,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14131,7 +14131,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14140,12 +14140,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14154,7 +14154,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14163,12 +14163,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtCs',
     shortDesc = u"""""",
@@ -14177,7 +14177,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14186,13 +14186,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14201,7 +14201,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14210,13 +14210,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14225,7 +14225,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14234,11 +14234,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14247,7 +14247,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14256,13 +14256,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14271,7 +14271,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14280,13 +14280,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14295,7 +14295,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14304,14 +14304,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -14320,7 +14320,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14329,14 +14329,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14345,7 +14345,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14354,13 +14354,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCs',
     shortDesc = u"""""",
@@ -14369,7 +14369,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14378,15 +14378,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -14395,7 +14395,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14404,15 +14404,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14421,7 +14421,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14430,15 +14430,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -14447,7 +14447,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14456,11 +14456,11 @@ entry(
     label = "Cs-CbCdsCdsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14469,7 +14469,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14478,11 +14478,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14491,7 +14491,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14500,11 +14500,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14513,7 +14513,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14522,12 +14522,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14536,7 +14536,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14545,12 +14545,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbCs',
     shortDesc = u"""""",
@@ -14559,7 +14559,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14568,13 +14568,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14583,7 +14583,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14592,13 +14592,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14607,7 +14607,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14616,11 +14616,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14629,7 +14629,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14638,13 +14638,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14653,7 +14653,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14662,13 +14662,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14677,7 +14677,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14686,14 +14686,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -14702,7 +14702,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14711,14 +14711,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14727,7 +14727,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14736,13 +14736,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCs',
     shortDesc = u"""""",
@@ -14751,7 +14751,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14760,15 +14760,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -14777,7 +14777,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14786,15 +14786,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14803,7 +14803,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14812,15 +14812,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCs',
     shortDesc = u"""""",
@@ -14829,7 +14829,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14838,11 +14838,11 @@ entry(
     label = "Cs-CtCtCdsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
     shortDesc = u"""""",
@@ -14851,7 +14851,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14860,11 +14860,11 @@ entry(
     label = "Cs-(Cds-Od)CtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -14873,7 +14873,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14882,11 +14882,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
     shortDesc = u"""""",
@@ -14895,7 +14895,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14904,12 +14904,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -14923,7 +14923,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14932,12 +14932,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCtCs',
     shortDesc = u"""""",
@@ -14946,7 +14946,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14955,13 +14955,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -14970,7 +14970,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -14979,13 +14979,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCs',
     shortDesc = u"""""",
@@ -14994,7 +14994,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15003,11 +15003,11 @@ entry(
     label = "Cs-CbCtCdsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCs',
     shortDesc = u"""""",
@@ -15016,7 +15016,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15025,11 +15025,11 @@ entry(
     label = "Cs-(Cds-Od)CbCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -15038,7 +15038,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15047,11 +15047,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCs',
     shortDesc = u"""""",
@@ -15060,7 +15060,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15069,12 +15069,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -15088,7 +15088,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15097,12 +15097,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCtCs',
     shortDesc = u"""""",
@@ -15111,7 +15111,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15120,13 +15120,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCs',
     shortDesc = u"""""",
@@ -15135,7 +15135,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15144,13 +15144,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -15164,7 +15164,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15173,11 +15173,11 @@ entry(
     label = "Cs-CbCbCdsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Cb      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Cs      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
     shortDesc = u"""""",
@@ -15186,7 +15186,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15195,11 +15195,11 @@ entry(
     label = "Cs-(Cds-Od)CbCbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cs',
     shortDesc = u"""""",
@@ -15208,7 +15208,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15217,11 +15217,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
     shortDesc = u"""""",
@@ -15230,7 +15230,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15239,12 +15239,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -15258,7 +15258,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15267,12 +15267,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbCs',
     shortDesc = u"""""",
@@ -15281,7 +15281,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15290,13 +15290,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -15305,7 +15305,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15314,13 +15314,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Cs  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCs',
     shortDesc = u"""""",
@@ -15329,7 +15329,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15338,11 +15338,11 @@ entry(
     label = "Cs-CtCtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -15356,7 +15356,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15365,11 +15365,11 @@ entry(
     label = "Cs-CbCtCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -15383,7 +15383,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15392,11 +15392,11 @@ entry(
     label = "Cs-CbCbCtCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -15410,7 +15410,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15419,11 +15419,11 @@ entry(
     label = "Cs-CbCbCbCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -15437,7 +15437,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15446,11 +15446,11 @@ entry(
     label = "Cs-CdsCdsCdsCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15459,7 +15459,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15468,11 +15468,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     CO 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   CO 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = u"""""",
@@ -15481,7 +15481,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15490,11 +15490,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Cd 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15503,7 +15503,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15512,12 +15512,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Cd 0 {1,S} {6,D}
-6     Cd 0 {5,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   Cd 0 {1,S} {6,D}
+6   Cd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)Cs',
     shortDesc = u"""""",
@@ -15526,7 +15526,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15535,12 +15535,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Cd 0 {1,S} {6,D}
-6     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   CO  0 {1,S}
+5   Cd  0 {1,S} {6,D}
+6   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -15549,7 +15549,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15558,13 +15558,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Cd 0 {1,S} {6,D}
-6     Cdd 0 {5,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   CO  0 {1,S}
+5   Cd  0 {1,S} {6,D}
+6   Cdd 0 {5,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
     shortDesc = u"""""",
@@ -15573,7 +15573,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15582,13 +15582,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Cd 0 {1,S} {6,D}
-6     Cdd 0 {5,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   CO  0 {1,S}
+5   Cd  0 {1,S} {6,D}
+6   Cdd 0 {5,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15597,7 +15597,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15606,11 +15606,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
-5     Cd 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S}
+5   Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15619,7 +15619,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15628,13 +15628,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cd 0 {4,D}
-7     Cd 0 {5,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   Cd 0 {1,S} {7,D}
+6   Cd 0 {4,D}
+7   Cd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsCs',
     shortDesc = u"""""",
@@ -15643,7 +15643,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15652,13 +15652,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd)(Cds-Cds)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cdd 0 {4,D}
-7     Cd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {1,S} {7,D}
+6   Cdd 0 {4,D}
+7   Cd  0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15667,7 +15667,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15676,14 +15676,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Cd 0 {5,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {1,S} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Cd  0 {5,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -15692,7 +15692,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15701,14 +15701,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Cd 0 {5,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {1,S} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Cd  0 {5,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15717,7 +15717,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15726,13 +15726,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cdd 0 {4,D}
-7     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {1,S} {7,D}
+6   Cdd 0 {4,D}
+7   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -15741,7 +15741,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15750,15 +15750,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Cdd 0 {5,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {1,S} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Cdd 0 {5,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -15767,7 +15767,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15776,15 +15776,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Cdd 0 {5,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {1,S} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Cdd 0 {5,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15793,7 +15793,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15802,15 +15802,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cd 0 {1,S} {7,D}
-6     Cdd 0 {4,D} {8,D}
-7     Cdd 0 {5,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cd  0 {1,S} {7,D}
+6   Cdd 0 {4,D} {8,D}
+7   Cdd 0 {5,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15819,7 +15819,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15828,11 +15828,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Cd 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15841,7 +15841,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15850,14 +15850,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
-8     Cd 0 {5,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cd 0 {1,S} {7,D}
+5   Cd 0 {1,S} {8,D}
+6   Cd 0 {3,D}
+7   Cd 0 {4,D}
+8   Cd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsCs',
     shortDesc = u"""""",
@@ -15866,7 +15866,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15875,14 +15875,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
-8     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cd  0 {1,S} {8,D}
+6   Cd  0 {3,D}
+7   Cd  0 {4,D}
+8   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -15891,7 +15891,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15900,15 +15900,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
-8     Cdd 0 {5,D} {9,D}
-9     Od 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cd  0 {1,S} {8,D}
+6   Cd  0 {3,D}
+7   Cd  0 {4,D}
+8   Cdd 0 {5,D} {9,D}
+9   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -15917,7 +15917,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15926,15 +15926,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
-8     Cdd 0 {5,D} {9,D}
-9     C 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cd  0 {1,S} {8,D}
+6   Cd  0 {3,D}
+7   Cd  0 {4,D}
+8   Cdd 0 {5,D} {9,D}
+9   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -15943,7 +15943,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15952,14 +15952,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cdd 0 {4,D}
-8     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cd  0 {1,S} {8,D}
+6   Cd  0 {3,D}
+7   Cdd 0 {4,D}
+8   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -15968,7 +15968,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -15977,16 +15977,16 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cdd 0 {4,D} {9,D}
-8     Cdd 0 {5,D} {10,D}
-9     Od 0 {7,D}
-10    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    CO  0 {1,S}
+3    Cd  0 {1,S} {6,D}
+4    Cd  0 {1,S} {7,D}
+5    Cd  0 {1,S} {8,D}
+6    Cd  0 {3,D}
+7    Cdd 0 {4,D} {9,D}
+8    Cdd 0 {5,D} {10,D}
+9    Od  0 {7,D}
+10   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -15995,7 +15995,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16004,16 +16004,16 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cdd 0 {4,D} {9,D}
-8     Cdd 0 {5,D} {10,D}
-9     Od 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    CO  0 {1,S}
+3    Cd  0 {1,S} {6,D}
+4    Cd  0 {1,S} {7,D}
+5    Cd  0 {1,S} {8,D}
+6    Cd  0 {3,D}
+7    Cdd 0 {4,D} {9,D}
+8    Cdd 0 {5,D} {10,D}
+9    Od  0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16022,7 +16022,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16031,16 +16031,16 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cd 0 {3,D}
-7     Cdd 0 {4,D} {9,D}
-8     Cdd 0 {5,D} {10,D}
-9     C 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    CO  0 {1,S}
+3    Cd  0 {1,S} {6,D}
+4    Cd  0 {1,S} {7,D}
+5    Cd  0 {1,S} {8,D}
+6    Cd  0 {3,D}
+7    Cdd 0 {4,D} {9,D}
+8    Cdd 0 {5,D} {10,D}
+9    C   0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16049,7 +16049,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16058,14 +16058,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
-8     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cd  0 {1,S} {8,D}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
+8   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -16074,7 +16074,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16083,17 +16083,17 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cdd 0 {3,D} {9,D}
-7     Cdd 0 {4,D} {10,D}
-8     Cdd 0 {5,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    CO  0 {1,S}
+3    Cd  0 {1,S} {6,D}
+4    Cd  0 {1,S} {7,D}
+5    Cd  0 {1,S} {8,D}
+6    Cdd 0 {3,D} {9,D}
+7    Cdd 0 {4,D} {10,D}
+8    Cdd 0 {5,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -16102,7 +16102,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16111,17 +16111,17 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cdd 0 {3,D} {9,D}
-7     Cdd 0 {4,D} {10,D}
-8     Cdd 0 {5,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    CO  0 {1,S}
+3    Cd  0 {1,S} {6,D}
+4    Cd  0 {1,S} {7,D}
+5    Cd  0 {1,S} {8,D}
+6    Cdd 0 {3,D} {9,D}
+7    Cdd 0 {4,D} {10,D}
+8    Cdd 0 {5,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16130,7 +16130,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16139,17 +16139,17 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cdd 0 {3,D} {9,D}
-7     Cdd 0 {4,D} {10,D}
-8     Cdd 0 {5,D} {11,D}
-9     Od 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    CO  0 {1,S}
+3    Cd  0 {1,S} {6,D}
+4    Cd  0 {1,S} {7,D}
+5    Cd  0 {1,S} {8,D}
+6    Cdd 0 {3,D} {9,D}
+7    Cdd 0 {4,D} {10,D}
+8    Cdd 0 {5,D} {11,D}
+9    Od  0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16158,7 +16158,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16167,17 +16167,17 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cd 0 {1,S} {8,D}
-6     Cdd 0 {3,D} {9,D}
-7     Cdd 0 {4,D} {10,D}
-8     Cdd 0 {5,D} {11,D}
-9     C 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    CO  0 {1,S}
+3    Cd  0 {1,S} {6,D}
+4    Cd  0 {1,S} {7,D}
+5    Cd  0 {1,S} {8,D}
+6    Cdd 0 {3,D} {9,D}
+7    Cdd 0 {4,D} {10,D}
+8    Cdd 0 {5,D} {11,D}
+9    C   0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16186,7 +16186,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16195,11 +16195,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Cd 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Cd 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16208,7 +16208,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16217,15 +16217,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
-9     Cd 0 {5,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cd 0 {1,S} {8,D}
+5   Cd 0 {1,S} {9,D}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
+8   Cd 0 {4,D}
+9   Cd 0 {5,D}
 """,
     thermo = 'Cs-CsCsCsCs',
     shortDesc = u"""""",
@@ -16234,7 +16234,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16243,15 +16243,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
-9     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cd  0 {1,S} {9,D}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cd  0 {4,D}
+9   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -16260,7 +16260,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16269,16 +16269,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
-9     Cdd 0 {5,D} {10,D}
-10    Od 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cd  0 {3,D}
+8    Cd  0 {4,D}
+9    Cdd 0 {5,D} {10,D}
+10   Od  0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsCs',
     shortDesc = u"""""",
@@ -16287,7 +16287,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16296,16 +16296,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
-9     Cdd 0 {5,D} {10,D}
-10    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cd  0 {3,D}
+8    Cd  0 {4,D}
+9    Cdd 0 {5,D} {10,D}
+10   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16314,7 +16314,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16323,15 +16323,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D}
-9     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cd  0 {1,S} {9,D}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D}
+9   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -16340,7 +16340,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16349,17 +16349,17 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {10,D}
-9     Cdd 0 {5,D} {11,D}
-10    Od 0 {8,D}
-11    Od 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cd  0 {3,D}
+8    Cdd 0 {4,D} {10,D}
+9    Cdd 0 {5,D} {11,D}
+10   Od  0 {8,D}
+11   Od  0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsCs',
     shortDesc = u"""""",
@@ -16368,7 +16368,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16377,17 +16377,17 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {10,D}
-9     Cdd 0 {5,D} {11,D}
-10    Od 0 {8,D}
-11    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cd  0 {3,D}
+8    Cdd 0 {4,D} {10,D}
+9    Cdd 0 {5,D} {11,D}
+10   Od  0 {8,D}
+11   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16396,7 +16396,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16405,17 +16405,17 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {10,D}
-9     Cdd 0 {5,D} {11,D}
-10    C 0 {8,D}
-11    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cd  0 {3,D}
+8    Cdd 0 {4,D} {10,D}
+9    Cdd 0 {5,D} {11,D}
+10   C   0 {8,D}
+11   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16424,7 +16424,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16433,15 +16433,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
-9     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cd  0 {1,S} {9,D}
+6   Cd  0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
+9   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -16450,7 +16450,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16459,18 +16459,18 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Cdd 0 {5,D} {12,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
-12    Od 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Cdd 0 {5,D} {12,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
+12   Od  0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cs',
     shortDesc = u"""""",
@@ -16479,7 +16479,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16488,18 +16488,18 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Cdd 0 {5,D} {12,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
-12    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Cdd 0 {5,D} {12,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
+12   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16508,7 +16508,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16517,18 +16517,18 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Cdd 0 {5,D} {12,D}
-10    Od 0 {7,D}
-11    C 0 {8,D}
-12    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Cdd 0 {5,D} {12,D}
+10   Od  0 {7,D}
+11   C   0 {8,D}
+12   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16537,7 +16537,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16546,18 +16546,18 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Cdd 0 {5,D} {12,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
-12    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Cdd 0 {5,D} {12,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
+12   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16566,7 +16566,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16575,15 +16575,15 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
-9     Cdd 0 {5,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cd  0 {1,S} {9,D}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
+9   Cdd 0 {5,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)',
     shortDesc = u"""""",
@@ -16592,7 +16592,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16601,19 +16601,19 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cdd 0 {2,D} {10,D}
-7     Cdd 0 {3,D} {11,D}
-8     Cdd 0 {4,D} {12,D}
-9     Cdd 0 {5,D} {13,D}
-10    Od 0 {6,D}
-11    Od 0 {7,D}
-12    Od 0 {8,D}
-13    Od 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cdd 0 {2,D} {10,D}
+7    Cdd 0 {3,D} {11,D}
+8    Cdd 0 {4,D} {12,D}
+9    Cdd 0 {5,D} {13,D}
+10   Od  0 {6,D}
+11   Od  0 {7,D}
+12   Od  0 {8,D}
+13   Od  0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16622,7 +16622,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16631,19 +16631,19 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cdd 0 {2,D} {10,D}
-7     Cdd 0 {3,D} {11,D}
-8     Cdd 0 {4,D} {12,D}
-9     Cdd 0 {5,D} {13,D}
-10    Od 0 {6,D}
-11    Od 0 {7,D}
-12    Od 0 {8,D}
-13    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cdd 0 {2,D} {10,D}
+7    Cdd 0 {3,D} {11,D}
+8    Cdd 0 {4,D} {12,D}
+9    Cdd 0 {5,D} {13,D}
+10   Od  0 {6,D}
+11   Od  0 {7,D}
+12   Od  0 {8,D}
+13   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16652,7 +16652,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16661,19 +16661,19 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cdd 0 {2,D} {10,D}
-7     Cdd 0 {3,D} {11,D}
-8     Cdd 0 {4,D} {12,D}
-9     Cdd 0 {5,D} {13,D}
-10    Od 0 {6,D}
-11    Od 0 {7,D}
-12    C 0 {8,D}
-13    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cdd 0 {2,D} {10,D}
+7    Cdd 0 {3,D} {11,D}
+8    Cdd 0 {4,D} {12,D}
+9    Cdd 0 {5,D} {13,D}
+10   Od  0 {6,D}
+11   Od  0 {7,D}
+12   C   0 {8,D}
+13   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16682,7 +16682,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16691,19 +16691,19 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cdd 0 {2,D} {10,D}
-7     Cdd 0 {3,D} {11,D}
-8     Cdd 0 {4,D} {12,D}
-9     Cdd 0 {5,D} {13,D}
-10    Od 0 {6,D}
-11    C 0 {7,D}
-12    C 0 {8,D}
-13    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cdd 0 {2,D} {10,D}
+7    Cdd 0 {3,D} {11,D}
+8    Cdd 0 {4,D} {12,D}
+9    Cdd 0 {5,D} {13,D}
+10   Od  0 {6,D}
+11   C   0 {7,D}
+12   C   0 {8,D}
+13   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16712,7 +16712,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16721,19 +16721,19 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cd 0 {1,S} {9,D}
-6     Cdd 0 {2,D} {10,D}
-7     Cdd 0 {3,D} {11,D}
-8     Cdd 0 {4,D} {12,D}
-9     Cdd 0 {5,D} {13,D}
-10    C 0 {6,D}
-11    C 0 {7,D}
-12    C 0 {8,D}
-13    C 0 {9,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cd  0 {1,S} {9,D}
+6    Cdd 0 {2,D} {10,D}
+7    Cdd 0 {3,D} {11,D}
+8    Cdd 0 {4,D} {12,D}
+9    Cdd 0 {5,D} {13,D}
+10   C   0 {6,D}
+11   C   0 {7,D}
+12   C   0 {8,D}
+13   C   0 {9,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16742,7 +16742,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16751,11 +16751,11 @@ entry(
     label = "Cs-CtCdsCdsCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -16764,7 +16764,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16773,11 +16773,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16786,7 +16786,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16795,11 +16795,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -16808,7 +16808,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16817,12 +16817,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Ct 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   Ct 0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16831,7 +16831,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16840,12 +16840,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -16854,7 +16854,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16863,13 +16863,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16878,7 +16878,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16887,13 +16887,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -16902,7 +16902,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16911,11 +16911,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -16924,7 +16924,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16933,13 +16933,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cd 0 {1,S} {7,D}
+5   Ct 0 {1,S}
+6   Cd 0 {3,D}
+7   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -16948,7 +16948,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16957,13 +16957,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cds)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -16972,7 +16972,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -16981,14 +16981,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -16997,7 +16997,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17006,14 +17006,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -17022,7 +17022,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17031,13 +17031,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -17046,7 +17046,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17055,15 +17055,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -17072,7 +17072,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17081,15 +17081,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -17098,7 +17098,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17107,15 +17107,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -17124,7 +17124,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17133,11 +17133,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -17146,7 +17146,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17155,14 +17155,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cd 0 {1,S} {8,D}
+5   Ct 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
+8   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -17171,7 +17171,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17180,14 +17180,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Ct  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -17196,7 +17196,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17205,15 +17205,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     Od 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Ct  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -17222,7 +17222,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17231,15 +17231,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     C 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Ct  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -17248,7 +17248,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17257,14 +17257,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Ct  0 {1,S}
+6   Cd  0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -17273,7 +17273,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17282,16 +17282,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Ct  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -17300,7 +17300,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17309,16 +17309,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Ct  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
     shortDesc = u"""""",
@@ -17327,7 +17327,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17336,16 +17336,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     C 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Ct  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    C   0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -17354,7 +17354,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17363,14 +17363,14 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct',
     shortDesc = u"""""",
@@ -17379,7 +17379,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17388,17 +17388,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Ct  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -17407,7 +17407,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17416,17 +17416,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Ct  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Ct',
     shortDesc = u"""""",
@@ -17435,7 +17435,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17444,17 +17444,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Ct  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
     shortDesc = u"""""",
@@ -17463,7 +17463,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17472,17 +17472,17 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Ct",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     C 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Ct  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    C   0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -17491,7 +17491,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17500,11 +17500,11 @@ entry(
     label = "Cs-CbCdsCdsCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17513,7 +17513,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17522,11 +17522,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -17535,7 +17535,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17544,11 +17544,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17557,7 +17557,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17566,12 +17566,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cb 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   Cb 0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -17580,7 +17580,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17589,12 +17589,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -17603,7 +17603,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17612,13 +17612,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)',
     shortDesc = u"""""",
@@ -17627,7 +17627,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17636,13 +17636,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17651,7 +17651,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17660,11 +17660,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17673,7 +17673,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17682,13 +17682,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cd 0 {1,S} {7,D}
+5   Cb 0 {1,S}
+6   Cd 0 {3,D}
+7   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -17697,7 +17697,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17706,13 +17706,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cds)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17721,7 +17721,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17730,14 +17730,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -17746,7 +17746,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17755,14 +17755,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17771,7 +17771,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17780,13 +17780,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -17795,7 +17795,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17804,15 +17804,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -17821,7 +17821,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17830,15 +17830,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17847,7 +17847,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17856,15 +17856,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17873,7 +17873,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17882,11 +17882,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17895,7 +17895,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17904,14 +17904,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cd 0 {1,S} {8,D}
+5   Cb 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
+8   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -17920,7 +17920,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17929,14 +17929,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cb  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -17945,7 +17945,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17954,15 +17954,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     Od 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cb  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -17971,7 +17971,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -17980,15 +17980,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     C 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cb  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -17997,7 +17997,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18006,14 +18006,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cb  0 {1,S}
+6   Cd  0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -18022,7 +18022,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18031,16 +18031,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cb  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -18049,7 +18049,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18058,16 +18058,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cb  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cb',
     shortDesc = u"""""",
@@ -18076,7 +18076,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18085,16 +18085,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     C 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cb  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    C   0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -18103,7 +18103,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18112,14 +18112,14 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb',
     shortDesc = u"""""",
@@ -18128,7 +18128,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18137,17 +18137,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cb  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -18156,7 +18156,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18165,17 +18165,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cb  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Cb',
     shortDesc = u"""""",
@@ -18184,7 +18184,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18193,17 +18193,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cb  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Cb',
     shortDesc = u"""""",
@@ -18212,7 +18212,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18221,17 +18221,17 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Cb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     C 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Cb  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    C   0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Cb',
     shortDesc = u"""""",
@@ -18240,7 +18240,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18249,11 +18249,11 @@ entry(
     label = "Cs-CtCtCdsCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18262,7 +18262,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18271,11 +18271,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -18284,7 +18284,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18293,11 +18293,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18306,7 +18306,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18315,12 +18315,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -18329,7 +18329,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18338,12 +18338,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtCt',
     shortDesc = u"""""",
@@ -18352,7 +18352,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18361,13 +18361,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -18376,7 +18376,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18385,13 +18385,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18400,7 +18400,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18409,11 +18409,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18422,7 +18422,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18431,13 +18431,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -18451,7 +18451,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18460,13 +18460,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18475,7 +18475,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18484,14 +18484,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -18500,7 +18500,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18509,14 +18509,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18525,7 +18525,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18534,13 +18534,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCt',
     shortDesc = u"""""",
@@ -18549,7 +18549,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18558,15 +18558,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -18575,7 +18575,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18584,15 +18584,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18601,7 +18601,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18610,15 +18610,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -18627,7 +18627,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18636,11 +18636,11 @@ entry(
     label = "Cs-CbCtCdsCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -18649,7 +18649,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18658,11 +18658,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -18671,7 +18671,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18680,11 +18680,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -18693,7 +18693,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18702,12 +18702,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -18716,7 +18716,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18725,12 +18725,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbCt',
     shortDesc = u"""""",
@@ -18739,7 +18739,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18748,13 +18748,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -18763,7 +18763,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18772,13 +18772,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -18787,7 +18787,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18796,11 +18796,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -18809,7 +18809,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18818,13 +18818,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -18838,7 +18838,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18847,13 +18847,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -18862,7 +18862,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18871,14 +18871,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
     shortDesc = u"""""",
@@ -18887,7 +18887,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18896,14 +18896,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -18912,7 +18912,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18921,13 +18921,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCt',
     shortDesc = u"""""",
@@ -18936,7 +18936,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18945,15 +18945,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Ct',
     shortDesc = u"""""",
@@ -18962,7 +18962,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18971,15 +18971,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -18988,7 +18988,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -18997,15 +18997,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCt',
     shortDesc = u"""""",
@@ -19014,7 +19014,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19023,11 +19023,11 @@ entry(
     label = "Cs-CbCbCdsCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Cb      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19036,7 +19036,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19045,11 +19045,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -19058,7 +19058,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19067,11 +19067,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19080,7 +19080,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19089,12 +19089,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -19103,7 +19103,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19112,12 +19112,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbCb',
     shortDesc = u"""""",
@@ -19126,7 +19126,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19135,13 +19135,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -19150,7 +19150,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19159,13 +19159,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19174,7 +19174,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19183,11 +19183,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19196,7 +19196,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19205,13 +19205,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -19225,7 +19225,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19234,13 +19234,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19249,7 +19249,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19258,14 +19258,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -19274,7 +19274,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19283,14 +19283,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19299,7 +19299,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19308,13 +19308,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCb',
     shortDesc = u"""""",
@@ -19323,7 +19323,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19332,15 +19332,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -19349,7 +19349,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19358,15 +19358,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19375,7 +19375,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19384,15 +19384,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbCb',
     shortDesc = u"""""",
@@ -19401,7 +19401,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19410,11 +19410,11 @@ entry(
     label = "Cs-CtCtCtCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   Ct      0 {1,S}
+4   Ct      0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCt',
     shortDesc = u"""""",
@@ -19423,7 +19423,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19432,11 +19432,11 @@ entry(
     label = "Cs-(Cds-Od)CtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -19445,7 +19445,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19454,11 +19454,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -19467,7 +19467,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19476,12 +19476,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -19490,7 +19490,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19499,12 +19499,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCtCt',
     shortDesc = u"""""",
@@ -19513,7 +19513,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19522,13 +19522,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -19537,7 +19537,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19546,13 +19546,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCt',
     shortDesc = u"""""",
@@ -19561,7 +19561,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19570,11 +19570,11 @@ entry(
     label = "Cs-CbCtCtCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Ct      0 {1,S}
+4   Ct      0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCt',
     shortDesc = u"""""",
@@ -19583,7 +19583,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19592,11 +19592,11 @@ entry(
     label = "Cs-(Cds-Od)CbCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -19605,7 +19605,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19614,11 +19614,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCt',
     shortDesc = u"""""",
@@ -19627,7 +19627,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19636,12 +19636,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -19650,7 +19650,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19659,12 +19659,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCtCt',
     shortDesc = u"""""",
@@ -19673,7 +19673,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19682,13 +19682,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -19697,7 +19697,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19706,13 +19706,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtCt',
     shortDesc = u"""""",
@@ -19721,7 +19721,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19730,11 +19730,11 @@ entry(
     label = "Cs-CbCbCtCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Cb      0 {1,S}
+4   Ct      0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCt',
     shortDesc = u"""""",
@@ -19743,7 +19743,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19752,11 +19752,11 @@ entry(
     label = "Cs-(Cds-Od)CbCbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -19765,7 +19765,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19774,11 +19774,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCt',
     shortDesc = u"""""",
@@ -19787,7 +19787,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19796,12 +19796,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -19810,7 +19810,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19819,12 +19819,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbCt',
     shortDesc = u"""""",
@@ -19833,7 +19833,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19842,13 +19842,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Ct',
     shortDesc = u"""""",
@@ -19857,7 +19857,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19866,13 +19866,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Ct  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCt',
     shortDesc = u"""""",
@@ -19881,7 +19881,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19890,11 +19890,11 @@ entry(
     label = "Cs-CbCbCbCds",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     {Cd,CO} 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Cb      0 {1,S}
+4   Cb      0 {1,S}
+5   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCb',
     shortDesc = u"""""",
@@ -19903,7 +19903,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19912,11 +19912,11 @@ entry(
     label = "Cs-(Cds-Od)CbCbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -19925,7 +19925,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19934,11 +19934,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCb',
     shortDesc = u"""""",
@@ -19947,7 +19947,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19956,12 +19956,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -19970,7 +19970,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -19979,12 +19979,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbCb',
     shortDesc = u"""""",
@@ -19993,7 +19993,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20002,13 +20002,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)',
     shortDesc = u"""""",
@@ -20017,7 +20017,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20026,13 +20026,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Cb  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbCb',
     shortDesc = u"""""",
@@ -20041,7 +20041,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20050,11 +20050,11 @@ entry(
     label = "Cs-CtCtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -20063,7 +20063,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20072,11 +20072,11 @@ entry(
     label = "Cs-CbCtCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtCt',
     shortDesc = u"""""",
@@ -20085,7 +20085,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20094,11 +20094,11 @@ entry(
     label = "Cs-CbCbCtCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtCt',
     shortDesc = u"""""",
@@ -20107,7 +20107,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20116,11 +20116,11 @@ entry(
     label = "Cs-CbCbCbCt",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Ct 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Ct 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Ct',
     shortDesc = u"""""",
@@ -20129,7 +20129,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20138,11 +20138,11 @@ entry(
     label = "Cs-CbCbCbCb",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Cb 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Cb 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)(Cds-Cds)',
     shortDesc = u"""""",
@@ -20151,7 +20151,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20160,11 +20160,11 @@ entry(
     label = "Cs-CCCOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     C 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   C  0 {1,S}
+4   C  0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsOs',
     shortDesc = u"""""",
@@ -20173,7 +20173,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20182,11 +20182,11 @@ entry(
     label = "Cs-CsCsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -20200,7 +20200,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20209,11 +20209,11 @@ entry(
     label = "Cs-CdsCsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Cs      0 {1,S}
+4   Cs      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
     shortDesc = u"""""",
@@ -20222,7 +20222,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20231,11 +20231,11 @@ entry(
     label = "Cs-(Cds-Od)CsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -20249,7 +20249,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20258,11 +20258,11 @@ entry(
     label = "Cs-(Cds-Cd)CsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
     shortDesc = u"""""",
@@ -20271,7 +20271,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20280,12 +20280,12 @@ entry(
     label = "Cs-(Cds-Cds)CsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -20299,7 +20299,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20308,12 +20308,12 @@ entry(
     label = "Cs-(Cds-Cdd)CsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsCsOs',
     shortDesc = u"""""",
@@ -20322,7 +20322,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20331,13 +20331,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -20351,7 +20351,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20360,13 +20360,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
     shortDesc = u"""""",
@@ -20375,7 +20375,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20384,11 +20384,11 @@ entry(
     label = "Cs-OsCtCsCs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Os 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Cs 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Os 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Cs 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsCsOs',
     shortDesc = u"""""",
@@ -20397,7 +20397,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20406,11 +20406,11 @@ entry(
     label = "Cs-CbCsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cs 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cs 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -20424,7 +20424,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20433,11 +20433,11 @@ entry(
     label = "Cs-CdsCdsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20446,7 +20446,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20455,11 +20455,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsOs',
     shortDesc = u"""""",
@@ -20468,7 +20468,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20477,11 +20477,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20490,7 +20490,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20499,12 +20499,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsOs',
     shortDesc = u"""""",
@@ -20513,7 +20513,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20522,12 +20522,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CsOs',
     shortDesc = u"""""",
@@ -20536,7 +20536,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20545,13 +20545,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
     shortDesc = u"""""",
@@ -20560,7 +20560,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20569,13 +20569,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20584,7 +20584,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20593,11 +20593,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20606,7 +20606,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20615,13 +20615,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -20635,7 +20635,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20644,13 +20644,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20659,7 +20659,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20668,14 +20668,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
     shortDesc = u"""""",
@@ -20684,7 +20684,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20693,14 +20693,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20709,7 +20709,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20718,13 +20718,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsOs',
     shortDesc = u"""""",
@@ -20733,7 +20733,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20742,15 +20742,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20759,7 +20759,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20768,15 +20768,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20785,7 +20785,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20794,15 +20794,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20811,7 +20811,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20820,11 +20820,11 @@ entry(
     label = "Cs-CtCdsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
     shortDesc = u"""""",
@@ -20833,7 +20833,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20842,11 +20842,11 @@ entry(
     label = "Cs-(Cds-Od)CtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20855,7 +20855,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20864,11 +20864,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
     shortDesc = u"""""",
@@ -20877,7 +20877,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20886,12 +20886,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20900,7 +20900,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20909,12 +20909,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCsOs',
     shortDesc = u"""""",
@@ -20923,7 +20923,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20932,13 +20932,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -20947,7 +20947,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20956,13 +20956,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
     shortDesc = u"""""",
@@ -20971,7 +20971,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -20980,11 +20980,11 @@ entry(
     label = "Cs-CbCdsCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Cs      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsOs',
     shortDesc = u"""""",
@@ -20993,7 +20993,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21002,11 +21002,11 @@ entry(
     label = "Cs-(Cds-Od)CbCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -21015,7 +21015,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21024,11 +21024,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsOs',
     shortDesc = u"""""",
@@ -21037,7 +21037,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21046,12 +21046,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -21060,7 +21060,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21069,12 +21069,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCsOs',
     shortDesc = u"""""",
@@ -21083,7 +21083,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21092,13 +21092,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -21107,7 +21107,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21116,13 +21116,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cs  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCsOs',
     shortDesc = u"""""",
@@ -21131,7 +21131,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21140,11 +21140,11 @@ entry(
     label = "Cs-CtCtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -21153,7 +21153,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21162,11 +21162,11 @@ entry(
     label = "Cs-CbCtCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCsOs',
     shortDesc = u"""""",
@@ -21175,7 +21175,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21184,11 +21184,11 @@ entry(
     label = "Cs-CbCbCsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cs 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cs 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CsOs',
     shortDesc = u"""""",
@@ -21197,7 +21197,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21206,11 +21206,11 @@ entry(
     label = "Cs-CdsCdsCdsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21219,7 +21219,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21228,11 +21228,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Od)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     CO 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   CO 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsCsOs',
     shortDesc = u"""""",
@@ -21241,7 +21241,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21250,11 +21250,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21263,7 +21263,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21272,12 +21272,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Os 0 {1,S}
-6     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cd 0 {1,S} {6,D}
+5   Os 0 {1,S}
+6   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)CsOs',
     shortDesc = u"""""",
@@ -21286,7 +21286,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21295,12 +21295,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Os 0 {1,S}
-6     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Os  0 {1,S}
+6   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -21309,7 +21309,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21318,13 +21318,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Os 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Os  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
     shortDesc = u"""""",
@@ -21333,7 +21333,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21342,13 +21342,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cd 0 {1,S} {6,D}
-5     Os 0 {1,S}
-6     Cdd 0 {4,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   CO  0 {1,S}
+4   Cd  0 {1,S} {6,D}
+5   Os  0 {1,S}
+6   Cdd 0 {4,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21357,7 +21357,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21366,11 +21366,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)(Cds-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21379,7 +21379,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21388,13 +21388,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cd 0 {1,S} {7,D}
+5   Os 0 {1,S}
+6   Cd 0 {3,D}
+7   Cd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)CsCsOs',
     shortDesc = u"""""",
@@ -21403,7 +21403,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21412,13 +21412,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cds)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cd  0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21427,7 +21427,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21436,14 +21436,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)CsOs',
     shortDesc = u"""""",
@@ -21452,7 +21452,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21461,14 +21461,14 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cds)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cd 0 {4,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cd  0 {4,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21477,7 +21477,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21486,13 +21486,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)(Cds-Cdd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D}
-7     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D}
+7   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -21501,7 +21501,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21510,15 +21510,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsOs',
     shortDesc = u"""""",
@@ -21527,7 +21527,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21536,15 +21536,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21553,7 +21553,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21562,15 +21562,15 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cd 0 {1,S} {7,D}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {8,D}
-7     Cdd 0 {4,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cd  0 {1,S} {7,D}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {8,D}
+7   Cdd 0 {4,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21579,7 +21579,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21588,11 +21588,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)(Cds-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cd 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cd 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21601,7 +21601,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21610,14 +21610,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cd 0 {4,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cd 0 {1,S} {8,D}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
+8   Cd 0 {4,D}
 """,
     thermo = 'Cs-CsCsCsOs',
     shortDesc = u"""""",
@@ -21626,7 +21626,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21635,14 +21635,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Os  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -21651,7 +21651,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21660,15 +21660,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     Od 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Os  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsCsOs',
     shortDesc = u"""""",
@@ -21677,7 +21677,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21686,15 +21686,15 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
-8     Cdd 0 {4,D} {9,D}
-9     C 0 {8,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Os  0 {1,S}
+6   Cd  0 {2,D}
+7   Cd  0 {3,D}
+8   Cdd 0 {4,D} {9,D}
+9   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21703,7 +21703,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21712,14 +21712,14 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd)(Cds-Cdd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Os  0 {1,S}
+6   Cd  0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -21728,7 +21728,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21737,16 +21737,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Os  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CsOs',
     shortDesc = u"""""",
@@ -21755,7 +21755,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21764,16 +21764,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     Od 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Os  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    Od  0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -21782,7 +21782,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21791,16 +21791,16 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cdd 0 {3,D} {9,D}
-8     Cdd 0 {4,D} {10,D}
-9     C 0 {7,D}
-10    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Os  0 {1,S}
+6    Cd  0 {2,D}
+7    Cdd 0 {3,D} {9,D}
+8    Cdd 0 {4,D} {10,D}
+9    C   0 {7,D}
+10   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21809,7 +21809,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21818,14 +21818,14 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)(Cds-Cdd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
-8     Cdd 0 {4,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cd  0 {1,S} {8,D}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
+8   Cdd 0 {4,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os',
     shortDesc = u"""""",
@@ -21834,7 +21834,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21843,17 +21843,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Od)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    Od 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Os  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   Od  0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21862,7 +21862,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21871,17 +21871,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    Od 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Os  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   Od  0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -21890,7 +21890,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21899,17 +21899,17 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     Od 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Os  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    Od  0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -21918,7 +21918,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21927,17 +21927,17 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)(Cds-Cdd-Cd)Os",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cd 0 {1,S} {8,D}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {9,D}
-7     Cdd 0 {3,D} {10,D}
-8     Cdd 0 {4,D} {11,D}
-9     C 0 {6,D}
-10    C 0 {7,D}
-11    C 0 {8,D}
+1  * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2    Cd  0 {1,S} {6,D}
+3    Cd  0 {1,S} {7,D}
+4    Cd  0 {1,S} {8,D}
+5    Os  0 {1,S}
+6    Cdd 0 {2,D} {9,D}
+7    Cdd 0 {3,D} {10,D}
+8    Cdd 0 {4,D} {11,D}
+9    C   0 {6,D}
+10   C   0 {7,D}
+11   C   0 {8,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21946,7 +21946,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21955,11 +21955,11 @@ entry(
     label = "Cs-CtCdsCdsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -21968,7 +21968,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21977,11 +21977,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -21990,7 +21990,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -21999,11 +21999,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22012,7 +22012,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22021,12 +22021,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22035,7 +22035,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22044,12 +22044,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CtOs',
     shortDesc = u"""""",
@@ -22058,7 +22058,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22067,13 +22067,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22082,7 +22082,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22091,13 +22091,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22106,7 +22106,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22115,11 +22115,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22128,7 +22128,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22137,13 +22137,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22152,7 +22152,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22161,13 +22161,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22176,7 +22176,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22185,14 +22185,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -22201,7 +22201,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22210,14 +22210,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22226,7 +22226,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22235,13 +22235,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtOs',
     shortDesc = u"""""",
@@ -22250,7 +22250,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22259,15 +22259,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -22276,7 +22276,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22285,15 +22285,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22302,7 +22302,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22311,15 +22311,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22328,7 +22328,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22337,11 +22337,11 @@ entry(
     label = "Cs-CbCdsCdsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22350,7 +22350,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22359,11 +22359,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22372,7 +22372,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22381,11 +22381,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22394,7 +22394,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22403,12 +22403,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22417,7 +22417,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22426,12 +22426,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)CbOs',
     shortDesc = u"""""",
@@ -22440,7 +22440,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22449,13 +22449,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Od)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22464,7 +22464,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22473,13 +22473,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22488,7 +22488,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22497,11 +22497,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22510,7 +22510,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22519,13 +22519,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22534,7 +22534,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22543,13 +22543,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22558,7 +22558,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22567,14 +22567,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -22583,7 +22583,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22592,14 +22592,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22608,7 +22608,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22617,13 +22617,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbOs',
     shortDesc = u"""""",
@@ -22632,7 +22632,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22641,15 +22641,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cdd-Od)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -22658,7 +22658,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22667,15 +22667,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22684,7 +22684,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22693,15 +22693,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)CbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CbOs',
     shortDesc = u"""""",
@@ -22710,7 +22710,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22719,11 +22719,11 @@ entry(
     label = "Cs-CtCtCdsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
     shortDesc = u"""""",
@@ -22732,7 +22732,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22741,11 +22741,11 @@ entry(
     label = "Cs-(Cds-Od)CtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22754,7 +22754,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22763,11 +22763,11 @@ entry(
     label = "Cs-(Cds-Cd)CtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
     shortDesc = u"""""",
@@ -22776,7 +22776,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22785,12 +22785,12 @@ entry(
     label = "Cs-(Cds-Cds)CtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -22799,7 +22799,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22808,12 +22808,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtCtOs',
     shortDesc = u"""""",
@@ -22822,7 +22822,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22831,13 +22831,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -22846,7 +22846,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22855,13 +22855,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
     shortDesc = u"""""",
@@ -22870,7 +22870,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22879,11 +22879,11 @@ entry(
     label = "Cs-CbCtCdsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Ct      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtOs',
     shortDesc = u"""""",
@@ -22892,7 +22892,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22901,11 +22901,11 @@ entry(
     label = "Cs-(Cds-Od)CbCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22914,7 +22914,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22923,11 +22923,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtOs',
     shortDesc = u"""""",
@@ -22936,7 +22936,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22945,12 +22945,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -22959,7 +22959,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22968,12 +22968,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCtOs',
     shortDesc = u"""""",
@@ -22982,7 +22982,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -22991,13 +22991,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -23006,7 +23006,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23015,13 +23015,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Ct  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCtOs',
     shortDesc = u"""""",
@@ -23030,7 +23030,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23039,11 +23039,11 @@ entry(
     label = "Cs-CbCbCdsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     {Cd,CO} 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   Cb      0 {1,S}
+4   {Cd,CO} 0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbOs',
     shortDesc = u"""""",
@@ -23052,7 +23052,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23061,11 +23061,11 @@ entry(
     label = "Cs-(Cds-Od)CbCbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -23074,7 +23074,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23083,11 +23083,11 @@ entry(
     label = "Cs-(Cds-Cd)CbCbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbOs',
     shortDesc = u"""""",
@@ -23096,7 +23096,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23105,12 +23105,12 @@ entry(
     label = "Cs-(Cds-Cds)CbCbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -23119,7 +23119,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23128,12 +23128,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbCbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbCbOs',
     shortDesc = u"""""",
@@ -23142,7 +23142,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23151,13 +23151,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbCbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cdd-Od)Os',
     shortDesc = u"""""",
@@ -23166,7 +23166,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23175,13 +23175,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbCbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Cb  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbCbOs',
     shortDesc = u"""""",
@@ -23190,7 +23190,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23199,11 +23199,11 @@ entry(
     label = "Cs-CtCtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -23212,7 +23212,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23221,11 +23221,11 @@ entry(
     label = "Cs-CbCtCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtCtOs',
     shortDesc = u"""""",
@@ -23234,7 +23234,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23243,11 +23243,11 @@ entry(
     label = "Cs-CbCbCtOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Ct 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Ct 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)CtOs',
     shortDesc = u"""""",
@@ -23256,7 +23256,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23265,11 +23265,11 @@ entry(
     label = "Cs-CbCbCbOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Cb 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Cb 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)(Cds-Cds)Os',
     shortDesc = u"""""",
@@ -23278,7 +23278,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23287,11 +23287,11 @@ entry(
     label = "Cs-CCOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   C  0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsOs',
     shortDesc = u"""""",
@@ -23300,7 +23300,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23309,11 +23309,11 @@ entry(
     label = "Cs-CsCsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -23327,7 +23327,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23336,11 +23336,11 @@ entry(
     label = "Cs-CdsCsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Cs      0 {1,S}
+4   Os      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
     shortDesc = u"""""",
@@ -23349,7 +23349,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23358,11 +23358,11 @@ entry(
     label = "Cs-(Cds-Od)CsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsOs',
     shortDesc = u"""""",
@@ -23371,7 +23371,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23380,11 +23380,11 @@ entry(
     label = "Cs-(Cds-Cd)CsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
     shortDesc = u"""""",
@@ -23393,7 +23393,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23402,12 +23402,12 @@ entry(
     label = "Cs-(Cds-Cds)CsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-CsCsOsOs',
     shortDesc = u"""""",
@@ -23416,7 +23416,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23425,12 +23425,12 @@ entry(
     label = "Cs-(Cds-Cdd)CsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsOsOs',
     shortDesc = u"""""",
@@ -23439,7 +23439,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23448,13 +23448,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
     shortDesc = u"""""",
@@ -23463,7 +23463,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23472,13 +23472,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
     shortDesc = u"""""",
@@ -23487,7 +23487,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23496,11 +23496,11 @@ entry(
     label = "Cs-CdsCdsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23509,7 +23509,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23518,11 +23518,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsCsOsOs',
     shortDesc = u"""""",
@@ -23531,7 +23531,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23540,11 +23540,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23553,7 +23553,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23562,12 +23562,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsOsOs',
     shortDesc = u"""""",
@@ -23576,7 +23576,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23585,12 +23585,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)OsOs',
     shortDesc = u"""""",
@@ -23599,7 +23599,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23608,13 +23608,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsOs',
     shortDesc = u"""""",
@@ -23623,7 +23623,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23632,13 +23632,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23647,7 +23647,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23656,11 +23656,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23669,7 +23669,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23678,13 +23678,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = 'Cs-CsCsOsOs',
     shortDesc = u"""""",
@@ -23693,7 +23693,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23702,13 +23702,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23717,7 +23717,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23726,14 +23726,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsOs',
     shortDesc = u"""""",
@@ -23742,7 +23742,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23751,14 +23751,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23767,7 +23767,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23776,13 +23776,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsOs',
     shortDesc = u"""""",
@@ -23791,7 +23791,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23800,15 +23800,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23817,7 +23817,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23826,15 +23826,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23843,7 +23843,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23852,15 +23852,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23869,7 +23869,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23878,11 +23878,11 @@ entry(
     label = "Cs-CtCsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
     shortDesc = u"""""",
@@ -23891,7 +23891,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23900,11 +23900,11 @@ entry(
     label = "Cs-CtCdsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
     shortDesc = u"""""",
@@ -23913,7 +23913,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23922,11 +23922,11 @@ entry(
     label = "Cs-(Cds-Od)CtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23935,7 +23935,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23944,11 +23944,11 @@ entry(
     label = "Cs-(Cds-Cd)CtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
     shortDesc = u"""""",
@@ -23957,7 +23957,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23966,12 +23966,12 @@ entry(
     label = "Cs-(Cds-Cds)CtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -23980,7 +23980,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -23989,12 +23989,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtOsOs',
     shortDesc = u"""""",
@@ -24003,7 +24003,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24012,13 +24012,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -24027,7 +24027,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24036,13 +24036,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
     shortDesc = u"""""",
@@ -24051,7 +24051,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24060,11 +24060,11 @@ entry(
     label = "Cs-CtCtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -24073,7 +24073,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24082,11 +24082,11 @@ entry(
     label = "Cs-CbCsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsOs',
     shortDesc = u"""""",
@@ -24095,7 +24095,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24104,11 +24104,11 @@ entry(
     label = "Cs-CbCdsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsOs',
     shortDesc = u"""""",
@@ -24117,7 +24117,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24126,11 +24126,11 @@ entry(
     label = "Cs-(Cds-Od)CbOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -24139,7 +24139,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24148,11 +24148,11 @@ entry(
     label = "Cs-(Cds-Cd)CbOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsOs',
     shortDesc = u"""""",
@@ -24161,7 +24161,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24170,12 +24170,12 @@ entry(
     label = "Cs-(Cds-Cds)CbOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -24184,7 +24184,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24193,12 +24193,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbOsOs',
     shortDesc = u"""""",
@@ -24207,7 +24207,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24216,13 +24216,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -24231,7 +24231,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24240,13 +24240,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsOs',
     shortDesc = u"""""",
@@ -24255,7 +24255,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24264,11 +24264,11 @@ entry(
     label = "Cs-CbCtOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsOs',
     shortDesc = u"""""",
@@ -24277,7 +24277,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24286,11 +24286,11 @@ entry(
     label = "Cs-CbCbOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsOs',
     shortDesc = u"""""",
@@ -24299,7 +24299,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24308,11 +24308,11 @@ entry(
     label = "Cs-COsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsOsOsOs',
     shortDesc = u"""""",
@@ -24321,7 +24321,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24330,11 +24330,11 @@ entry(
     label = "Cs-CsOsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -24348,7 +24348,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24357,11 +24357,11 @@ entry(
     label = "Cs-CdsOsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Os      0 {1,S}
+4   Os      0 {1,S}
+5   Os      0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
     shortDesc = u"""""",
@@ -24370,7 +24370,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24379,11 +24379,11 @@ entry(
     label = "Cs-(Cds-Od)OsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-CsOsOsOs',
     shortDesc = u"""""",
@@ -24392,7 +24392,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24401,11 +24401,11 @@ entry(
     label = "Cs-(Cds-Cd)OsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
     shortDesc = u"""""",
@@ -24414,7 +24414,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24423,12 +24423,12 @@ entry(
     label = "Cs-(Cds-Cds)OsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-CsOsOsOs',
     shortDesc = u"""""",
@@ -24437,7 +24437,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24446,12 +24446,12 @@ entry(
     label = "Cs-(Cds-Cdd)OsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)OsOsOs',
     shortDesc = u"""""",
@@ -24460,7 +24460,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24469,13 +24469,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)OsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
     shortDesc = u"""""",
@@ -24484,7 +24484,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24493,13 +24493,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)OsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   Os  0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
     shortDesc = u"""""",
@@ -24508,7 +24508,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24517,11 +24517,11 @@ entry(
     label = "Cs-CtOsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
     shortDesc = u"""""",
@@ -24530,7 +24530,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24539,11 +24539,11 @@ entry(
     label = "Cs-CbOsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsOs',
     shortDesc = u"""""",
@@ -24552,7 +24552,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24561,11 +24561,11 @@ entry(
     label = "Cs-OsOsOsOs",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Os 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     Os 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Os 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -24579,7 +24579,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24588,11 +24588,11 @@ entry(
     label = "Cs-COsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsOsOsH',
     shortDesc = u"""""",
@@ -24601,7 +24601,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24610,11 +24610,11 @@ entry(
     label = "Cs-CsOsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -24628,7 +24628,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24637,11 +24637,11 @@ entry(
     label = "Cs-CdsOsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Os      0 {1,S}
+4   Os      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
     shortDesc = u"""""",
@@ -24650,7 +24650,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24659,11 +24659,11 @@ entry(
     label = "Cs-(Cds-Od)OsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsOsOsH',
     shortDesc = u"""""",
@@ -24672,7 +24672,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24681,11 +24681,11 @@ entry(
     label = "Cs-(Cds-Cd)OsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
     shortDesc = u"""""",
@@ -24694,7 +24694,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24703,12 +24703,12 @@ entry(
     label = "Cs-(Cds-Cds)OsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-CsOsOsH',
     shortDesc = u"""""",
@@ -24717,7 +24717,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24726,12 +24726,12 @@ entry(
     label = "Cs-(Cds-Cdd)OsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)OsOsH',
     shortDesc = u"""""",
@@ -24740,7 +24740,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24749,13 +24749,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)OsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
     shortDesc = u"""""",
@@ -24764,7 +24764,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24773,13 +24773,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)OsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
     shortDesc = u"""""",
@@ -24788,7 +24788,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24797,11 +24797,11 @@ entry(
     label = "Cs-CtOsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
     shortDesc = u"""""",
@@ -24810,7 +24810,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24819,11 +24819,11 @@ entry(
     label = "Cs-CbOsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Os 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Os 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsOsH',
     shortDesc = u"""""",
@@ -24832,7 +24832,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24841,11 +24841,11 @@ entry(
     label = "Cs-CCOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   C  0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsCsOsH',
     shortDesc = u"""""",
@@ -24854,7 +24854,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24863,11 +24863,11 @@ entry(
     label = "Cs-CsCsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -24881,7 +24881,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24890,11 +24890,11 @@ entry(
     label = "Cs-CdsCsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Cs      0 {1,S}
+4   Os      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
     shortDesc = u"""""",
@@ -24903,7 +24903,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24912,11 +24912,11 @@ entry(
     label = "Cs-(Cds-Od)CsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -24930,7 +24930,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24939,11 +24939,11 @@ entry(
     label = "Cs-(Cds-Cd)CsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
     shortDesc = u"""""",
@@ -24952,7 +24952,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24961,12 +24961,12 @@ entry(
     label = "Cs-(Cds-Cds)CsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -24980,7 +24980,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -24989,12 +24989,12 @@ entry(
     label = "Cs-(Cds-Cdd)CsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CsOsH',
     shortDesc = u"""""",
@@ -25003,7 +25003,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25012,13 +25012,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -25032,7 +25032,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25041,13 +25041,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cs  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
     shortDesc = u"""""",
@@ -25056,7 +25056,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25065,11 +25065,11 @@ entry(
     label = "Cs-CdsCdsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25078,7 +25078,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25087,11 +25087,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Od)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsCsOsH',
     shortDesc = u"""""",
@@ -25100,7 +25100,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25109,11 +25109,11 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cd)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25122,7 +25122,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25131,12 +25131,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cds)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S} {6,D}
+4   Os 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)CsOsH',
     shortDesc = u"""""",
@@ -25145,7 +25145,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25154,12 +25154,12 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cdd-Cd)OsH',
     shortDesc = u"""""",
@@ -25168,7 +25168,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25177,13 +25177,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Od)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsH',
     shortDesc = u"""""",
@@ -25192,7 +25192,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25201,13 +25201,13 @@ entry(
     label = "Cs-(Cds-Od)(Cds-Cdd-Cd)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S} {6,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {3,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   CO  0 {1,S}
+3   Cd  0 {1,S} {6,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {3,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25216,7 +25216,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25225,11 +25225,11 @@ entry(
     label = "Cs-(Cds-Cd)(Cds-Cd)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25238,7 +25238,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25247,13 +25247,13 @@ entry(
     label = "Cs-(Cds-Cds)(Cds-Cds)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cd 0 {1,S} {7,D}
+4   Os 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
+7   Cd 0 {3,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -25267,7 +25267,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25276,13 +25276,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cds)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cd  0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25291,7 +25291,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25300,14 +25300,14 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cds)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)CsOsH',
     shortDesc = u"""""",
@@ -25316,7 +25316,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25325,14 +25325,14 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cds)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cd 0 {3,D}
-8     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cd  0 {3,D}
+8   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25341,7 +25341,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25350,13 +25350,13 @@ entry(
     label = "Cs-(Cds-Cdd)(Cds-Cdd)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
-7     Cdd 0 {3,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
+7   Cdd 0 {3,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsH',
     shortDesc = u"""""",
@@ -25365,7 +25365,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25374,15 +25374,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Od)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     Od 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   Od  0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25391,7 +25391,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25400,15 +25400,15 @@ entry(
     label = "Cs-(Cds-Cdd-Od)(Cds-Cdd-Cd)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     Od 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   Od  0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25417,7 +25417,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25426,15 +25426,15 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)(Cds-Cdd-Cd)OsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cd 0 {1,S} {7,D}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {8,D}
-7     Cdd 0 {3,D} {9,D}
-8     C 0 {6,D}
-9     C 0 {7,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cd  0 {1,S} {7,D}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {8,D}
+7   Cdd 0 {3,D} {9,D}
+8   C   0 {6,D}
+9   C   0 {7,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25443,7 +25443,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25452,11 +25452,11 @@ entry(
     label = "Cs-CtCsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CsOsH',
     shortDesc = u"""""",
@@ -25465,7 +25465,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25474,11 +25474,11 @@ entry(
     label = "Cs-CtCdsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
     shortDesc = u"""""",
@@ -25487,7 +25487,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25496,11 +25496,11 @@ entry(
     label = "Cs-(Cds-Od)CtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25509,7 +25509,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25518,11 +25518,11 @@ entry(
     label = "Cs-(Cds-Cd)CtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
     shortDesc = u"""""",
@@ -25531,7 +25531,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25540,12 +25540,12 @@ entry(
     label = "Cs-(Cds-Cds)CtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25554,7 +25554,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25563,12 +25563,12 @@ entry(
     label = "Cs-(Cds-Cdd)CtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CtOsH',
     shortDesc = u"""""",
@@ -25577,7 +25577,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25586,13 +25586,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25601,7 +25601,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25610,13 +25610,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Ct  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
     shortDesc = u"""""",
@@ -25625,7 +25625,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25634,11 +25634,11 @@ entry(
     label = "Cs-CtCtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25647,7 +25647,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25656,11 +25656,11 @@ entry(
     label = "Cs-CbCsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cs 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cs 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -25674,7 +25674,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25683,11 +25683,11 @@ entry(
     label = "Cs-CbCdsOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     {Cd,CO} 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   Cb      0 {1,S}
+3   {Cd,CO} 0 {1,S}
+4   Os      0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsH',
     shortDesc = u"""""",
@@ -25696,7 +25696,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25705,11 +25705,11 @@ entry(
     label = "Cs-(Cds-Od)CbOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25718,7 +25718,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25727,11 +25727,11 @@ entry(
     label = "Cs-(Cds-Cd)CbOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsH',
     shortDesc = u"""""",
@@ -25740,7 +25740,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25749,12 +25749,12 @@ entry(
     label = "Cs-(Cds-Cds)CbOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25763,7 +25763,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25772,12 +25772,12 @@ entry(
     label = "Cs-(Cds-Cdd)CbOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)CbOsH',
     shortDesc = u"""""",
@@ -25786,7 +25786,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25795,13 +25795,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)CbOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Od)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25810,7 +25810,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25819,13 +25819,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)CbOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Cb  0 {1,S}
+4   Os  0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)CbOsH',
     shortDesc = u"""""",
@@ -25834,7 +25834,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25843,11 +25843,11 @@ entry(
     label = "Cs-CbCtOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Ct 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Ct 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)CtOsH',
     shortDesc = u"""""",
@@ -25856,7 +25856,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25865,11 +25865,11 @@ entry(
     label = "Cs-CbCbOsH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
-4     Os 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
+4   Os 0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)(Cds-Cds)OsH',
     shortDesc = u"""""",
@@ -25878,7 +25878,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25887,11 +25887,11 @@ entry(
     label = "Cs-COsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     C 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   C  0 {1,S}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-CsOsHH',
     shortDesc = u"""""",
@@ -25900,7 +25900,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25909,11 +25909,11 @@ entry(
     label = "Cs-CsOsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cs 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cs 0 {1,S}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -25927,7 +25927,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25936,11 +25936,11 @@ entry(
     label = "Cs-CdsOsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     {Cd,CO} 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs      0 {2,S} {3,S} {4,S} {5,S}
+2   {Cd,CO} 0 {1,S}
+3   Os      0 {1,S}
+4   H       0 {1,S}
+5   H       0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
     shortDesc = u"""""",
@@ -25949,7 +25949,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25958,11 +25958,11 @@ entry(
     label = "Cs-(Cds-Od)OsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     CO 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   CO 0 {1,S}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -25976,7 +25976,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -25985,11 +25985,11 @@ entry(
     label = "Cs-(Cds-Cd)OsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
     shortDesc = u"""""",
@@ -25998,7 +25998,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26007,12 +26007,12 @@ entry(
     label = "Cs-(Cds-Cds)OsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cd 0 {2,D}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cd 0 {1,S} {6,D}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
+6   Cd 0 {2,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26026,7 +26026,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26035,12 +26035,12 @@ entry(
     label = "Cs-(Cds-Cdd)OsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D}
 """,
     thermo = 'Cs-(Cds-Cdd-Cd)OsHH',
     shortDesc = u"""""",
@@ -26049,7 +26049,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26058,13 +26058,13 @@ entry(
     label = "Cs-(Cds-Cdd-Od)OsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     Od 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   Od  0 {6,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26078,7 +26078,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26087,13 +26087,13 @@ entry(
     label = "Cs-(Cds-Cdd-Cd)OsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cd 0 {1,S} {6,D}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
-6     Cdd 0 {2,D} {7,D}
-7     C 0 {6,D}
+1 * Cs  0 {2,S} {3,S} {4,S} {5,S}
+2   Cd  0 {1,S} {6,D}
+3   Os  0 {1,S}
+4   H   0 {1,S}
+5   H   0 {1,S}
+6   Cdd 0 {2,D} {7,D}
+7   C   0 {6,D}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
     shortDesc = u"""""",
@@ -26102,7 +26102,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26111,11 +26111,11 @@ entry(
     label = "Cs-CtOsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Ct 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Ct 0 {1,S}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26129,7 +26129,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26138,11 +26138,11 @@ entry(
     label = "Cs-CbOsHH",
     group = 
 """
-1  *  Cs 0 {2,S} {3,S} {4,S} {5,S}
-2     Cb 0 {1,S}
-3     Os 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 * Cs 0 {2,S} {3,S} {4,S} {5,S}
+2   Cb 0 {1,S}
+3   Os 0 {1,S}
+4   H  0 {1,S}
+5   H  0 {1,S}
 """,
     thermo = 'Cs-(Cds-Cds)OsHH',
     shortDesc = u"""""",
@@ -26151,7 +26151,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26160,7 +26160,7 @@ entry(
     label = "O",
     group = 
 """
-1  *  O 0
+1 * O 0
 """,
     thermo = 'Os-CsCs',
     shortDesc = u"""""",
@@ -26169,7 +26169,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26178,7 +26178,7 @@ entry(
     label = "Od",
     group = 
 """
-1  *  Od 0
+1 * Od 0
 """,
     thermo = 'Od-Cd',
     shortDesc = u"""""",
@@ -26187,7 +26187,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26196,8 +26196,8 @@ entry(
     label = "Od-Cd",
     group = 
 """
-1  *  Od 0 {2,D}
-2     {Cd,CO} 0 {1,D}
+1 * Od      0 {2,D}
+2   {Cd,CO} 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26211,7 +26211,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26220,8 +26220,8 @@ entry(
     label = "Od-Od",
     group = 
 """
-1  *  Od 0 {2,D}
-2     Od 0 {1,D}
+1 * Od 0 {2,D}
+2   Od 0 {1,D}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26235,7 +26235,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26244,7 +26244,7 @@ entry(
     label = "Os",
     group = 
 """
-1  *  Os 0
+1 * Os 0
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26253,7 +26253,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26262,9 +26262,9 @@ entry(
     label = "Os-HH",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   H  0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26278,7 +26278,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26287,9 +26287,9 @@ entry(
     label = "Os-OsH",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26303,7 +26303,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26312,9 +26312,9 @@ entry(
     label = "Os-OsOs",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     Os 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   Os 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26328,7 +26328,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26337,9 +26337,9 @@ entry(
     label = "Os-CH",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     C 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   C  0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = 'Os-CsH',
     shortDesc = u"""""",
@@ -26348,7 +26348,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26357,9 +26357,9 @@ entry(
     label = "Os-CtH",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Ct 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Ct 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26373,7 +26373,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26382,9 +26382,9 @@ entry(
     label = "Os-CdsH",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     {Cd,CO} 0 {1,S}
-3     H 0 {1,S}
+1 * Os      0 {2,S} {3,S}
+2   {Cd,CO} 0 {1,S}
+3   H       0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)H',
     shortDesc = u"""""",
@@ -26393,7 +26393,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26402,9 +26402,9 @@ entry(
     label = "Os-(Cds-Od)H",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     CO 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   CO 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26418,7 +26418,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26427,9 +26427,9 @@ entry(
     label = "Os-(Cds-Cd)H",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cd 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cd 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26443,7 +26443,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26452,9 +26452,9 @@ entry(
     label = "Os-CsH",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26468,7 +26468,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26477,9 +26477,9 @@ entry(
     label = "Os-CbH",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cb 0 {1,S}
-3     H 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cb 0 {1,S}
+3   H  0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26493,7 +26493,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26502,9 +26502,9 @@ entry(
     label = "Os-OsC",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     C 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   C  0 {1,S}
 """,
     thermo = 'Os-OsCs',
     shortDesc = u"""""",
@@ -26513,7 +26513,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26522,9 +26522,9 @@ entry(
     label = "Os-OsCt",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     Ct 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   Ct 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26538,7 +26538,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26547,9 +26547,9 @@ entry(
     label = "Os-OsCds",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     {Cd,CO} 0 {1,S}
+1 * Os      0 {2,S} {3,S}
+2   Os      0 {1,S}
+3   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Os-Os(Cds-Cd)',
     shortDesc = u"""""",
@@ -26558,7 +26558,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26567,9 +26567,9 @@ entry(
     label = "Os-Os(Cds-Od)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     CO 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   CO 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26583,7 +26583,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26592,9 +26592,9 @@ entry(
     label = "Os-Os(Cds-Cd)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     Cd 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   Cd 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26608,7 +26608,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26617,9 +26617,9 @@ entry(
     label = "Os-OsCs",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     Cs 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26633,7 +26633,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26642,9 +26642,9 @@ entry(
     label = "Os-OsCb",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Os 0 {1,S}
-3     Cb 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Os 0 {1,S}
+3   Cb 0 {1,S}
 """,
     thermo = 'Os-Os(Cds-Cd)',
     shortDesc = u"""""",
@@ -26653,7 +26653,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26662,9 +26662,9 @@ entry(
     label = "Os-CC",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     C 0 {1,S}
-3     C 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   C  0 {1,S}
+3   C  0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26673,7 +26673,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26682,9 +26682,9 @@ entry(
     label = "Os-CtCt",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Ct 0 {1,S}
-3     Ct 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Ct 0 {1,S}
+3   Ct 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26693,7 +26693,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26702,9 +26702,9 @@ entry(
     label = "Os-CtCds",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Ct 0 {1,S}
-3     {Cd,CO} 0 {1,S}
+1 * Os      0 {2,S} {3,S}
+2   Ct      0 {1,S}
+3   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26713,7 +26713,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26722,9 +26722,9 @@ entry(
     label = "Os-Ct(Cds-Od)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Ct 0 {1,S}
-3     CO 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Ct 0 {1,S}
+3   CO 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26733,7 +26733,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26742,9 +26742,9 @@ entry(
     label = "Os-Ct(Cds-Cd)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Ct 0 {1,S}
-3     Cd 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Ct 0 {1,S}
+3   Cd 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26753,7 +26753,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26762,9 +26762,9 @@ entry(
     label = "Os-CtCs",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Ct 0 {1,S}
-3     Cs 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Ct 0 {1,S}
+3   Cs 0 {1,S}
 """,
     thermo = 'Os-Cs(Cds-Cd)',
     shortDesc = u"""""",
@@ -26773,7 +26773,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26782,9 +26782,9 @@ entry(
     label = "Os-CtCb",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Ct 0 {1,S}
-3     Cb 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Ct 0 {1,S}
+3   Cb 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26793,7 +26793,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26802,9 +26802,9 @@ entry(
     label = "Os-CdsCds",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     {Cd,CO} 0 {1,S}
-3     {Cd,CO} 0 {1,S}
+1 * Os      0 {2,S} {3,S}
+2   {Cd,CO} 0 {1,S}
+3   {Cd,CO} 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26813,7 +26813,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26822,9 +26822,9 @@ entry(
     label = "Os-(Cds-Od)(Cds-Od)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     CO 0 {1,S}
-3     CO 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   CO 0 {1,S}
+3   CO 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26838,7 +26838,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26847,9 +26847,9 @@ entry(
     label = "Os-(Cds-Od)(Cds-Cd)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     CO 0 {1,S}
-3     Cd 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   CO 0 {1,S}
+3   Cd 0 {1,S}
 """,
     thermo = 'Os-(Cds-Cd)(Cds-Cd)',
     shortDesc = u"""""",
@@ -26858,7 +26858,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26867,9 +26867,9 @@ entry(
     label = "Os-(Cds-Cd)(Cds-Cd)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cd 0 {1,S}
-3     Cd 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cd 0 {1,S}
+3   Cd 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26883,7 +26883,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26892,9 +26892,9 @@ entry(
     label = "Os-CdsCs",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     {Cd,CO} 0 {1,S}
-3     Cs 0 {1,S}
+1 * Os      0 {2,S} {3,S}
+2   {Cd,CO} 0 {1,S}
+3   Cs      0 {1,S}
 """,
     thermo = 'Os-Cs(Cds-Cd)',
     shortDesc = u"""""",
@@ -26903,7 +26903,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26912,9 +26912,9 @@ entry(
     label = "Os-Cs(Cds-Od)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S}
-3     CO 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S}
+3   CO 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26928,7 +26928,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26937,9 +26937,9 @@ entry(
     label = "Os-Cs(Cds-Cd)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S}
-3     Cd 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S}
+3   Cd 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -26953,7 +26953,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26962,9 +26962,9 @@ entry(
     label = "Os-CdsCb",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     {Cd,CO} 0 {1,S}
-3     Cb 0 {1,S}
+1 * Os      0 {2,S} {3,S}
+2   {Cd,CO} 0 {1,S}
+3   Cb      0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26973,7 +26973,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -26982,9 +26982,9 @@ entry(
     label = "Os-Cb(Cds-Od)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cb 0 {1,S}
-3     CO 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cb 0 {1,S}
+3   CO 0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -26993,7 +26993,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -27002,9 +27002,9 @@ entry(
     label = "Os-Cb(Cds-Cd)",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cb 0 {1,S}
-3     Cd 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cb 0 {1,S}
+3   Cd 0 {1,S}
 """,
     thermo = None,
     shortDesc = u"""""",
@@ -27013,7 +27013,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -27022,9 +27022,9 @@ entry(
     label = "Os-CsCs",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S}
-3     Cs 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S}
+3   Cs 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -27038,7 +27038,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -27047,9 +27047,9 @@ entry(
     label = "Os-CsCb",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cs 0 {1,S}
-3     Cb 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cs 0 {1,S}
+3   Cb 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -27063,7 +27063,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -27072,9 +27072,9 @@ entry(
     label = "Os-CbCb",
     group = 
 """
-1  *  Os 0 {2,S} {3,S}
-2     Cb 0 {1,S}
-3     Cb 0 {1,S}
+1 * Os 0 {2,S} {3,S}
+2   Cb 0 {1,S}
+3   Cb 0 {1,S}
 """,
     thermo = ThermoData(
         Tdata = ([300,400,500,600,800,1000,1500],"K"),
@@ -27088,7 +27088,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -27097,7 +27097,7 @@ entry(
     label = "Si",
     group = 
 """
-1  *  Si 0
+1 * Si 0
 """,
     thermo = 'Cs-HHHH',
     shortDesc = u"""""",
@@ -27106,7 +27106,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -27115,7 +27115,7 @@ entry(
     label = "S",
     group = 
 """
-1  *  S 0
+1 * S 0
 """,
     thermo = 'Os-HH',
     shortDesc = u"""""",
@@ -27124,7 +27124,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 

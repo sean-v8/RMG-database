@@ -32,7 +32,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -41,21 +41,21 @@ entry(
     label = "Cd/H2_Cd/Nd2;H_OCmethyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2  *2 C 0 {1,D} {5,S} {6,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {2,S}
-6     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,D} {3,S} {4,S}
+2 *2 C      0 {1,D} {5,S} {6,S}
+3    H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {2,S}
+6    {Cs,O} 0 {2,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S} {5,S} {6,S}
-4     H 0 {3,S}
-5     H 0 {3,S}
-6     H 0 {3,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S} {5,S} {6,S}
+4    H  0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (93.6,"cm^3/(mol*s)"),
@@ -74,7 +74,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -83,21 +83,21 @@ entry(
     label = "Cd/H2_Cd/H/Nd;H_OCmethyl",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2  *2 C 0 {1,D} {5,S} {6,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {2,S}
-6     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,D} {3,S} {4,S}
+2 *2 C      0 {1,D} {5,S} {6,S}
+3    H      0 {1,S}
+4    H      0 {1,S}
+5    H      0 {2,S}
+6    {Cs,O} 0 {2,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S} {5,S} {6,S}
-4     H 0 {3,S}
-5     H 0 {3,S}
-6     H 0 {3,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S} {5,S} {6,S}
+4    H  0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (24.8,"cm^3/(mol*s)"),
@@ -116,7 +116,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -125,21 +125,21 @@ entry(
     label = "Cd/unsub_Cd/unsub;H_OCmethyl",
     group1 = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cd 0 {1,D} {5,S} {6,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {2,S}
-6     H 0 {2,S}
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     Cs 0 {2,S} {4,S} {5,S} {6,S}
-4     H 0 {3,S}
-5     H 0 {3,S}
-6     H 0 {3,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    Cs 0 {2,S} {4,S} {5,S} {6,S}
+4    H  0 {3,S}
+5    H  0 {3,S}
+6    H  0 {3,S}
 """,
     kinetics = ArrheniusEP(
         A = (47.3,"cm^3/(mol*s)"),
@@ -158,7 +158,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -167,17 +167,17 @@ entry(
     label = "cco_2H;H_OH",
     group1 = 
 """
-1  *1 Cd 0 {2,D} {4,S} {5,S}
-2  *2 Cdd 0 {1,D} {3,D}
-3     Od 0 {2,D}
-4     H 0 {1,S}
-5     H 0 {1,S}
+1 *1 Cd  0 {2,D} {4,S} {5,S}
+2 *2 Cdd 0 {1,D} {3,D}
+3    Od  0 {2,D}
+4    H   0 {1,S}
+5    H   0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     H 0 {2,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (157,"cm^3/(mol*s)"),
@@ -196,7 +196,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -205,17 +205,17 @@ entry(
     label = "cco_HNd;H_OH",
     group1 = 
 """
-1  *1 Cd 0 {2,D} {4,S} {5,S}
-2  *2 Cdd 0 {1,D} {3,D}
-3     Od 0 {2,D}
-4     H 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *1 Cd     0 {2,D} {4,S} {5,S}
+2 *2 Cdd    0 {1,D} {3,D}
+3    Od     0 {2,D}
+4    H      0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     H 0 {2,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (51.5,"cm^3/(mol*s)"),
@@ -234,7 +234,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -243,17 +243,17 @@ entry(
     label = "cco_Nd2;H_OH",
     group1 = 
 """
-1  *1 Cd 0 {2,D} {4,S} {5,S}
-2  *2 Cdd 0 {1,D} {3,D}
-3     Od 0 {2,D}
-4     {Cs,O} 0 {1,S}
-5     {Cs,O} 0 {1,S}
+1 *1 Cd     0 {2,D} {4,S} {5,S}
+2 *2 Cdd    0 {1,D} {3,D}
+3    Od     0 {2,D}
+4    {Cs,O} 0 {1,S}
+5    {Cs,O} 0 {1,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     H 0 {2,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (1450,"cm^3/(mol*s)"),
@@ -272,7 +272,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -281,18 +281,18 @@ entry(
     label = "Cd/unsub_Cd/unsub;H_OH",
     group1 = 
 """
-1  *1 Cd 0 {2,D} {3,S} {4,S}
-2  *2 Cd 0 {1,D} {5,S} {6,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {2,S}
-6     H 0 {2,S}
+1 *1 Cd 0 {2,D} {3,S} {4,S}
+2 *2 Cd 0 {1,D} {5,S} {6,S}
+3    H  0 {1,S}
+4    H  0 {1,S}
+5    H  0 {2,S}
+6    H  0 {2,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     H 0 {2,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (147,"cm^3/(mol*s)"),
@@ -311,7 +311,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -320,18 +320,18 @@ entry(
     label = "Cd/H/Nd_Cd/H2;H_OH",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2  *2 C 0 {1,D} {5,S} {6,S}
-3     H 0 {1,S}
-4     {Cs,O} 0 {1,S}
-5     H 0 {2,S}
-6     H 0 {2,S}
+1 *1 C      0 {2,D} {3,S} {4,S}
+2 *2 C      0 {1,D} {5,S} {6,S}
+3    H      0 {1,S}
+4    {Cs,O} 0 {1,S}
+5    H      0 {2,S}
+6    H      0 {2,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     H 0 {2,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (227,"cm^3/(mol*s)"),
@@ -350,7 +350,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -359,18 +359,18 @@ entry(
     label = "Cd/H2_Cd/H/Nd;H_OH",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2  *2 C 0 {1,D} {5,S} {6,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     H 0 {2,S}
-6     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,D} {3,S} {4,S}
+2 *2 C      0 {1,D} {5,S} {6,S}
+3    H      0 {1,S}
+4    H      0 {1,S}
+5    H      0 {2,S}
+6    {Cs,O} 0 {2,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     H 0 {2,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (65.2,"cm^3/(mol*s)"),
@@ -389,7 +389,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
@@ -398,18 +398,18 @@ entry(
     label = "Cd/H2_Cd/Nd2;H_OH",
     group1 = 
 """
-1  *1 C 0 {2,D} {3,S} {4,S}
-2  *2 C 0 {1,D} {5,S} {6,S}
-3     H 0 {1,S}
-4     H 0 {1,S}
-5     {Cs,O} 0 {2,S}
-6     {Cs,O} 0 {2,S}
+1 *1 C      0 {2,D} {3,S} {4,S}
+2 *2 C      0 {1,D} {5,S} {6,S}
+3    H      0 {1,S}
+4    H      0 {1,S}
+5    {Cs,O} 0 {2,S}
+6    {Cs,O} 0 {2,S}
 """,
     group2 = 
 """
-1  *3 H 0 {2,S}
-2  *4 Os 0 {1,S} {3,S}
-3     H 0 {2,S}
+1 *3 H  0 {2,S}
+2 *4 Os 0 {1,S} {3,S}
+3    H  0 {2,S}
 """,
     kinetics = ArrheniusEP(
         A = (1250,"cm^3/(mol*s)"),
@@ -428,7 +428,7 @@ u"""
 
 """,
     history = [
-        ("Wed Jun  1 12:02:47 2011","Josh Allen <jwallen@mit.edu>","action","""jwallen imported this entry from the old RMG database."""),
+        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
     ],
 )
 
