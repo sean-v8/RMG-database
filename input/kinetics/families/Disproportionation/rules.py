@@ -238,57 +238,6 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 505,
-    label = "C_rad/H2/Cs;C/H2/Nd_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    H      0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.45e+12,"cm^3/(mol*s)","*|/",1.4),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
-    longDesc = 
-u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  C2H5 + n-C3H7 --> C3H6 + C2H6
-
-pg. 937-938: Discussion on evaluated data
-
-Entry 42,17 (b): No direct measurements for either the addition or disproportionation
-
-rxns.  Author recommends a rate coefficient expression for the addition rxn, based
-on the geometric mean rule of the rxns C2H5+C2H5=>adduct and n-C3H7+n-C3H7=>adduct.
-Furthermore, author recommends a branching ratio for disproportionation to
-addition of 0.073 (which is an average of the 2 experimentally determined
-branching ratios)
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 506,
     label = "C_rad/H2/Cd;C/H2/Nd_Csrad",
     group1 = 
