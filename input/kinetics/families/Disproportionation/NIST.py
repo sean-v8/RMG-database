@@ -7791,3 +7791,65 @@ M. Harper, 8/30/09: No data available at the time. Author estimates the rate coe
     ],
 )
 
+entry(
+    index = 133,
+    label = "1988TSA887:56",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 0 {1,S} {4,S}
+4 *4 H 0 {3,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.13e+07,"m^3/(mol*s)","*|/",2),
+        n = -0.35,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:56",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author estimates the rate coefficient expression of the addition rxn using the rate for i-C3H7+i-C3H7=>adduct, the rate for n-C3H7+n-C3H7=>adduct, and the geometric mean rule. The author recommends the branching ratio of disproportionation to addition reported by Gibian and Corley (1973). (p. 945-946, Entry 42,41b)
+""",
+    history = [
+        ("Tue Aug 28 19:23:19 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:56"""),
+    ],
+)
+
