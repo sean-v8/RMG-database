@@ -7731,3 +7731,63 @@ M. Harper, 8/30/09: No direct measurements for either the addition or disproport
     ],
 )
 
+entry(
+    index = 132,
+    label = "1988TSA887:102",
+    reactant1 = 
+"""
+1 *1 C 1 {2,S}
+2    O 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2    O 0 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (482000,"m^3/(mol*s)","*|/",3),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:102",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 3.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author estimates the rate coefficient for the addition rxn to be similar to the rate for n-C3H7+n-C3H7=>adduct. Author also estimates the branching ratio of disproportionation to addition as 0.051. (p. 926, Entry 41,39c)
+""",
+    history = [
+        ("Tue Aug 28 19:18:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:102"""),
+    ],
+)
+
