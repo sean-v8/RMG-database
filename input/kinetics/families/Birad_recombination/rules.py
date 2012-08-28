@@ -42,60 +42,6 @@ u"""
 )
 
 entry(
-    index = 482,
-    label = "R6_SSSDS;C_rad_out_H/OneDe;Cpri_rad_out_2H",
-    group1 = 
-"""
-1 *1 {Cs,Cd,CO,Os} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os} 0 {1,S} {3,S}
-3    {Cs,Cd,CO,Os} 0 {2,S} {4,S}
-4    Cd            0 {3,S} {5,D}
-5 *4 Cd            0 {4,D} {6,S}
-6 *2 {Cs,Cd,CO,Os} 1 {5,S}
-""",
-    group2 = 
-"""
-1 *1 C             1 {2,S} {3,S}
-2    H             0 {1,S}
-3    {Cd,Ct,Cb,CO} 0 {1,S}
-""",
-    group3 = 
-"""
-1 *2 C 1 {2,S} {3,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2e+12,"s^-1"),
-        n = 0,
-        alpha = 0,
-        E0 = (1.8,"kcal/mol","+|-",1),
-        Tmin = (550,"K"),
-        Tmax = (650,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""[186] Benson et al.""",
-    longDesc = 
-u"""
-[186] Benson, S.W. J. Chem. Phys. 1967, 46, 4920.
-
-CH2=CHCH(.)CH2CH2CH(.)CH=CH2 --> 4-vinylcyclohexene. (Rxn. -c); arises from birad recombination of resonance isomer: .CH2CH=CHCH2CH2CH(.)CH=CH2
-
-Data are estimated.
-
-***this only considers cis-cis isomer reaction*** cis-trans A prefactor is 50% of the value used here; also, on p. 4923, it is stated that cis trans rate is 5/6 of the overall rate, so maybe the k that should be used is 0.6 of the value currently in place?
-Verified by Greg Magoon: Rxn. -d. also looks to be of interest here; whether the rate is high-pressure limit was not investigated, but p. 4922 says that pressures involved were low; DE0 uncertainty added; regarding temperature range, I considered dropping lower temperature limit from 550 K to 400 K (based on p. 4923), but it seems that experiments were performed at or around 600 K, so I will leave it at 550-650 K
-
-Note: after some preliminary confusion on my part, it looks like the existing groups are correct (the correct resonance form for the CH2 radical is taken into account with the Ypri_rad_out (i.e. Cpri_rad_out_H2)), but arguably, another, a more-specific group (C_rad_out_H2/OneDe and Cpri_rad_out_H2/OneDe) should be specified to account for delocalizing group at this site
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 485,
     label = "R4_SSS;C_rad_out_2H;Cpri_rad_out_2H",
     group1 = 
