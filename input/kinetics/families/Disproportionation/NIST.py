@@ -7551,3 +7551,61 @@ M. Harper, 8/31/09: Authors state that no new data have been reported for this r
     ],
 )
 
+entry(
+    index = 129,
+    label = "1988TSA887:116",
+    reactant1 = 
+"""
+1 *1 H 1
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.81e+06,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:116",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author recommends the rate coefficient of the H+C2H5=C2H4+H2 rxn for the H+n-C3H7=C3H6+H2 rxn. (p. 915-916, Entry 41,4a)
+""",
+    history = [
+        ("Tue Aug 28 18:56:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:116"""),
+    ],
+)
+
