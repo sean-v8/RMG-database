@@ -44,60 +44,6 @@ u"""
 )
 
 entry(
-    index = 609,
-    label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_2H_HDe",
-    group1 = 
-"""
-1 *3 Cd     0 {2,D} {5,S} {6,S}
-2 *4 Cd     0 {1,D} {3,S}
-3 *5 Cd     0 {2,S} {4,D}
-4 *6 Cd     0 {3,D} {7,S} {8,S}
-5    H      0 {1,S}
-6    {Cs,O} 0 {1,S}
-7    {Cs,O} 0 {4,S}
-8    H      0 {4,S}
-""",
-    group2 = 
-"""
-1 *4 Cd 0 {2,S} {3,S}
-2 *5 Cd 0 {1,S} {4,S}
-3    H  0 {1,S}
-4    H  0 {2,S}
-""",
-    group3 = 
-"""
-1 *1 Cd            0 {2,D} {3,S} {4,S}
-2 *2 Cd            0 {1,D} {5,S} {6,S}
-3    H             0 {1,S}
-4    H             0 {1,S}
-5    H             0 {2,S}
-6    {Cd,Ct,Cb,CO} 0 {2,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (3.8e+09,"cm^3/(mol*s)","*|/",1.05),
-        n = 0,
-        alpha = 0,
-        E0 = (24.84,"kcal/mol"),
-        Tmin = (437,"K"),
-        Tmax = (526,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""Huybrechts et al. [111]""",
-    longDesc = 
-u"""
-[111] Huybrechts, G.;Hubin, Y.; Narmon, M.; Van Mele, B. Int. J. Chem. Kinet. 1982, 14, 259.
-1,3-cyclohexadiene + (E)CH2=CHCH=CH2 --> bicyclo[2.2.2]oct-2-ene,5-ethenyl(1alpha, 4alpha, 5beta)
-
-Absolute value measured directly using thermal excitation technique and GC. Pressure 0.15-0.64 atm.
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 611,
     label = "diene_monosubNd_monosubNd_out;diene_in_2H;ene_HNd_HDe",
     group1 = 
