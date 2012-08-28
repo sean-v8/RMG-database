@@ -68,3 +68,55 @@ Note: after some preliminary confusion on my part, it looks like the existing gr
     ],
 )
 
+entry(
+    index = 2,
+    label = "2006SIR/GLA12693-12704:2",
+    reactant1 = 
+"""
+1 *2 C 1 {2,S}
+2 *4 C 0 {1,S} {4,S}
+3 *1 C 1 {4,S}
+4 *3 C 0 {2,S} {3,S}
+""",
+    product1 = 
+"""
+1 *3 C 0 {2,S} {3,S}
+2 *4 C 0 {1,S} {4,S}
+3 *1 C 0 {1,S} {4,S}
+4 *2 C 0 {2,S} {3,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.62e+12,"s^-1"),
+        n = -0.31,
+        Ea = (8.284,"kJ/mol"),
+        T0 = 1,
+        Tmin = (600,"K"),
+        Tmax = (2000,"K"),
+    ),
+    reference = Article(
+        authors = ["Sirjean, B.", "Glaude, P.A.", "Ruiz-Lopez, M.F.", "Fournet, R."],
+        title = u'Detailed kinetic study of the ring opening of cycloalkanes by CBS-QB3 calculations',
+        journal = "J. Phys. Chem. A",
+        volume = "110",
+        pages = """12693-12704""",
+        year = "2006",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:2",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+Pressure dependence: None reported
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
+
+===
+
+G. Magoon: Stated pressure is 1 atm, but I believe they are actually calculating the high-pressure limit rate constant
+""",
+    history = [
+        ("Tue Aug 28 11:57:17 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:2"""),
+    ],
+)
+

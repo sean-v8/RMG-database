@@ -42,55 +42,6 @@ u"""
 )
 
 entry(
-    index = 485,
-    label = "R4_SSS;C_rad_out_2H;Cpri_rad_out_2H",
-    group1 = 
-"""
-1 *1 {Cs,Cd,CO,Os} 1 {2,S}
-2 *3 {Cs,Cd,CO,Os} 0 {1,S} {3,S}
-3 *4 {Cs,Cd,CO,Os} 0 {2,S} {4,S}
-4 *2 {Cs,Cd,CO,Os} 1 {3,S}
-""",
-    group2 = 
-"""
-1 *1 C 1 {2,S} {3,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-""",
-    group3 = 
-"""
-1 *2 C 1 {2,S} {3,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.62e+12,"s^-1"),
-        n = -0.305,
-        alpha = 0,
-        E0 = (1.98,"kcal/mol"),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""[x] Sirjean et al.""",
-    longDesc = 
-u"""
-[x] Sirjean, B.; Glaude, P. A.; Ruiz-Lopez, M. F.; Fournet, R.; J. Phys. Chem. A. 2006, 110, 12693-12704. 
-http://dx.doi.org/10.1021/jp0651081
-.CH2CH2CH2CH2CH2. -> cyclopentane (k4-1 in Scheme 5/Table 7)
-
-TST calculation
-
-Added by Greg Magoon: Stated pressure is 1 atm, but I believe they are actually calculating the high-pressure limit rate constant
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 486,
     label = "R6_SSSSS;C_rad_out_2H;Cpri_rad_out_2H",
     group1 = 
