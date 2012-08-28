@@ -7008,3 +7008,61 @@ M. Harper, 8/30/09: Author recommends rate coefficient from study performed by C
     ],
 )
 
+entry(
+    index = 120,
+    label = "1988TSA887:61",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (94100,"m^3/(mol*s)","*|/",1.5),
+        n = 0.68,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:61",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+Uncertainty: 1.5
+
+===
+
+M. Harper, 8/30/09: Author notes that measurements performed by Arthur and Anastasi on the rate coefficient of total CH3+i-C3H7 decomposition matches very well with the coefficient derived from the recommended rate of CH3+CH3 decomposition, the recommended rate of i-C3H7+i-C3H7 decomposition, and the geometric rule. The author recommends a high-pressure rate expression of 4.7E-11*(300/T)^0.68 cm3/molecule/s for the addition rxn (based on the geometric mean rule???) and recommends the branching ratio of 0.16 reported by Gibian and Corley (1973). (p. 937, Entry 42,16b)
+""",
+    history = [
+        ("Tue Aug 28 17:04:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:61"""),
+    ],
+)
+

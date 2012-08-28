@@ -139,69 +139,6 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 491,
-    label = "C_methyl;Cmethyl_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.19e+14,"cm^3/(mol*s)","*|/",1.1),
-        n = -0.68,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
-    longDesc = 
-u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  CH3 + i-C3H7 --> C3H6 + CH4
-
-pg. 937: Discussion on evaluated data
-
-Entry 42,16 (b): Author notes that measurements performed by Arthur and Anastasi on
-
-the rate coefficient of total CH3+i-C3H7 decomposition matches very well with
-the coefficient derived from the recommended rate of CH3+CH3 decomposition, the 
-recommended rate of i-C3H7+i-C3H7 decomposition, and the geometric rule.  The author
-recommends a high-pressure rate expression of 4.7x10^-11*(300/T)^0.68 cm3/molecule/s
-for the addition rexn (based on the geometric mean rule???) and recommends the 
-branching ratio of 0.16 reported by Gibian and Corley (1973).
-NOTE: Previous data entry appeared to compute A and n as such:
-
-A = 0.16 * 4.7x10^-11 * (1/300)^0.68
-n = 0.68
-However, MRH would compute A and n:
-
-A = 0.16 * 4.7x10^-11 * (300)^0.68
-n = -0.68
-These are the values that now reside in the database.  The online NIST database
-
-(kinetics.nist.gov) agree with what I have calculated.
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 492,
     label = "C_rad/H2/Cs;Cmethyl_Csrad",
     group1 = 
