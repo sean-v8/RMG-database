@@ -3816,3 +3816,67 @@ Analytical technique: Gas chromatography
     ],
 )
 
+entry(
+    index = 61,
+    label = "1939BEN/WAS362-371:1",
+    reactant1 = 
+"""
+1 *1 C 0 {2,D} {5,S}
+2 *2 C 0 {1,D} {3,S}
+3    C 0 {2,S} {4,D}
+4    C 0 {3,D} {5,S}
+5    C 0 {1,S} {4,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 0 {2,D} {5,S}
+2 *4 C 0 {1,D} {3,S}
+3 *5 C 0 {2,S} {4,D}
+4 *6 C 0 {3,D} {5,S}
+5    C 0 {1,S} {4,S}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {3,S} {8,S}
+2  *2 C 0 {1,S} {6,S} {10,S}
+3  *3 C 0 {1,S} {4,S} {7,S}
+4  *4 C 0 {3,S} {5,D}
+5  *5 C 0 {4,D} {6,S}
+6  *6 C 0 {2,S} {5,S} {7,S}
+7     C 0 {3,S} {6,S}
+8     C 0 {1,S} {9,S}
+9     C 0 {8,S} {10,D}
+10    C 0 {2,S} {9,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1260,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (69.842,"kJ/mol"),
+        T0 = 1,
+        Tmin = (352,"K"),
+        Tmax = (423,"K"),
+        Pmin = (20400,"Pa"),
+        Pmax = (98000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Benford, G.A.", "Wassermann, A."],
+        title = u'The mechanism of additions to double bonds. Part VI. Kinetics of gaseous associations',
+        journal = "J. Chem. Soc.",
+        pages = """362-371""",
+        year = "1939",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1939BEN/WAS362-371:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Bath gas: Cyclopentadiene
+Excitation technique: Thermal
+Analytical technique: Other (direct)
+""",
+    history = [
+        ("Tue Aug 28 14:39:06 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1939BEN/WAS362-371:1"""),
+    ],
+)
+
