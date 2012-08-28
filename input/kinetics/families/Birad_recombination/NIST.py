@@ -120,3 +120,64 @@ G. Magoon: Stated pressure is 1 atm, but I believe they are actually calculating
     ],
 )
 
+entry(
+    index = 3,
+    label = "2006SIR/GLA12693-12704:12",
+    reactant1 = 
+"""
+1    C 0 {2,S} {6,S}
+2    C 0 {1,S} {4,S}
+3 *2 C 1 {4,S}
+4 *4 C 0 {2,S} {3,S}
+5 *1 C 1 {6,S}
+6 *3 C 0 {1,S} {5,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S} {3,S}
+3 *4 C 0 {2,S} {5,S}
+4 *3 C 0 {1,S} {6,S}
+5 *2 C 0 {3,S} {6,S}
+6 *1 C 0 {4,S} {5,S}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.13e+09,"s^-1"),
+        n = 0.14,
+        Ea = (8.745,"kJ/mol"),
+        T0 = 1,
+        Tmin = (600,"K"),
+        Tmax = (2000,"K"),
+        Pmin = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Sirjean, B.", "Glaude, P.A.", "Ruiz-Lopez, M.F.", "Fournet, R."],
+        title = u'Detailed kinetic study of the ring opening of cycloalkanes by CBS-QB3 calculations',
+        journal = "J. Phys. Chem. A",
+        volume = "110",
+        pages = """12693-12704""",
+        year = "2006",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:12",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Transition state theory""",
+    longDesc = 
+u"""
+Pressure dependence: None reported
+
+Reaction potential energy surface was studied using quantum chemistry and rate constants were calculated using transition state theory.
+
+===
+
+G. Magoon:
+
+Stated pressure is 1 atm, but I believe they are actually calculating the high-pressure limit rate constant; the rate constant added here was found my performing least squares fit for log(ktot) from 600-2000 K (where ktot is the sum of k5-1 and k5-2)
+
+Note: Recent experimental/RRKM study by Kiefer, Gupte, Harding, and Klippenstein (http://www.combustion.org.uk/ECM_2009/P810069.pdf) (stated uncertainty is +/- 30%) appears to agree with Sirjean et al. results, but they only report forward rate constant
+""",
+    history = [
+        ("Tue Aug 28 12:06:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2006SIR/GLA12693-12704:12"""),
+    ],
+)
+
