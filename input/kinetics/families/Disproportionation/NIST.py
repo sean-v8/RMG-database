@@ -6952,3 +6952,59 @@ M. Harper, 8/30/09: No data available at the time. Author recommends a rate coef
     ],
 )
 
+entry(
+    index = 119,
+    label = "1986TSA/HAM1087:255",
+    reactant1 = 
+"""
+1 *1 H 1
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *3 C 1 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 C 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.81e+06,"m^3/(mol*s)","*|/",3),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:255",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 3.0
+
+===
+
+M. Harper, 8/30/09: Author recommends rate coefficient from study performed by Camilleri, et al. (1974) (p. 1174, Entry 17,4c)
+""",
+    history = [
+        ("Tue Aug 28 16:38:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:255"""),
+    ],
+)
+

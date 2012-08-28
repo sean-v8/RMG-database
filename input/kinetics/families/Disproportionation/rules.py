@@ -139,50 +139,6 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 490,
-    label = "H_rad;Cmethyl_Csrad",
-    group1 = 
-"""
-1 *1 H 1
-""",
-    group2 = 
-"""
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.81e+12,"cm^3/(mol*s)","*|/",3),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [89] Literature review.""",
-    longDesc = 
-u"""
-[89] Tsang, W.; Hampson, R.F.; Journal of Physical and Chemical Reference Data (1986) 15(3), 1087-1279.
-Literature review.  H + C2H5 --> C2H4 + H2
-
-pg. 1174: Discussion on evaluated data
-
-Entry 17,4 (c): Author recommends rate coefficient from study performed by 
-
-Camilleri, et al. (1974)
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 491,
     label = "C_methyl;Cmethyl_Csrad",
     group1 = 
