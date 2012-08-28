@@ -238,56 +238,6 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 509,
-    label = "C_rad/Cs3;C/H2/Nd_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    Cs 0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    H      0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.16e+14,"cm^3/(mol*s)","*|/",2),
-        n = -0.75,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: t-C4H9 + n-C3H7 --> C3H6 + i-C4H10
-
-pg. 45: Discussion on evaluated data
-
-Entry 44,41 (a): No data available at the time.  Author estimates the rate expression
-
-for the combination rxn using the geometric mean rule (of the rxns t-C4H9+t-C4H9-->adduct
-and n-C3H7+n-C3H7-->adduct).  The author then estimates the disproportionation
-rate expression using the branching ratio; the branching ratio is from "analogous
-processes".
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 510,
     label = "Cd_pri_rad;C/H2/Nd_Csrad",
     group1 = 

@@ -7853,3 +7853,67 @@ M. Harper, 8/30/09: No data available at the time. Author estimates the rate coe
     ],
 )
 
+entry(
+    index = 134,
+    label = "1990TSA1-68:69",
+    reactant1 = 
+"""
+1    C 0 {4,S}
+2    C 0 {4,S}
+3    C 0 {4,S}
+4 *1 C 1 {1,S} {2,S} {3,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.16e+08,"m^3/(mol*s)","*|/",2),
+        n = -0.75,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "19",
+        pages = """1-68""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:69",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author estimates the rate expression for the combination rxn using the geometric mean rule (of the rxns t-C4H9+t-C4H9-->adduct and n-C3H7+n-C3H7-->adduct). The author then estimates the disproportionation rate expression using the branching ratio; the branching ratio is from "analogous processes". (p. 45, Entry 44,41a)
+""",
+    history = [
+        ("Tue Aug 28 19:30:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:69"""),
+    ],
+)
+
