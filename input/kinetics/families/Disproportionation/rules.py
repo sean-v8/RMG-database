@@ -287,53 +287,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 514,
-    label = "Ct_rad;C/H/NdNd_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,T}
-2    C 0 {1,T}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (6.03e+12,"cm^3/(mol*s)","*|/",3),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: C2H + i-C4H9 --> i-C4H8 + C2H2
-
-pg. 61: Discussion on evaluated data
-
-Entry 45,21: No data available at the time.  The author estimates the rate of 
-
-disproportionation to be 1x10^-11 cm3/molecule/s.
-*** NOTE: RMG_database previously had CH2_triplet as Y_rad_birad node, not Ct_rad ***
-
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 515,
     label = "H_rad;C/H/NdNd_Csrad",
     group1 = 
