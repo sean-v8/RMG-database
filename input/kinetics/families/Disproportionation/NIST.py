@@ -7609,3 +7609,61 @@ M. Harper, 8/30/09: No data available at the time. Author recommends the rate co
     ],
 )
 
+entry(
+    index = 130,
+    label = "1988TSA887:99",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+4 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.15e+07,"m^3/(mol*s)","*|/",1.7),
+        n = -0.32,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:99",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 1.7
+
+===
+
+M. Harper, 8/30/09: No direct measurements for either the addition or disproportionation rxns. Author recommends a rate coefficient expression for the addition rxn, based on the geometric mean rule of the rxns CH3+CH3=>adduct and n-C3H7+n-C3H7=>adduct. Furthermore, author recommends a branching ratio for disproportionation to addition of 0.06 (which appears to MRH to be consistent with the experimentally measured branching ratios). (p. 920, Entry 41,16b)
+""",
+    history = [
+        ("Tue Aug 28 19:00:18 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:99"""),
+    ],
+)
+
