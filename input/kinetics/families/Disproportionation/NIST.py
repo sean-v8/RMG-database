@@ -7191,3 +7191,65 @@ M. Harper, 8/30/09: No data available at the time. Author recommends a rate coef
     ],
 )
 
+entry(
+    index = 123,
+    label = "1988TSA887:51",
+    reactant1 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *1 C 1 {1,S} {2,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.11e+08,"m^3/(mol*s)","*|/",2),
+        n = -0.7,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:51",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No high-Temperature data available. Author has fit rate coefficient expression for addition rxn to 4 sets of experimental data. Recommended branching ratio agrees well with most of the experimental data. (p. 946-947, Entry 42,42b)
+""",
+    history = [
+        ("Tue Aug 28 17:43:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:51"""),
+    ],
+)
+

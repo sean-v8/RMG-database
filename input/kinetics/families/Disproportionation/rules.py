@@ -139,54 +139,6 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 495,
-    label = "C_rad/H/NonDeC;Cmethyl_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.11e+14,"cm^3/(mol*s)","*|/",2),
-        n = -0.7,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
-    longDesc = 
-u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  i-C3H7 + i-C3H7 --> C3H6 + C3H8
-
-pg. 946-947: Discussion on evaluated data
-
-Entry 42,42 (b): No high-Temperature data available.  Author has fit rate coefficient
-
-expression for addition rxn to 4 sets of experimental data.  Recommended branching
-ratio agrees well with most of the experimental data.
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 496,
     label = "C_rad/Cs3;Cmethyl_Csrad",
     group1 = 
