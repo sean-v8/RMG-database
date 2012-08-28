@@ -7099,7 +7099,7 @@ entry(
 """,
     degeneracy = 1,
     kinetics = Arrhenius(
-        A = (2.3e07,"m^3/(mol*s)","*|/",1.1),
+        A = (2.3e+07,"m^3/(mol*s)","*|/",1.1),
         n = -0.35,
         Ea = (0,"kJ/mol"),
         T0 = 1,
@@ -7128,6 +7128,66 @@ M. Harper, 8/30/09: No data available at the time. The rate coefficient expressi
 """,
     history = [
         ("Tue Aug 28 17:22:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:81"""),
+    ],
+)
+
+entry(
+    index = 122,
+    label = "1988TSA887:65",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 C 1 {2,S}
+2    O 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2    O 0 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.89e+06,"m^3/(mol*s)","*|/",5),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:65",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 5.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author recommends a rate coefficient of 4.8E-12 based on the rate expression of i-C3H7+C2H5=C2H6+C3H6. (p. 945, Entryy 42,39c)
+""",
+    history = [
+        ("Tue Aug 28 17:38:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:65"""),
     ],
 )
 
