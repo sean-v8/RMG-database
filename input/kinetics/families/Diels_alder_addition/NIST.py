@@ -3615,3 +3615,69 @@ Analytical technique: Gas chromatography
         ("Tue Aug 28 14:21:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984HUY/POP93:4"""),
     ],
 )
+
+entry(
+    index = 58,
+    label = "1984HUY/POP93:2",
+    reactant1 = 
+"""
+1    C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 0 {1,S} {4,D}
+4 *2 C 0 {3,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S} {4,S}
+2    C 0 {1,S} {3,S}
+3 *6 C 0 {2,S} {5,D}
+4 *3 C 0 {1,S} {6,D}
+5 *5 C 0 {3,D} {6,S}
+6 *4 C 0 {4,D} {5,S}
+""",
+    product1 = 
+"""
+1  *1 C 0 {2,S} {4,S} {7,S}
+2  *3 C 0 {1,S} {5,S} {10,S}
+3  *6 C 0 {4,S} {6,S} {9,S}
+4  *2 C 0 {1,S} {3,S}
+5     C 0 {2,S} {6,S}
+6     C 0 {3,S} {5,S}
+7     C 0 {1,S} {8,S}
+8     C 0 {7,S}
+9  *5 C 0 {3,S} {10,D}
+10 *4 C 0 {2,S} {9,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1170,"m^3/(mol*s)","*|/",1.12),
+        n = 0,
+        Ea = (119.728,"kJ/mol"),
+        T0 = 1,
+        Tmin = (488,"K"),
+        Tmax = (606,"K"),
+        Pmin = (7599,"Pa"),
+        Pmax = (83300,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Huybrechts, G.", "Poppelsdorf, H.", "Maesschalck, L.", "Van Mele, B."],
+        title = u'Kinetics, mechanism, and endo selectivity of diels-alder reactions of alkylmonosubstituted ethenes with cyclohexa-1,3-diene in the gas phase',
+        journal = "Int. J. Chem. Kinet.",
+        volume = "16",
+        pages = """93""",
+        year = "1984",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1984HUY/POP93:2",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Uncertainty: 1.12
+Bath gas: 1,3-Cyclohexadiene
+Excitation technique: Thermal
+Analytical technique: Gas chromatography
+""",
+    history = [
+        ("Tue Aug 28 14:25:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1984HUY/POP93:2"""),
+    ],
+)
