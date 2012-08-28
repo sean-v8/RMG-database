@@ -287,53 +287,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 515,
-    label = "H_rad;C/H/NdNd_Csrad",
-    group1 = 
-"""
-1 *1 H 1
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (9.04e+11,"cm^3/(mol*s)","*|/",2),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: H + i-C4H9 --> i-C4H8 + H2
-
-pg. 53: Discussion on evaluated data
-
-Entry 45,4 (c): No data available at the time.  The author estimates the disproportionation
-
-rate coefficent as half the rate of H+n-C3H7=C3H6+H2 (due to the presence of 2
-H-atoms on the alpha-carbon in n-C3H7 and only 1 on the alpha-carbon of i-C4H9).
-The author also states that the branching ratio is pressure-dependent and supplies
-fall-off tables and collisional efficiencies.
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 516,
     label = "C_methyl;C/H/NdNd_Csrad",
     group1 = 
