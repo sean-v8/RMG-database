@@ -139,49 +139,6 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 500,
-    label = "H_rad;Cmethyl_Orad",
-    group1 = 
-"""
-1 *1 H 1
-""",
-    group2 = 
-"""
-1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
-2 *3 O 1 {1,S}
-3 *4 H 0 {1,S}
-4    H 0 {1,S}
-5    H 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13,"cm^3/(mol*s)","*|/",3.16),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (1000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Baulch et al [95] literature review.""",
-    longDesc = 
-u"""
-[95] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Esser, C.; Frank, P.; Just, T.; Kerr, J.A.; Pilling, M.J.; Troe, J.; Walker, R.W.; Warnatz, J.; Journal of Physical and Chemical Reference Data (1992), 21(3), 411-734.
-pg.523: Discussion of evaluated data
-
-H+CH3O --> H2+CH2O: Authors state that no new data have been reported for this reaction.
-
-MRH assumes the recommended value comes from a previous review article published
-by authors.  In any case, recommended data fits the reported data well.
-MRH 31-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 501,
     label = "O2_birad;C/H2/Nd_Csrad",
     group1 = 

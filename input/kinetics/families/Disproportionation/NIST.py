@@ -7495,3 +7495,59 @@ M. Harper, 8/30/09: No data available at the time. Author notes that both a H-at
     ],
 )
 
+entry(
+    index = 128,
+    label = "1992BAU/COB411-429:119",
+    reactant1 = 
+"""
+1 *1 H 1
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2 *3 O 1 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *2 C 0 {2,D}
+2 *3 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.81e+07,"m^3/(mol*s)","*|/",3.16),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (1000,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Esser, C.", "Frank, P.", "Just, Th.", "Kerr, J.A.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combustion modelling',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "21",
+        pages = """411-429""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:119",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 3.1600001
+
+===
+
+M. Harper, 8/31/09: Authors state that no new data have been reported for this reaction. MRH assumes the recommended value comes from a previous review article published by authors. In any case, recommended data fits the reported data well. (p. 523)
+""",
+    history = [
+        ("Tue Aug 28 18:44:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992BAU/COB411-429:119"""),
+    ],
+)
+
