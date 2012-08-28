@@ -7066,3 +7066,64 @@ M. Harper, 8/30/09: Author notes that measurements performed by Arthur and Anast
     ],
 )
 
+entry(
+    index = 121,
+    label = "1988TSA887:61",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.3e07,"m^3/(mol*s)","*|/",1.1),
+        n = -0.35,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:81",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+Reference Reaction: iso-C3H7 + ·C2H5 → iso-C5H12 (1988TSA887:84)
+Uncertainty: 1.1
+
+===
+
+M. Harper, 8/30/09: No data available at the time. The rate coefficient expression for the combination rxn is computed using the geometric mean rule and is reported as 2.6E11*(300/T)^0.35 cm3/molecule/s. The recommended branching ratio for disproportionation to addition is that reported by Gibian and Corley (1973). (p. 937-938, Entry 42,17c)
+""",
+    history = [
+        ("Tue Aug 28 17:22:43 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:81"""),
+    ],
+)
+

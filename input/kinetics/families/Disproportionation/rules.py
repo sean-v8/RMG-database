@@ -139,55 +139,6 @@ MRH 30-Aug-2009
 )
 
 entry(
-    index = 492,
-    label = "C_rad/H2/Cs;Cmethyl_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C  0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-4    H  0 {1,S}
-5    H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.3e+13,"cm^3/(mol*s)","*|/",1.1),
-        n = -0.35,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
-    longDesc = 
-u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  C2H5 + i-C3H7 --> C3H6 + C2H6
-
-pg. 937-938: Discussion on evaluated data
-
-Entry 42,17 (c): No data available at the time.  The rate coefficient expression for
-
-the combination rxn is computed using the geometric mean rule and is reported as
-2.6x10^-11 * (300/T)^0.35 cm3/molecule/s.  The recommended branching ratio for 
-disproportionation to addition is that reported by Gibian and Corley (1973).
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 493,
     label = "C_rad/H2/Cd;Cmethyl_Csrad",
     group1 = 
