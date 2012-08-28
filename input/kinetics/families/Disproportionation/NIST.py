@@ -7317,3 +7317,63 @@ M. Harper, 8/30/09: The author computes the combination rate expression using th
     ],
 )
 
+entry(
+    index = 125,
+    label = "1988TSA887:70",
+    reactant1 = 
+"""
+1 *2 C 0 {3,S} {4,S}
+2    C 0 {3,S}
+3 *3 C 1 {1,S} {2,S}
+4 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,D}
+2 *1 C 1 {1,D}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.52e+08,"m^3/(mol*s)","*|/",2),
+        n = -0.7,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:70",
+    ),
+    referenceType = "theory",
+    shortDesc = u"""Estimated: thermochemical, kinetic, or other""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author recommends the rate coefficient expression of C2H5+i-C3H7 for the rate expression for C2H3+i-C3H7. Author also recommends the branching ratio of disproportionation to addition of the C2H5+i-C3H7 system for the C2H3+i-C3H7 system. (p. 939-940, Entry 42,19a)
+""",
+    history = [
+        ("Tue Aug 28 17:54:29 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:70"""),
+    ],
+)
+
