@@ -8037,3 +8037,61 @@ M. Harper, 8/30/09: No data available at the time. Author notes that the rxn is 
     ],
 )
 
+entry(
+    index = 137,
+    label = "1988TSA887:112",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+4 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 O 1
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.41e+07,"m^3/(mol*s)","*|/",3),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:112",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 3.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author estimates rate coefficient based on the rate coefficient for OH+C2H5=C2H4+H2O, namely 4.0E-11 cm3/molecule/s. (p. 917, Entry 41,6a)
+""",
+    history = [
+        ("Tue Aug 28 19:43:52 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:112"""),
+    ],
+)
+
