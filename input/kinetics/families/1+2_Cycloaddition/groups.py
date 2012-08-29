@@ -22,7 +22,12 @@ entry(
     index = 1,
     label = "elec_def",
     group = "OR{carbene, me_carbene, dime_carbene, ph_carbene, o_atom}",
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (3.89164e+06,"m^3/(mol*s)"),
+        n = -3.01092e-13,
+        Ea = (3015.81,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -32,6 +37,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -63,7 +69,12 @@ entry(
 """
 1 *3 O {2S,2T}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1.09033,"m^3/(mol*s)"),
+        n = -9.01501e-14,
+        Ea = (-1853.95,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -73,6 +84,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -85,7 +97,12 @@ entry(
 2    H 0       {1,S}
 3    H 0       {1,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (0.722228,"m^3/(mol*s)"),
+        n = 1.46549e-14,
+        Ea = (17690.8,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -95,6 +112,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -345,7 +363,12 @@ entry(
 1 *1 Cd 0 {2,D}
 2 *2 Cd 0 {1,D}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1.08864,"m^3/(mol*s)"),
+        n = 4.06564e-13,
+        Ea = (188.488,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -355,6 +378,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -370,7 +394,12 @@ entry(
 5    H  0 {2,S}
 6    H  0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (0.321137,"m^3/(mol*s)"),
+        n = -3.82194e-14,
+        Ea = (4091.65,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -380,6 +409,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -395,7 +425,12 @@ entry(
 5    H   0 {2,S}
 6    R!H 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (0.701274,"m^3/(mol*s)"),
+        n = 5.1692e-13,
+        Ea = (-275.766,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -405,6 +440,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -420,7 +456,12 @@ entry(
 5    H      0 {2,S}
 6    {Cs,O} 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (0.701274,"m^3/(mol*s)"),
+        n = 6.91891e-13,
+        Ea = (-275.766,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -430,6 +471,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -470,7 +512,12 @@ entry(
 5    R!H 0 {2,S}
 6    R!H 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1.87026,"m^3/(mol*s)"),
+        n = 1.94428e-13,
+        Ea = (-1670.43,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -480,6 +527,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -495,7 +543,12 @@ entry(
 5    {Cs,O} 0 {2,S}
 6    {Cs,O} 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1.87026,"m^3/(mol*s)"),
+        n = 1.32339e-13,
+        Ea = (-1670.43,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -505,6 +558,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -570,7 +624,12 @@ entry(
 5    H   0 {2,S}
 6    R!H 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (3.78973,"m^3/(mol*s)"),
+        n = 3.59302e-13,
+        Ea = (-2088.83,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -580,6 +639,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -595,7 +655,12 @@ entry(
 5    H      0 {2,S}
 6    {Cs,O} 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (3.78973,"m^3/(mol*s)"),
+        n = 2.63164e-13,
+        Ea = (-2088.83,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -605,6 +670,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -845,7 +911,12 @@ entry(
 5    R!H 0 {2,S}
 6    R!H 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (7.82554,"m^3/(mol*s)"),
+        n = 2.93987e-13,
+        Ea = (-2088.83,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -855,6 +926,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -870,7 +942,12 @@ entry(
 5    {Cs,O} 0 {2,S}
 6    {Cs,O} 0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (7.82554,"m^3/(mol*s)"),
+        n = 3.7359e-13,
+        Ea = (-2088.83,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -880,6 +957,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 

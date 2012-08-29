@@ -23,7 +23,12 @@ entry(
     index = 1,
     label = "Y_birad",
     group = "OR{Y_biCyc3, Y_biCyc4, Y_biCyc5, Y_biCyc6, Y_biCyc7}",
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (5.66e+10,"s^-1"),
+        n = 1,
+        Ea = (37781.5,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -33,6 +38,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -88,7 +94,12 @@ entry(
 3 *3 R!H 1 {2,{S,D}}
 4 *4 H   0 {2,S}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1,"s^-1"),
+        n = 2.75335e-14,
+        Ea = (1966.48,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -98,6 +109,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -112,7 +124,12 @@ entry(
 4 *4 H   0 {2,S}
 5    R!H 0 {1,{S,D,B,T}} {2,{S,D,B}}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1,"s^-1"),
+        n = 1.95621e-13,
+        Ea = (30417.7,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -122,6 +139,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -129,7 +147,12 @@ entry(
     index = 6,
     label = "Y_biCyc5",
     group = "OR{Y_biCyc5radEndo, Y_biCyc5radExo}",
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1,"s^-1"),
+        n = -1.02252e-13,
+        Ea = (-5355.52,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -139,6 +162,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -146,7 +170,12 @@ entry(
     index = 7,
     label = "Y_biCyc6",
     group = "OR{Y_biCyc6radEndo, Y_biCyc6radExo}",
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1,"s^-1"),
+        n = 7.4829e-14,
+        Ea = (-21673.1,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -156,6 +185,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
@@ -163,7 +193,12 @@ entry(
     index = 8,
     label = "Y_biCyc7",
     group = "OR{Y_biCyc7radEndo, Y_biCyc7radExo}",
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1,"s^-1"),
+        n = 3.70814e-14,
+        Ea = (-5355.52,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -173,6 +208,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:15 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 

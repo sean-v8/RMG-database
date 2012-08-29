@@ -27,7 +27,12 @@ entry(
 2 *2 Cdd 0 {1,D} {3,D}
 3    Od  0 {2,D}
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (69200,"m^3/(mol*s)"),
+        n = 3.90799e-14,
+        Ea = (182924,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -37,6 +42,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:42:10 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 

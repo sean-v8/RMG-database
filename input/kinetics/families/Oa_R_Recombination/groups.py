@@ -24,7 +24,12 @@ entry(
 """
 1 *1 R 1
 """,
-    kinetics = None,
+    kinetics = Arrhenius(
+        A = (1e+07,"m^3/(mol*s)"),
+        n = 1.00752e-14,
+        Ea = (-8.43926e-11,"J/mol"),
+        T0 = (1,"K"),
+    ),
     reference = None,
     referenceType = "",
     shortDesc = u"""""",
@@ -34,6 +39,7 @@ u"""
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
+        ("Wed Aug 29 13:43:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Generated new group additivity values for this entry."""),
     ],
 )
 
