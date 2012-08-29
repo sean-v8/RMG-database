@@ -7,7 +7,7 @@ longDesc = u"""
 
 """
 
-template(reactants=["X_H", "Y_rad_birad"], products=["X_H", "Y_rad_birad"], ownReverse=True)
+template(reactants=["X_H_or_Xrad_H", "Y_rad_birad"], products=["X_H_or_Xrad_H", "Y_rad_birad"], ownReverse=True)
 
 recipe(actions=[
     ['BREAK_BOND', '*1', 'S', '*2'],
@@ -3805,7 +3805,7 @@ u"""
 )
 
 entry(
-    index = -1,
+    index = 155,
     label = "Xrad_H",
     group = 
 """
@@ -3828,6 +3828,7 @@ u"""
 tree(
 """
 L1: X_H_or_Xrad_H
+    L2: Xrad_H
     L2: X_H
         L3: H2
         L3: Ct_H
