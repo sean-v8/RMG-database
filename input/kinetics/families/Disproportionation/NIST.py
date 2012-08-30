@@ -8651,3 +8651,65 @@ M. Harper, 8/30/09: No data available at the time. Author estimates the dispropo
     ],
 )
 
+entry(
+    index = 147,
+    label = "1990TSA1-68:115",
+    reactant1 = 
+"""
+1    C 0 {2,D}
+2 *1 C 1 {1,D}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *3 C 1 {1,S}
+5 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,D}
+2 *1 C 0 {1,D} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *3 C 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (843000,"m^3/(mol*s)","*|/",5),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "19",
+        pages = """1-68""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:115",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 5.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author estimates the disproportionation rate coefficient based on the rate of C2H5+i-C4H9=i-C4H8+C2H6. (p. 60, Entry 45,19b)
+""",
+    history = [
+        ("Thu Aug 30 13:31:22 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:115"""),
+    ],
+)
+
