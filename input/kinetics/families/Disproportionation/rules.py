@@ -245,48 +245,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 525,
-    label = "H_rad;Cdpri_Csrad",
-    group1 = 
-"""
-1 *1 H 1
-""",
-    group2 = 
-"""
-1 *2 Cd 0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13,"cm^3/(mol*s)","*|/",3),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [93] Literature review.""",
-    longDesc = 
-u"""
-[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
-Literature review: H + C3H5 --> H2C=C=CH2 + H2
-
-pg.252: Discussion on evaluated data
-
-Entry 47,4(c): No data available at the time.  Author assigns a rate coefficient of 
-
-3x10^-11 cm3/molecule/s for the disproportionation rxn.
-MRH 31-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 526,
     label = "C_methyl;Cdpri_Csrad",
     group1 = 

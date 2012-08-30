@@ -8773,3 +8773,61 @@ M. Harper, 8/30/09: No data available at the time. Author estimates the dispropo
     ],
 )
 
+entry(
+    index = 149,
+    label = "1991TSA221-273:110",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,D} {4,S}
+2 *3 C 1 {1,S}
+3    C 0 {1,D}
+4 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {3,D}
+2    C 0 {3,D}
+3 *2 C 0 {1,D} {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.81e+07,"m^3/(mol*s)","*|/",3),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part V. Propene',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "20",
+        pages = """221-273""",
+        year = "1991",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:110",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 3.0
+
+===
+
+M. Harper, 8/31/09: No data available at the time. Author assigns a rate coefficient of 3E-11 cm3/molecule/s for the disproportionation rxn. (p. 252, Entry 47,4c)
+""",
+    history = [
+        ("Thu Aug 30 13:52:50 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:110"""),
+    ],
+)
+
