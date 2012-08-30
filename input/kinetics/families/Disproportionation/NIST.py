@@ -520,6 +520,14 @@ u"""
 PrIMe Reaction: r00010110
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010110/rk00000001.xml
 Uncertainty: 3.0
+
+===
+
+M. Harper, 8/31/09:
+
+No data available at the time. Recommended rate coefficient expression based on rxn C3H5+C2H5=C2H4+C3H6 (James, D.G.L. and Troughton, G.E.); this leads to disproportionation-to-addition ratio of 0.03. The addition rate expression was derived using the geometric mean rule for the rxns C3H5+C3H5-->adduct and CH3+CH3-->adduct. (p. 257, Entry 47,16a)
+
+NOTE: The Ea reported in the discussion is Ea/R=-132 Kelvin. However, in the table near the beginning of the review article (summarizing all reported data) and in the NIST online database (kinetics.nist.gov), the reported Ea/R=-66 Kelvin. MRH took the geometric mean of the allyl combination rxn (1.70E-11 * exp(132/T)) and methyl combination rxn (1.68E-9 * T^-0.64) to obtain 1.69E-11 * T^-0.32 * exp(66/T). Multiplying by 0.03 results in the recommended rate coefficient expression.
 """,
     history = [
         ("Thu Jul 12 23:12:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:91"""),

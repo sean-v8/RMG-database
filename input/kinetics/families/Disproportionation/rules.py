@@ -245,60 +245,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 526,
-    label = "C_methyl;Cdpri_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 Cd 0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (3.01e+12,"cm^3/(mol*s)","*|/",3),
-        n = -0.32,
-        alpha = 0,
-        E0 = (-0.13,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [93] Literature review.""",
-    longDesc = 
-u"""
-[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
-Literature review: CH3 + C3H5 --> H2C=C=CH2 + CH4
-
-pg.257: Discussion on evaluated data
-
-Entry 47,16(a): No data available at the time.  Recommended rate coefficient expression
-
-based on rxn C3H5+C2H5=C2H4+C3H6 (James, D.G.L. and Troughton, G.E.); this leads to disproportionation-
-to-addition ratio of 0.03.  The addition rate expression was derived using the geometric
-mean rule for the rxns C3H5+C3H5-->adduct and CH3+CH3-->adduct.
-NOTE: The Ea reported in the discussion is Ea/R=-132 Kelvin.  However, in the table near
-
-the beginning of the review article (summarizing all reported data) and in the NIST
-online database (kinetics.nist.gov), the reported Ea/R=-66 Kelvin.  MRH took the
-geometric mean of the allyl combination rxn (1.70x10^-11 * exp(132/T)) and methyl
-combination rxn (1.68x10^-9 * T^-0.64) to obtain 1.69x10^-11 * T^-0.32 * exp(66/T).
-Multiplying by 0.03 results in the recommended rate coefficient expression.
-MRH 31-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 527,
     label = "C_rad/H2/Cs;Cdpri_Csrad",
     group1 = 
