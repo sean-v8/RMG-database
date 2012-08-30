@@ -6213,6 +6213,10 @@ u"""
 PrIMe Reaction: r00009781
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00009781/rk00000001.xml
 Uncertainty: 3.0
+
+===
+
+M. Harper, 8/31/09: No data available at the time. Recommended rate coefficient expression based on "allyl and alkyl radicals behaving in similar fashion" (possibly referencing Gibian M.J. and Corley R.C.); this leads to disproportionation-to-addition ratio of 0.04. The addition rate expression was derived using the geometric mean rule for the rxns C3H5+C3H5-->adduct and tC4H9+tC4H9-->adduct. (p. 269, Entry 47,44b)
 """,
     history = [
         ("Thu Jul 12 23:10:04 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:74"""),
