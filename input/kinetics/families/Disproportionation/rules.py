@@ -192,56 +192,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 517,
-    label = "C_rad/H2/Cs;C/H/NdNd_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (8.43e+11,"cm^3/(mol*s)","*|/",2),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: C2H5 + i-C4H9 --> i-C4H8 + C2H6
-
-pg. 59: Discussion on evaluated data
-
-Entry 45,17 (a): No direct measurements of either the addition or disproportionation rxns.
-
-The combination rate coefficient was computed using the geometric mean rule (of the
-rxns C2H5+C2H5-->adduct and i-C4H9+i-C4H9-->adduct).  The disproportionation rate
-coefficient was computed using the disproportionation-to-combination ratio reported
-by Gibian and Corley (1973).
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 518,
     label = "C_rad/H2/O;C/H/NdNd_Csrad",
     group1 = 

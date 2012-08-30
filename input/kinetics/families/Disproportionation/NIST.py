@@ -8393,3 +8393,65 @@ M. Harper, 8/30/09: No data available at the time. The author estimates the disp
     ],
 )
 
+entry(
+    index = 143,
+    label = "1990TSA1-68:130",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *3 C 1 {1,S}
+5 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *1 C 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *3 C 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (843000,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "19",
+        pages = """1-68""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:130",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No direct measurements of either the addition or disproportionation rxns. The combination rate coefficient was computed using the geometric mean rule (of the rxns C2H5+C2H5-->adduct and i-C4H9+i-C4H9-->adduct). The disproportionation rate coefficient was computed using the disproportionation-to-combination ratio reported by Gibian and Corley (1973). (p. 59, Entry 45,17a)
+""",
+    history = [
+        ("Thu Aug 30 12:34:53 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:130"""),
+    ],
+)
+
