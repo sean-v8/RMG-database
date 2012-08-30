@@ -192,58 +192,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 520,
-    label = "C_rad/H/NonDeC;C/H/NdNd_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    Cs 0 {1,S}
-4    Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.56e+13,"cm^3/(mol*s)","*|/",2),
-        n = -0.35,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: i-C3H7 + i-C4H9 --> i-C4H8 + C3H8
-
-pg. 65: Discussion on evaluated data
-
-Entry 45,42 (b): No data available at the time.  Author estimates the disproportionation rate
-
-coefficient as half the rate of i-C3H7+n-C3H7=C3H6+C3H8 (due to half as many H-atoms
-on the alpha-carbon).
-*** NOTE: MRH computes half the rate of i-C3H7+n-C3H7=C3H6+C3H8 as 0.52x10^-11 * (300/T)^0.35,
-
-not 0.58x10^-11 * (300/T)^0.35.  However, there may be a reason for the relatively
-small discrepancy between the author's stated and implemented calculation. ***
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 521,
     label = "C_rad/Cs3;C/H/NdNd_Csrad",
     group1 = 
