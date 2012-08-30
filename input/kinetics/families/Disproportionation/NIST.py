@@ -6379,6 +6379,10 @@ u"""
 PrIMe Reaction: r00010125
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010125/rk00000001.xml
 Uncertainty: 2.0
+
+===
+
+M. Harper, 8/31/09: No data available at the time. Recommended rate coefficient expression based on rxn C3H5+C2H5=C2H4+C3H6 (James, D.G.L. and Troughton, G.E.); this leads to disproportionation-to-addition ratio of 0.04. The addition rate expression was derived using the geometric mean rule for the rxns C3H5+C3H5-->adduct and iC4H9+iC4H9-->adduct. (p. 270, Entry 47,45a)
 """,
     history = [
         ("Thu Jul 12 23:12:32 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:104"""),

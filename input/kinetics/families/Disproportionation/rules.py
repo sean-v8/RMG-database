@@ -192,55 +192,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 519,
-    label = "C_rad/H2/Cd;C/H/NdNd_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cd 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (7.83e+11,"cm^3/(mol*s)","*|/",3),
-        n = 0,
-        alpha = 0,
-        E0 = (-0.13,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [93] Literature review.""",
-    longDesc = 
-u"""
-[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
-Literature review: C3H5 + iC4H9 --> iC4H8 + C3H6
-
-pg.270: Discussion on evaluated data
-
-Entry 47,45(a): No data available at the time.  Recommended rate coefficient expression
-
-based on rxn C3H5+C2H5=C2H4+C3H6 (James, D.G.L. and Troughton, G.E.); this leads to disproportionation-
-to-addition ratio of 0.04.  The addition rate expression was derived using the geometric
-mean rule for the rxns C3H5+C3H5-->adduct and iC4H9+iC4H9-->adduct.
-MRH 31-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 520,
     label = "C_rad/H/NonDeC;C/H/NdNd_Csrad",
     group1 = 
