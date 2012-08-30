@@ -2976,6 +2976,10 @@ u"""
 PrIMe Reaction: r00010098
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010098/rk00000003.xml
 Uncertainty: 2.0
+
+===
+
+M. Harper, 8/31/09: The recommended rate expression is derived from the experimentally-determined disproportionation-to-addition ratio of 0.047 (James and Troughton) and the addition rate rule (C2H5+C3H5-->adduct) calculated using the geometric mean rule of the rxns C2H5+C2H5-->adduct and C3H5+C3H5-->adduct. (p. 259, Entry 47,17a)
 """,
     history = [
         ("Thu Jul 12 23:11:31 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:111"""),

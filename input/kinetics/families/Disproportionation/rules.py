@@ -245,53 +245,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 527,
-    label = "C_rad/H2/Cs;Cdpri_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 Cd 0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (9.64e+11,"cm^3/(mol*s)","*|/",2),
-        n = 0,
-        alpha = 0,
-        E0 = (-0.13,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [93] Literature review.""",
-    longDesc = 
-u"""
-[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
-Literature review: C2H5 + C3H5 --> H2C=C=CH2 + C2H6
-
-pg.259: Discussion on evaluated data
-
-Entry 47,17(a): The recommended rate expression is derived from the experimentally-
-
-determined disproportionation-to-addition ratio of 0.047 (James and Troughton)
-and the addition rate rule (C2H5+C3H5-->adduct) calculated using the geometric
-mean rule of the rxns C2H5+C2H5-->adduct and C3H5+C3H5-->adduct.
-MRH 31-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 528,
     label = "C_rad/H2/Cd;Cdpri_Csrad",
     group1 = 
