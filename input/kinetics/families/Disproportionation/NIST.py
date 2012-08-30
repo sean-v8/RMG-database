@@ -8275,3 +8275,61 @@ M. Harper, 8/30/09: No data available at the time. Author suggests this is a min
     ],
 )
 
+entry(
+    index = 141,
+    label = "1988TSA887:123",
+    reactant1 = 
+"""
+1 *1 C 2T
+""",
+    reactant2 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S}
+2    C 0 {1,S}
+3 *3 C 1 {1,S}
+4 *4 H 0 {1,S}
+""",
+    product1 = 
+"""
+1 *1 C 1 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *2 C 0 {1,S} {3,D}
+3 *3 C 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.81e+06,"m^3/(mol*s)","*|/",3),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 3. Propane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "17",
+        pages = """887""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:123",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 3.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author estimates the rate coefficient expression of the addition rxn. The author then recommends that the disproportionation rate coefficient not exceed 10% of the combination rate. Thus, the rate coefficient is an upper limit. (p. 925, Entry 41,26)
+""",
+    history = [
+        ("Thu Aug 30 12:23:28 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988TSA887:123"""),
+    ],
+)
+

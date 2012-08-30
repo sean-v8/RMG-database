@@ -143,54 +143,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 502,
-    label = "CH2_triplet;C/H2/Nd_Csrad",
-    group1 = 
-"""
-1 *1 C 2T {2,S} {3,S}
-2    H 0  {1,S}
-3    H 0  {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    H      0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.81e+12,"cm^3/(mol*s)","*|/",5),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [91] Literature review.""",
-    longDesc = 
-u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review.  CH2_triplet + n-C3H7 --> C3H6 + CH3
-
-pg. 925: Discussion on evaluated data
-
-Entry 41,26: No data available at the time.  Author estimates the rate coefficient
-
-expression of the addition rxn.  The author then recommends that the disproportionation
-rate coefficient not exceed 10% of the combination rate.  Thus, the rate coefficient
-is an upper limit.
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 513,
     label = "O2_birad;C/H/NdNd_Csrad",
     group1 = 
