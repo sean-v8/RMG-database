@@ -192,54 +192,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 516,
-    label = "C_methyl;C/H/NdNd_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (6.02e+12,"cm^3/(mol*s)","*|/",2),
-        n = -0.32,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: CH3 + i-C4H9 --> i-C4H8 + CH4
-
-pg. 58: Discussion on evaluated data
-
-Entry 45,16 (b): No data available at the time.  The author estimates the disproportionation
-
-rate coefficient as half the rate of CH3+n-C3H7=C3H6+H2 (due to half as many H-atoms
-on the alpha-carbon).
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 517,
     label = "C_rad/H2/Cs;C/H/NdNd_Csrad",
     group1 = 
