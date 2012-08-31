@@ -8973,3 +8973,113 @@ M. Harper, 8/31/09: No data available at the time. Author recommends a rate coef
     ],
 )
 
+entry(
+    index = 152,
+    label = "1989GRO/RIE963-972:3",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S} {3,S}
+3 *2 O 0 {2,S} {4,S}
+4 *4 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *1 O 2T
+""",
+    product1 = 
+"""
+1 *1 O 1 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 O 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.04e+07,"m^3/(mol*s)","+|-",3e+07),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (298,"K"),
+        Pmin = (99.99,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Grotheer, H.", "Riekert, G.", "Walter, D.", "Just, Th."],
+        title = u'Reactions of hydroxymethyl and hydroxyethyl radicals with molecular and atomic oxygen',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "22",
+        pages = """963-972""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989GRO/RIE963-972:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Bath gas: He
+Excitation technique: Electron beam
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Fri Aug 31 13:39:54 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989GRO/RIE963-972:3"""),
+    ],
+)
+
+entry(
+    index = 153,
+    label = "1989GRO/RIE963-972:4",
+    reactant1 = 
+"""
+1 *1 O 2T
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *4 H 0 {2,S}
+2 *1 O 1 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (9.04e+07,"m^3/(mol*s)","+|-",3e+07),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (298,"K"),
+        Pmin = (99.99,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Grotheer, H.", "Riekert, G.", "Walter, D.", "Just, Th."],
+        title = u'Reactions of hydroxymethyl and hydroxyethyl radicals with molecular and atomic oxygen',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "22",
+        pages = """963-972""",
+        year = "1989",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1989GRO/RIE963-972:4",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Bath gas: He
+Excitation technique: Electron beam
+Analytical technique: Mass spectrometry
+""",
+    history = [
+        ("Fri Aug 31 13:45:42 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1989GRO/RIE963-972:4"""),
+    ],
+)
+

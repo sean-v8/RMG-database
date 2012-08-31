@@ -376,50 +376,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 536,
-    label = "O_atom_triplet;O_Csrad",
-    group1 = 
-"""
-1 *1 O 2T
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (9.04e+13,"cm^3/(mol*s)","+|-",3.01e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""Grotheer et al [189].""",
-    longDesc = 
-u"""
-[189] Grotheer, H.; Riekert, G.; Walter, D.; Just, T. Symp. Int. Combust. Proc. 1989, 22, 963.
-Absolute value measured directly. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 3.0E+13
-
-O + CH2OC --> OH + CH2O, O + CH3CHOH --> OH + CH3CHO
-
-O+CH2OH --> OH+CH2O && O+CH3CHOH --> OH+CH3CHO
-
-pg.963: Measured rate coefficients mentioned in abstract as k_2M and k_2E.
-
-pg.965-967: Discussion on measured rate coefficients.
-
-MRH 1-Sept-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 537,
     label = "CH2_triplet;O_Csrad",
     group1 = 
