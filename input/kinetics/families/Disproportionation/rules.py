@@ -143,59 +143,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 524,
-    label = "O2_birad;Cdpri_Csrad",
-    group1 = 
-"""
-1 *1 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    group2 = 
-"""
-1 *2 Cd 0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (6.022e+11,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (13.55,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [93] Literature review.""",
-    longDesc = 
-u"""
-[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
-Literature review: O2 + C3H5 --> H2C=C=CH2 + HO2
-
-pg.251: Discussion on evaluated data
-
-*** UPPER LIMIT ***
-
-Entry 47,3(b): The author states that there is uncertainty whether this rxn is appreciable
-
-at high temperatures.  There were conflicting results published regarding the
-significance above 461K (Morgan et al. and Slagle and Gutman).  The author thus
-decides to place an upper limit on the rate coefficient of 2x10^-12 * exp(-6820/T)
-cm3/molecule/s.  The author further notes that this upper limit assumes no
-contribution from a complex rearrangement of the adduct.  Finally, the author
-notes that this rxn should not be significant in combustion situations.
-MRH 31-Aug-2009
-
-Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (allyl, carbon #2). The final result is 6.022e+11 cm3/mol/s, Ea = 13.55 kcal/mol.
-JDM 31-Mar-2010
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 533,
     label = "O2_birad;O_Csrad",
     group1 = 

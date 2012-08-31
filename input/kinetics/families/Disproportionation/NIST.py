@@ -4504,6 +4504,10 @@ u"""
 PrIMe Reaction: r00010133
 PrIMe Kinetics: http://warehouse.primekinetics.org/depository/reactions/data/r00010133/rk00000002.xml
 Rate constant is an upper limit.
+
+===
+
+M. Harper, 8/31/09: The author states that there is uncertainty whether this rxn is appreciable at high temperatures. There were conflicting results published regarding the significance above 461K (Morgan et al. and Slagle and Gutman). The author thus decides to place an upper limit on the rate coefficient of 2E-12 * exp(-6820/T) cm3/molecule/s. The author further notes that this upper limit assumes no contribution from a complex rearrangement of the adduct. Finally, the author notes that this rxn should not be significant in combustion situations. (p. 251, Entry 47,3b)
 """,
     history = [
         ("Tue Jul 24 17:09:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1991TSA221-273:108"""),
