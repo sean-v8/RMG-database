@@ -376,53 +376,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 538,
-    label = "H_rad;O_Csrad",
-    group1 = 
-"""
-1 *1 H 1
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2e+13,"cm^3/(mol*s)","+|-",1e+13),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (295,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Edelbuttel-Einhaus et al [190].""",
-    longDesc = 
-u"""
-[190] Edelbuttel-Einhaus, J.; Hoyermann, K.; Rohde, G.; Seeba, J. Symp. Int. Combust. Proc. 1992, 22, 661.
-Data derived from fitting to a complex mechanism. Excitation: discharge, analysis: mass spectroscopy. Original uncertainty 1.0E+13
-
-H + CH3CHOH --> H2 + CH3CHO
-
-H+CH3CHOH --> H2+CH3CHO
-
-pg.661: Measured rate coefficient mentioned in abstract as k6.
-
-pg.665-666: Discussion on measured rate coefficient.  The reported rate coefficient is
-
-for H+CH3CHOH --> products, making this an UPPER LIMIT.  The rate coefficient
-was calculated based on the rate coefficient of the rxn C2H5+H --> CH3+CH3; the
-value the authors used was 3.6x10^13 cm3/mol/s.
-MRH 1-Sept-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 539,
     label = "H_rad;O_Csrad",
     group1 = 

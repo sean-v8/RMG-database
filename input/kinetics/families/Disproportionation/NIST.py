@@ -9139,3 +9139,64 @@ M. Harper, 8/30/09: No data at the time. Author estimates the rate of disproport
     ],
 )
 
+entry(
+    index = 155,
+    label = "1992EDE/HOY661-668:3",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *3 C 1 {1,S} {3,S}
+3 *2 O 0 {2,S} {4,S}
+4 *4 H 0 {3,S}
+""",
+    reactant2 = 
+"""
+1 *1 H 1
+""",
+    product1 = 
+"""
+1 *1 H 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {2,S}
+2 *3 C 0 {1,S} {3,D}
+3 *2 O 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2e+07,"m^3/(mol*s)","+|-",1e+07),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (295,"K"),
+        Pmin = (99.99,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Edelbuttel-Einhaus, J.", "Hoyermann, K.", "Rohde, G.", "Seeba, J."],
+        title = u'The detection of the hydroxyethyl radical by REMPI/mass-spectrometry and the application to the study of the reactions CH3CHOH + O and CH3CHOH + H',
+        journal = "Symp. Int. Combust. Proc.",
+        volume = "24",
+        pages = """661-668""",
+        year = "1992",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1992EDE/HOY661-668:3",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Derived from fitting to a complex mechanism""",
+    longDesc = 
+u"""
+Reference Reaction: ·C2H5 + H· → ·CH3 + ·CH3
+Bath gas: He
+Excitation technique: Electron beam
+Analytical technique: Mass spectrometry
+
+===
+
+M. Harper, 9/1/09: The reported rate coefficient is for H+CH3CHOH --> products, making this an UPPER LIMIT. The rate coefficient was calculated based on the rate coefficient of the rxn C2H5+H --> CH3+CH3; the value the authors used was 3.6E13 cm3/mol/s. (p. 665-666)
+""",
+    history = [
+        ("Fri Aug 31 13:54:48 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1992EDE/HOY661-668:3"""),
+    ],
+)
+
