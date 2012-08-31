@@ -69,22 +69,7 @@ entry(
     shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'sp') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review: i-C3H7 + O2 = HO2 + C3H6
 
-pg. 931-932: Discussion on evaluated data
-
-Entry 42,3 (a): Author appears to be skeptical of the only experimentally reported
-
-value.  Author notes that more recent work on C2H5+O2 suggested that the
-addition and disproportionation rxns may be coupled through a common intermediate.
-For the time being, the author decided to recommend the only experimentally
-reported rate coefficient, only for temperatures above 700K, as they note the
-addition rxn should be the predominant rxn at lower temperatures.
-MRH 30-Aug-2009
-
-Divide the rate constant by 12 to account for symmetry of 2 (O2) and 6 (i-C3H7, carbons #1 and 3).  The final result is 1.05833e+10 cm3/mol/s.
-JDM 31-Mar-2010
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
@@ -121,21 +106,7 @@ entry(
     shortDesc = u"""[AJ] Miyoshi 2011 (Table 4, Node 'ss') dx.doi.org/10.1021/jp112152n""",
     longDesc = 
 u"""
-[91] Tsang, W.; Journal of Physical and Chemical Reference Data (1988), 17(2), 887-951.
-Literature review: n-C3H7 + O2 = HO2 + C3H6
 
-pg. 914-915: Discussion on evaluated data
-
-Entry 41,3 (a): The author suggests a rate coefficient based on those reported in the
-
-literature.  The author notes that the data reported in the literature suggests
-the formation of C3H6 is controlled by the addition rxn.  The author further
-notes that it is surprising that p-dependence effects are not observed for
-C3H6 formation.
-MRH 30-Aug-2009
-
-Divide the rate constant by 4 to account for symmetry of 2 (O2) and 2 (n-C3H7, carbon #2).  The final result is 2.25825e+10 cm3/mol/s.
-JDM 31-Mar-2010
 """,
     history = [
         ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
