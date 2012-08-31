@@ -9438,3 +9438,59 @@ M. Harper, 8/31/09: Recommended value is k298. This reference just gives a table
     ],
 )
 
+entry(
+    index = 160,
+    label = "2001ATK/BAU1-56:126",
+    reactant1 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.78e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (298,"K"),
+    ),
+    reference = Article(
+        authors = ["Atkinson, R.", "Baulch, D.L.", "Cox, R.A.", "Crowley, J.N.", "Hampson, R.F, Jr.", "Kerr, J.A.", "Rossi, M.J.", "Troe, J."],
+        title = u'Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry',
+        journal = "Not in System",
+        pages = """1-56""",
+        year = "2001",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:126",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Pressure dependence: None reported
+
+===
+
+M. Harper, 8/31/09: Recommended value is k298. This reference just gives a table of results, with no discussion on how the preferred numbers were arrived at.
+""",
+    history = [
+        ("Fri Aug 31 15:13:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2001ATK/BAU1-56:126"""),
+    ],
+)
+
