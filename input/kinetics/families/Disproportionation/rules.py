@@ -143,55 +143,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 513,
-    label = "O2_birad;C/H/NdNd_Csrad",
-    group1 = 
-"""
-1 *1 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    group2 = 
-"""
-1 *2 C      0 {2,S} {3,S} {4,S} {5,S}
-2 *3 Cs     1 {1,S}
-3 *4 H      0 {1,S}
-4    {Cs,O} 0 {1,S}
-5    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.2044e+10,"cm^3/(mol*s)","*|/",5),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (600,"K"),
-        Tmax = (1000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [92] Literature review.""",
-    longDesc = 
-u"""
-[92] Tsang, W.; Journal of Physical and Chemical Reference Data (1990), 19(1), 1-68.
-Literature review: O2 + iC4H9 --> iC4H8 + HO2
-
-pg. 52-53: Discussion on evaluated data
-
-Entry 45,3 (a): The author recommends a rate coefficient based on the experiments performed
-
-by Baker et al. (yielding a disproportionation-to-decomposition ratio) and the
-current (Tsang) study's recommended iC4H9 unimolecular decomposition rate.
-MRH 31-Aug-2009
-
-Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (i-C4H9, carbon #2).  The final result is 1.2044e+10 cm3/mol/s.
-JDM 31-Mar-2010
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 524,
     label = "O2_birad;Cdpri_Csrad",
     group1 = 

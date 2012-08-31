@@ -9314,3 +9314,65 @@ M. Harper, 9/1/09: Formation and decay rates of CH2OH, CH3, and OH observed by p
     ],
 )
 
+entry(
+    index = 158,
+    label = "1990TSA1-68:126",
+    reactant1 = 
+"""
+1 *2 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4 *3 C 1 {1,S}
+5 *4 H 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1    C 0 {3,S}
+2    C 0 {3,S}
+3 *2 C 0 {1,S} {2,S} {4,D}
+4 *3 C 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (24100,"m^3/(mol*s)","*|/",5),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (600,"K"),
+        Tmax = (900,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "19",
+        pages = """1-68""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:126",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 5.0
+
+===
+
+M. Harper, 8/31/09: The author recommends a rate coefficient based on the experiments performed by Baker et al. (yielding a disproportionation-to-decomposition ratio) and the current (Tsang) study's recommended iC4H9 unimolecular decomposition rate. (p. 52-53, Entry 45,3a)
+""",
+    history = [
+        ("Fri Aug 31 14:51:01 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:126"""),
+    ],
+)
+
