@@ -9256,3 +9256,61 @@ M. Harper, 8/30/09: No data at the time. Author estimates disproportionation rat
     ],
 )
 
+entry(
+    index = 157,
+    label = "1988PAG/MUN375:6",
+    reactant1 = 
+"""
+1 *1 C 1
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (8.49e+07,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (298,"K"),
+        Pmin = (100000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Pagsberg, P.", "Munk, J.", "Sillesen, A.", "Anastasi, C."],
+        title = u'UV spectrum and kinetics of hydroxymethyl radicals',
+        journal = "Chem. Phys. Lett.",
+        volume = "146",
+        pages = """375""",
+        year = "1988",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1988PAG/MUN375:6",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Bath gas: Ar
+Excitation technique: Chemical activation
+Analytical technique: Vis-UV absorption
+
+===
+
+M. Harper, 9/1/09: Formation and decay rates of CH2OH, CH3, and OH observed by pulse radiolysis of gas mixtures of varying composition. Chemical composition of systems A-E as in Table 1. The authors note below Table 2 that the reported rate coefficient for CH3+CH2OH is an "adjustment of model to reproduce the observed decay rates of CH3 and CH2OH". MRH is skeptical of data, as this specific rxn is not directly referenced in the article, nor do the authors address whether other channels besides -->CH4+CH2O exist / are significant. The value of A in the database is consistent with that reported in Table 2. (p. 378)
+""",
+    history = [
+        ("Fri Aug 31 14:25:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1988PAG/MUN375:6"""),
+    ],
+)
+

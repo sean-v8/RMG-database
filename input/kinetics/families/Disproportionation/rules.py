@@ -376,57 +376,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 540,
-    label = "C_methyl;O_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (8.49e+13,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (298,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""Pagsberg et al [191].""",
-    longDesc = 
-u"""
-[191] Pagsberg, P.; Munk, J.; Sillesen, A.; Anastasi, C. Chem. Phys. Lett. 1988, 146, 375.
-Absolute value measured directly. Excitatio: electron beam, analysis: Vis-UV absorption.
-
-CH2OH + CH3 --> CH2O + CH4
-
-pg.378 Table 2: Formation and decay rates of CH2OH, CH3, and OH observed by pulse radiolysis of
-
-gas mixtures of varying composition.  Chemical composition of systems A-E as in Table 1.
-The authors note below Table 2 that the reported rate coefficient for CH3+CH2OH is an
-
-"adjustment of model to reproduce the observed decay rates of CH3 and CH2OH".
-MRH is skeptical of data, as this specific rxn is not directly referenced in the article,
-
-nor do the authors address whether other channels besides -->CH4+CH2O exist / are significant.
-The value of A in the database is consistent with that reported in Table 2.
-MRH 1-Sept-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 541,
     label = "C_methyl;O_Csrad",
     group1 = 
