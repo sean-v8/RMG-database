@@ -143,51 +143,6 @@ JDM 31-Mar-2010
 )
 
 entry(
-    index = 535,
-    label = "O2_birad;O_Csrad",
-    group1 = 
-"""
-1 *1 O 1 {2,S}
-2    O 1 {1,S}
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.74001e+12,"cm^3/(mol*s)","*|/",1.3),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol","+|-",0.4),
-        Tmin = (200,"K"),
-        Tmax = (300,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""DeMore et al [183] literature review.""",
-    longDesc = 
-u"""
-[183] DeMore, W.B.; Sander, S.P.; Golden, D.M.; Hampson, R.F.; Kurylo, M.J.; Howard, C.J.; Ravishankara, A.R.; Kolb, C.E.; Molina, M.J.; JPL Publication 97-4
-Literature review: CH2OH + O2 --> CH2O + HO2
-
-pg.62 D38: Discussion on evaluated data
-
-pg.22: Recommended A-factor and E/R parameter values
-
-MRH 1-Sept-2009
-
-Divide the rate constant by 2 to account for symmetry of 2 (O2) and 1 (CH2OH, oxygen atom). The final result is 2.74001e+12 cm3/mol/s.
-JDM 31-Mar-2010
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 541,
     label = "C_methyl;O_Csrad",
     group1 = 

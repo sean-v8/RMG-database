@@ -9494,3 +9494,56 @@ M. Harper, 8/31/09: Recommended value is k298. This reference just gives a table
     ],
 )
 
+entry(
+    index = 161,
+    label = "1997DEM/SAN1-266:290",
+    reactant1 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *1 O 1 {2,S}
+2    O 1 {1,S}
+""",
+    product1 = 
+"""
+1 *1 O 0 {2,S} {3,S}
+2    O 1 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (5.48e+06,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (200,"K"),
+        Tmax = (300,"K"),
+    ),
+    reference = Article(
+        authors = ["DeMore, W.B.", "Sander, S.P.", "Golden, D.M.", "Hampson, R.F.", "Kurylo, M.J.", "Howard, C.J.", "Ravishankara, A.R.", "Kolb, C.E.", "Molina, M.J."],
+        title = u'Chemical kinetics and photochemical data for use in stratospheric modeling. Evaluation number 12',
+        journal = "JPL Publication 97-4",
+        pages = """1-266""",
+        year = "1997",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:290",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+M. Harper, 9/1/09: Recommended A-factor and E/R parameter values (p. 22)
+""",
+    history = [
+        ("Fri Aug 31 15:16:46 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1997DEM/SAN1-266:290"""),
+    ],
+)
+
