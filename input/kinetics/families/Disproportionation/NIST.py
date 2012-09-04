@@ -9547,3 +9547,59 @@ M. Harper, 9/1/09: Recommended A-factor and E/R parameter values (p. 22)
     ],
 )
 
+entry(
+    index = 162,
+    label = "1987TSA471:32",
+    reactant1 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1 *1 C 1
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S}
+2 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (2.41e+06,"m^3/(mol*s)","*|/",5),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "16",
+        pages = """471""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:32",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 5.0
+
+===
+
+M. Harper, 8/30/09: No data at the time. Author estimates ratio of disproportionation rate to addition rate to be 0.2, namely 4E-12 cm3/molecule/s. (p. 500-501, Entry 39,16b)
+""",
+    history = [
+        ("Tue Sep  4 14:24:14 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:32"""),
+    ],
+)
+

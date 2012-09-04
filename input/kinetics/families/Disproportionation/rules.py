@@ -114,53 +114,6 @@ u"""
 )
 
 entry(
-    index = 541,
-    label = "C_methyl;O_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.41e+12,"cm^3/(mol*s)","*|/",5),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: CH3 + CH2OH --> CH4 + CH2O
-
-pg. 500-501: Discussion on evaluated data
-
-Entry 39,16 (b): CH2OH + CH3 --> CH4 + CH2O
-
-Author estimates ratio of disproportionation rate to addition rate to be 0.2,
-
-namely 4x10^-12 cm3/molecule/s.  No data at the time.
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 542,
     label = "C_rad/H2/Cs;O_Csrad",
     group1 = 
