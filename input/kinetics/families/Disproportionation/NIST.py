@@ -10193,3 +10193,61 @@ M. Harper, 8/30/09: No data available at the time. Author estimates a disproport
     ],
 )
 
+entry(
+    index = 173,
+    label = "1987TSA471:43",
+    reactant1 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    reactant2 = 
+"""
+1    O 0 {2,S}
+2 *1 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    O 0 {2,S}
+2 *1 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (1.21e+07,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "16",
+        pages = """471""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:43",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author recommends a disproportionation rate coefficient of 2E-11 cm3/molecules/s. (p. 498, Entry 39,7)
+""",
+    history = [
+        ("Tue Sep  4 15:27:35 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:43"""),
+    ],
+)
+
