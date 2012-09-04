@@ -114,53 +114,6 @@ u"""
 )
 
 entry(
-    index = 543,
-    label = "C_rad/H2/Cd;O_Csrad",
-    group1 = 
-"""
-1 *1 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cd 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.81e+13,"cm^3/(mol*s)","*|/",2.5),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [93] Literature review.""",
-    longDesc = 
-u"""
-[93] Tsang, W.; Journal of Physical and Chemical Reference Data (1991), 20(2), 221-273.
-Literature review: C3H5 + CH2OH --> CH2O + C3H6
-
-pg.267: Discussion on evaluated data
-
-Entry 47,39: No data available at the time.  Author notes that combination of these two
-
-reactants will form 3-butene-1-ol which should decompose under combustion conditions
-to form C3H6 + CH2O (same products).  The author therefore recommends a rate
-coefficient of 3x10^-11 cm3/molecule/s.
-MRH 31-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 544,
     label = "C_rad/H2/O;O_Csrad",
     group1 = 
