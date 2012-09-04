@@ -114,51 +114,6 @@ u"""
 )
 
 entry(
-    index = 550,
-    label = "O_pri_rad;O_Csrad",
-    group1 = 
-"""
-1 *1 O 1 {2,S}
-2    H 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (2.41e+13,"cm^3/(mol*s)","*|/",2),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: OH + CH2OH --> H2O + CH2O
-
-pg. 497: Discussion on evaluated data
-
-Entry 39,6: CH2OH + OH --> H2O + CH2O
-
-Author estimates a disproportionation rate coefficient of 4x10^-11 cm3/molecule/s.
-
-No data available at the time.
-MRH 30-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 551,
     label = "O_rad/NonDeC;O_Csrad",
     group1 = 
