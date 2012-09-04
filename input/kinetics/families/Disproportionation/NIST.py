@@ -9843,3 +9843,65 @@ M. Harper, 8/30/09: No data available at the time. Author suggests rate coeffici
     ],
 )
 
+entry(
+    index = 167,
+    label = "1990TSA1-68:75",
+    reactant1 = 
+"""
+1    C 0 {4,S}
+2    C 0 {4,S}
+3    C 0 {4,S}
+4 *1 C 1 {1,S} {2,S} {3,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S} {4,S} {5,S}
+2    C 0 {1,S}
+3    C 0 {1,S}
+4    C 0 {1,S}
+5 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (6.91e+08,"m^3/(mol*s)","*|/",2),
+        n = -0.75,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 4. Isobutane',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "19",
+        pages = """1-68""",
+        year = "1990",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:75",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09: No data available at the time. Author estimates the addition rxn rate coefficient based on the rate for t-C4H9+C2H5-->adduct. The author uses a disproportionation-to-addition ratio of 0.52 to obtain the reported rate coefficient expression. (p. 44, Entry 44,39a)
+""",
+    history = [
+        ("Tue Sep  4 14:54:39 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1990TSA1-68:75"""),
+    ],
+)
+
