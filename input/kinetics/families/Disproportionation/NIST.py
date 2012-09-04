@@ -9721,3 +9721,65 @@ M. Harper, 8/31/09: No data available at the time. Author notes that combination
     ],
 )
 
+entry(
+    index = 165,
+    label = "1987TSA471:36",
+    reactant1 = 
+"""
+1 *1 C 1 {2,S}
+2    O 0 {1,S}
+""",
+    reactant2 = 
+"""
+1 *3 C 1 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *4 H 0 {2,S}
+""",
+    product1 = 
+"""
+1 *1 C 0 {2,S} {3,S}
+2    O 0 {1,S}
+3 *4 H 0 {1,S}
+""",
+    product2 = 
+"""
+1 *3 C 0 {2,D}
+2 *2 O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (4.82e+06,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part 2. Methanol',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "16",
+        pages = """471""",
+        year = "1987",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:36",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+
+===
+
+M. Harper, 8/30/09:
+
+Meier, et al. (1985) measured the rate of addition + disproportionation. Tsang estimates a disproportionation-to-combination ratio of 0.5. (p. 506, Entry 39,39b)
+
+NOTE: Rate coefficient given in table at beginning of reference (summarizing all data presented) gives k_a+b = 2.4E-11, leading to k_b = 8E-12. NIST's online database (kinetics.nist.gov) reports this number as well. However, the discussion on p. 506 suggests k_a+b = 1.5E-11, leading to k_b = 5E-12.
+""",
+    history = [
+        ("Tue Sep  4 14:37:59 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1987TSA471:36"""),
+    ],
+)
+

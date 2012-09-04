@@ -114,60 +114,6 @@ u"""
 )
 
 entry(
-    index = 544,
-    label = "C_rad/H2/O;O_Csrad",
-    group1 = 
-"""
-1 *1 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    O 0 {1,S}
-""",
-    group2 = 
-"""
-1 *2 O  0 {2,S} {3,S}
-2 *3 Cs 1 {1,S}
-3 *4 H  0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (4.82e+12,"cm^3/(mol*s)","*|/",2),
-        n = 0,
-        alpha = 0,
-        E0 = (0,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang [90] Literature review.""",
-    longDesc = 
-u"""
-[90] Tsang, W.; Journal of Physical and Chemical Reference Data (1987), 16(3), 471-508.
-Literature review: CH2OH + CH2OH --> CH3OH + CH2O
-
-pg. 506: Discussion on evaluated data
-
-Entry 39,39 (b): CH2OH + CH2OH --> CH3OH + CH2O
-
-Meier, et al. (1985) measured the rate of addition + disproportionation.  Tsang estimates
-
-a disproportionation to combination ratio of 0.5
-NOTE: Rate coefficient given in table at beginning of reference (summarizing all data
-
-presented) gives k_a+b = 2.4x10^-11, leading to k_b = 8x10^-12.  NIST's online
-database (kinetics.nist.gov) reports this number as well.  However, the discussion
-on pg. 506 suggests k_a+b = 1.5x10^-11, leading to k_b = 5x10^-12.
-MRH 30-Aug-2009
-
-*** NEED TO INVESTIGATE ***
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 545,
     label = "C_rad/H/NonDeC;O_Csrad",
     group1 = 
