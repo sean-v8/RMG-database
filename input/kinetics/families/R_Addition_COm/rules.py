@@ -46,54 +46,6 @@ u"""
 )
 
 entry(
-    index = 426,
-    label = "COm;CH2CH2CH3",
-    group1 = 
-"""
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
-""",
-    group2 = 
-"""
-1  *2 C 1 {2,S} {3,S} {4,S}
-2     H 0 {1,S}
-3     H 0 {1,S}
-4     C 0 {1,S} {5,S} {6,S} {7,S}
-5     H 0 {4,S}
-6     H 0 {4,S}
-7     C 0 {4,S} {8,S} {9,S} {10,S}
-8     H 0 {7,S}
-9     H 0 {7,S}
-10    H 0 {7,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (6.51e+10,"cm^3/(mol*s)","*|/",3),
-        n = 0.45,
-        alpha = 0,
-        E0 = (6.68,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc = 
-u"""
-CH3CH2CH2 + CO = CH3CH2CH2CO
-MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
-
-n-Propyl (doublet): external symmetry number (EXTSYM) = 1, two hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 4)
-CO (singlet): EXTSYM = 1
-TS (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 2; propyl group, symmetry = 1)
-CH3CH2CH2CO (doublet): EXTSYM = 1, three hindered rotors (methyl group, symmetry = 3; ethyl group, symmetry = 1; propyl group, symmetry = 1)
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 427,
     label = "COm;CH[CH3]2",
     group1 = 
