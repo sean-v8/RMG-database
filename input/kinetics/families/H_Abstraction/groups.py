@@ -2160,7 +2160,7 @@ entry(
     label = "Y_1centerbirad",
     group = 
 """
-1 *3 {Cs,Cd,O} 2T
+1 *3 {Cs,Cd,CO,O} 2T
 """,
     kinetics = Arrhenius(
         A = (36.4836,"m^3/(mol*s)"),
@@ -4629,6 +4629,27 @@ u"""
     ],
 )
 
+entry(
+    index = 156,
+    label = "CO_triplet",
+    group = 
+"""
+1 *3 C 2T {2,D}
+2    O 0  {1,D}
+""",
+    kinetics = None,
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+
+""",
+    history = [
+        ("Wed Sep  5 15:53:13 2012","Sean Troiano <stroiano7@gmail.com>","action","""Added new group."""),
+    ],
+)
+
 tree(
 """
 L1: X_H_or_Xrad_H
@@ -4706,6 +4727,7 @@ L1: Y_rad_birad
     L2: Y_1centerbirad
         L3: O_atom_triplet
         L3: CH2_triplet
+        L3: CO_triplet
     L2: Y_rad
         L3: H_rad
         L3: Y_2centeradjbirad
