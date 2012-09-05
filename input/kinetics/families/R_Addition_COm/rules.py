@@ -46,57 +46,6 @@ u"""
 )
 
 entry(
-    index = 420,
-    label = "COm;C_rad/H2/Cs",
-    group1 = 
-"""
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
-""",
-    group2 = 
-"""
-1 *2 C  1 {2,S} {3,S} {4,S}
-2    H  0 {1,S}
-3    H  0 {1,S}
-4    Cs 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.51e+11,"cm^3/(mol*s)","*|/",2),
-        n = 0,
-        alpha = 0,
-        E0 = (4.81,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang et al [89] literature review.""",
-    longDesc = 
-u"""
-[89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
-CO + C2H5 --> C2H5CO.
-
-pg 1096, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 17,14.
-
-Verified by Karma James
-
-NOTE: Reported rate coefficients are for k_inf (MRH 11Aug2009)
-
-pg. 1178-1179: Discussion on evaluated data
-
-Recommended data (in the form of k_inf) comes from expression given by Watkins and Thompson
-
-Fall-off corrections and collision efficiencies are also available
-(although we do not store them in RMG_database)
-MRH 28-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 421,
     label = "COm;Cd_pri_rad",
     group1 = 

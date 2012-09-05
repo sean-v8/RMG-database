@@ -217,3 +217,57 @@ M. Harper, 8/31/09: RMG stores k_inf rate coefficient. The recommended rate coef
     ],
 )
 
+entry(
+    index = 4,
+    label = "1986TSA/HAM1087:88",
+    reactant1 = 
+"""
+1    C 0 {2,S}
+2 *2 C 1 {1,S}
+""",
+    reactant2 = 
+"""
+1 *1 C 2T {2,D}
+2    O 0  {1,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S} {3,S}
+2    C 0 {1,S}
+3 *1 C 1 {1,S} {4,D}
+4    O 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (151000,"m^3/(mol*s)","*|/",2),
+        n = 0,
+        Ea = (20.121,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:88",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 2.0
+Bath gas: N2
+
+===
+
+M. Harper, 8/28/09: Recommended data (in the form of k_inf) comes from expression given by Watkins and Thompson. (p. 1178-1179) Fall-off corrections and collision efficiencies are also available (although we do not store them in RMG_database).
+""",
+    history = [
+        ("Wed Sep  5 14:44:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:88"""),
+    ],
+)
+
