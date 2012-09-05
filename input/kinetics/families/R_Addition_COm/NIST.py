@@ -325,3 +325,109 @@ M. Harper, 8/28/09: Recommended data (in the form of k_inf) is assumed to be equ
     ],
 )
 
+entry(
+    index = 6,
+    label = "2000NAM/XIA1233-1239:1",
+    reactant1 = 
+"""
+1 *1 C 2T {2,D}
+2    O 0  {1,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,B} {3,B}
+2    C 0 {1,B} {4,B}
+3    C 0 {1,B} {5,B}
+4    C 0 {2,B} {6,B}
+5    C 0 {3,B} {6,B}
+6 *2 C 1 {4,B} {5,B}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,B} {3,B} {7,S}
+2    C 0 {1,B} {5,B}
+3    C 0 {1,B} {6,B}
+4    C 0 {5,B} {6,B}
+5    C 0 {2,B} {4,B}
+6    C 0 {3,B} {4,B}
+7 *1 C 1 {1,S} {8,D}
+8    O 0 {7,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (851000,"m^3/(mol*s)","+|-",280000),
+        n = 0,
+        Ea = (12.53,"kJ/mol","+|-",0.91),
+        T0 = 1,
+        Tmin = (295,"K"),
+        Tmax = (500,"K"),
+        Pmin = (1600,"Pa"),
+        Pmax = (16000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Nam, G.-J.", "Xia, W.", "Park, J.", "Lin, M.C."],
+        title = u'The Reaction of C5H5 with CO: Kinetic Measurement and Theoretical Correlation with the Reverse Process',
+        journal = "J. Phys. Chem. A",
+        volume = "104",
+        pages = """1233-1239""",
+        year = "2000",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=2000NAM/XIA1233-1239:1",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Bath gas: Ar
+Pressure dependence: Rate constant is high pressure limit
+Experimental procedure: Other
+Excitation technique: Flash photolysis (laser or conventional)
+Time resolution: In real time
+Analytical technique: Vis-UV absorption
+
+The cavity ring-down spectroscopic technique has been used. Phenyl radicals are produced from 248 nm photolysis of C6H5NO.  The time profile of phenyl radicals is directly probed at 504.8 nm. Experimental results are compared with the results of RRKM theory using the transition state parameters computed by the MP2 method with the 6-31G(d,p) basis set. A heat of formation of 32?.5 kcal/mol has been derived for C6H5CO.
+
+===
+
+M. Harper, 9/1/09:
+
+Authors use a Beer-Lambert law type expression:
+
+1/tc = 1/tc_0 + (c*l*epsilon / n*L) * [A](t)
+
+where tc and tc_0 are the decay times of the injected probing photons in the presence and absence of absorbing species, c is the speed of light, l is the length of the absorbing medium, epsilon is the extinction coefficient, n is the refractive index of the medium, L is the length of the cavity, and [A](t) is the concentration of the absorbing species at time t. Assuming a simple association rxn, A decays exponentially: [A](t) = [A](0)*exp(-k'*t).
+
+Combining this with the previous expression yields:
+
+ln(1/tc - 1/tc_0) = B - k'*t    eq. (*)
+
+However, the authors assume the reverse rxn will be significant (C6H5 + CO <--> C6H5CO). Thus, they propose the following rate equation:
+
+dx/dt = kf([A](0) - x)[CO] - kr*x
+
+where x is defined as [A](0) - [A](t), [A](t) is the concentration of the C6H5CO radical at time t, kf is the rate coefficient for C6H5+CO-->C6H5CO, and kr is the rate coefficient for C6H5CO-->C6H5+CO. Integrating the above differential equation, assuming constant [CO], yields:
+
+x = (a/b) * (1-exp(-b*t))
+
+where a = kf*[CO]*[A](0) and b = kf*[CO] + kr. Recalling that x = [A](0) - [A](t):
+
+[A](t) = [A](0) - x = [A](0) * {kr + kf*[CO]*exp(-b*t)} / b
+
+Substituting this into the Beer-Lambert law expression:
+
+1/tc - 1/tc_0 = [A](0) * {kr + kf*[CO]*exp(-b*t)} / b    eq. (**)
+
+C6H5 radical was generated from C6H5NO. The rate coefficient for the C6H5+CO reaction was measured in the temperature range 295-500K at 12-120 torr, with Ar as the carrier gas. The authors note that plots of ln(1/tc - 1/tc_0) vs. t exhibited linear behavior (for a given Temperature and [CO] concentration). The slope of the plot, computed using a "standard weighted least-squares analysis", yielded k', the pseudo first-order rate coefficient {eq. (*)}. The authors also note that above 400K, the plots became nonlinear with time, which the authors attribute to C6H5 re-generation from the reverse rxn C6H5CO --> C6H5 + CO. This data was analyzed using eq. (**), to yield b. The pseudo first-order rate coefficients (either k' or b) were plotted against [CO] to yield the second-order rate coefficient for C6H5+CO. The authors note that the evaluated kf calculated above and below 400K differ greatly. The authors performed a "weighted least-squares analysis" on all data to arrive at the reported bimolecular rate coefficient:
+
+k1 = 10^11.93+/-0.14 * exp[(-1507+/-109)/T] cm3/mole/s
+
+valid from 295-500K at 40 torr Ar pressure.
+
+The authors also investigated the pressure dependence of the rxn at 347K, from 12-120 torr. At 347K, the authors do not observe any significant difference. However, at higher temperatures, pressure effects become significant. The authors performed RRKM calculations to account for falloff effects, and report the adjusted second-order rate coefficient as:
+
+k1_inf = 10^12.17+/-0.18 * exp[(-1676+/-149)/T] cm3/mole/s
+""",
+    history = [
+        ("Wed Sep  5 15:02:44 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=2000NAM/XIA1233-1239:1"""),
+    ],
+)
+
