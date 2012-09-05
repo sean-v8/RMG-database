@@ -46,52 +46,6 @@ u"""
 )
 
 entry(
-    index = 423,
-    label = "COm;O_rad/NonDe",
-    group1 = 
-"""
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
-""",
-    group2 = 
-"""
-1 *2 O      1 {2,S}
-2    {Cs,O} 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (3.41e+07,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (3,"kcal/mol"),
-        Tmin = (250,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 5,
-    shortDesc = u"""Wang et al. [105].""",
-    longDesc = 
-u"""
-[105] Wang, B.; Hou, H.; Gu, Y. Phys. Chem. A 1999, 103, 8021.
-RRK(M) extrapolation. CH3O + CO --> CH3OCO, 250K and 2500K
-
-Data stored in RMG appears to be linear fit of the following data, presented on pg.8028
-
-in the right-hand column under the section heading "3.Implications for Atmospheric
-and Combustion Chemistry.": (250K, 5torr, 1.39x10^-19 cm3/molecule/s) and 
-(2500K, 760torr, 3.10x10^-17 cm3/molecule/s).
-Plotting ln(k) vs. 1000/T[=K] and performing a "Linear" regression in Microsoft Excel results
-
-in "y = -1.502x - 37.412" with an R^2 value of 1.  The A and Ea values calculated
-by MRH are thus: A=3.40x10^7 cm3/mol/s, Ea=2.98 kcal/mol, in agreement w/database.
-MRH 1-Sept-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 424,
     label = "COm;C_methyl",
     group1 = 

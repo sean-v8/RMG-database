@@ -431,3 +431,52 @@ k1_inf = 10^12.17+/-0.18 * exp[(-1676+/-149)/T] cm3/mole/s
     ],
 )
 
+entry(
+    index = 7,
+    label = "1999WAN/HOU8021-8029:14",
+    reactant1 = 
+"""
+1 *1 C 2T {2,D}
+2    O 0  {1,D}
+""",
+    reactant2 = 
+"""
+1    C 0 {2,S}
+2 *2 O 1 {1,S}
+""",
+    product1 = 
+"""
+1    C 0 {2,S}
+2 *2 O 0 {1,S} {3,S}
+3 *1 C 1 {2,S} {4,D}
+4    O 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (18.7,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (0,"kJ/mol"),
+        T0 = 1,
+        Tmin = (2500,"K"),
+        Pmin = (101000,"Pa"),
+    ),
+    reference = Article(
+        authors = ["Wang, B.", "Hou, H.", "Gu. Y."],
+        title = u'Ab Initio/Density Functional Theory and Multichannel RRKM Calculations for the CH3O + CO Reaction',
+        journal = "J. Phys. Chem. A",
+        volume = "103",
+        pages = """8021-8029""",
+        year = "1999",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1999WAN/HOU8021-8029:14",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""RRK(M) extrapolation""",
+    longDesc = 
+u"""
+Pressure dependence: Rate constant is pressure dependent
+""",
+    history = [
+        ("Wed Sep  5 15:17:34 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1999WAN/HOU8021-8029:14"""),
+    ],
+)
+
