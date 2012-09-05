@@ -46,58 +46,6 @@ u"""
 )
 
 entry(
-    index = 421,
-    label = "COm;Cd_pri_rad",
-    group1 = 
-"""
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
-""",
-    group2 = 
-"""
-1 *2 C 1 {2,D} {3,S}
-2    C 0 {1,D}
-3    H 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (1.51e+11,"cm^3/(mol*s)","*|/",5),
-        n = 0,
-        alpha = 0,
-        E0 = (4.81,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (2500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Tsang et al [89] literature review.""",
-    longDesc = 
-u"""
-[89] Tsang, W.; Hampson, R.F. J.Phys. Chem. Ref. Data 1986, 15, 1087.
-CO + C2H3 --> CH2=CHCO.
-
-pg 1099, Chemical Kinetic Database For Combustion Chemistry, 2. Index of Reactions and Summary of Recommended Rate Expressions. No. 19,14.
-
-Verified by Karma James
-
-NOTE: Reported rate coefficients are for k_inf (MRH 11Aug2009)
-
-pg. 1198-1199: Discussion of evaluated data
-
-Recommended data (in the form of k_inf) is assumed to be equal to the rate expression
-
-for CO+C2H5-->H3C-CH2-C=O.  Authors note the rxn is in the fall-off region
-under all conditions.
-Fall-off corrections and collision efficiencies are also available
-(although we do not store them in RMG_database).
-MRH 28-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 422,
     label = "COm;Cb_rad",
     group1 = 

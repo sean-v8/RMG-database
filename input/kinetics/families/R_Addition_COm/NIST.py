@@ -271,3 +271,57 @@ M. Harper, 8/28/09: Recommended data (in the form of k_inf) comes from expressio
     ],
 )
 
+entry(
+    index = 5,
+    label = "1986TSA/HAM1087:84",
+    reactant1 = 
+"""
+1    C 0 {2,D}
+2 *2 C 1 {1,D}
+""",
+    reactant2 = 
+"""
+1 *1 C 2T {2,D}
+2    O 0  {1,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,D} {3,S}
+2    C 0 {1,D}
+3 *1 C 1 {1,S} {4,D}
+4    O 0 {3,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (151000,"m^3/(mol*s)","*|/",5),
+        n = 0,
+        Ea = (20.121,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (2500,"K"),
+    ),
+    reference = Article(
+        authors = ["Tsang, W.", "Hampson, R.F."],
+        title = u'Chemical kinetic data base for combustion chemistry. Part I. Methane and related compounds',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "15",
+        pages = """1087""",
+        year = "1986",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:84",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 5.0
+Bath gas: N2
+
+===
+
+M. Harper, 8/28/09: Recommended data (in the form of k_inf) is assumed to be equal to the rate expression for CO+C2H5-->H3C-CH2-C=O. Authors note the rxn is in the fall-off region under all conditions. (p. 1198-1199) Fall-off corrections and collision efficiencies are also available (although we do not store them in RMG_database).
+""",
+    history = [
+        ("Wed Sep  5 14:51:24 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1986TSA/HAM1087:84"""),
+    ],
+)
+
