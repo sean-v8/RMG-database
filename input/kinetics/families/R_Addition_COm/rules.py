@@ -46,58 +46,6 @@ u"""
 )
 
 entry(
-    index = 418,
-    label = "COm;H_rad",
-    group1 = 
-"""
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
-""",
-    group2 = 
-"""
-1 *2 H 1
-""",
-    kinetics = ArrheniusEP(
-        A = (1.87e+11,"cm^3/(mol*s)"),
-        n = 0,
-        alpha = 0,
-        E0 = (1.53,"kcal/mol"),
-        Tmin = (305,"K"),
-        Tmax = (375,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""Gordon et al [103].""",
-    longDesc = 
-u"""
-[103] Gordon, E.B.; Ivanov, B.I; Perminov, A.P; Balalaev, V.E. Chem. Phys. 1978, 35, 79.
-CO + H --> HCO.
-
-Absolute value measured directly with flash photolysis technique. Rate constant is an upper limit.
-
-pg.86, Table 1: H atom reactions with CO and SO2.  Experimentally determined are line shifts
-
-dv and line broadening deltav/2; calculated are rate constants k and complex lifetimes tau_C.
-Raw data is (Temperature [=] K, k [=] cm3/molecule/s):
-
-(305, >2.5x10^-14), (375, >4.0x10^-14)
-Plotting ln(k) vs. 1000/T[=K] and performing a "Linear" regression in Microsoft Excel results
-
-in "y = -0.768x - 28.802" with an R^2 value of 1.  The A and Ea values calculated
-by MRH are thus: A=1.87x10^11 cm3/mol/s, Ea=1.53 kcal/mol, in agreement w/database.
-*** NOTE: MRH interprets table and "H + CO --> HCO" discussion to mean that the rate
-
-coefficients reported are LOWER LIMITS.  The discussion appears to suggest that 
-the authors suspect oxygen contamination; they further note that the reaction between
-H-atom and O2 is 10^4 times faster than the H+CO-->HCO rxn. ***
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 419,
     label = "COm;C_methyl",
     group1 = 

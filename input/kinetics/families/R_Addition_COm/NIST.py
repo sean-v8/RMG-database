@@ -104,3 +104,65 @@ From the plot, they extract a (k2/k3) ratio for each temperature tested. Using t
     ],
 )
 
+entry(
+    index = 2,
+    label = "1978GOR/IVA79:13",
+    reactant1 = 
+"""
+1 *2 H 1
+""",
+    reactant2 = 
+"""
+1 *1 C 2T {2,D}
+2    O 0  {1,D}
+""",
+    product1 = 
+"""
+1 *1 C 1 {2,S} {3,D}
+2 *2 H 0 {1,S}
+3    O 0 {1,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (187000,"m^3/(mol*s)"),
+        n = 0,
+        Ea = (6.386,"kJ/mol"),
+        T0 = 1,
+        Tmin = (305,"K"),
+        Tmax = (375,"K"),
+    ),
+    reference = Article(
+        authors = ["Gordon, E.B.", "Ivanov, B.I.", "Perminov, A.P.", "Balalaev, V.E."],
+        title = u'A Measurement of Formation Rates and Lifetimes of Intermediate Complexes in Reversible Chemical Reactions Involving Hydrogen Atoms',
+        journal = "Chem. Phys.",
+        volume = "35",
+        pages = """79""",
+        year = "1978",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1978GOR/IVA79:13",
+    ),
+    referenceType = "experiment",
+    shortDesc = u"""Absolute value measured directly""",
+    longDesc = 
+u"""
+Rate constant is an upper limit.
+Bath gas: H2
+Excitation technique: Flash photolysis (laser or conventional)
+Analytical technique: Other (RF)
+
+===
+
+M. Harper, 9/1/09:
+
+pg.86, Table 1: H atom reactions with CO and SO2. Experimentally determined are line shifts dv and line broadening deltav/2; calculated are rate constants k and complex lifetimes tau_C.
+
+Raw data is (Temperature [=] K, k [=] cm3/molecule/s): (305, >2.5E-14), (375, >4.0E-14)
+
+Plotting ln(k) vs. 1000/T[=K] and performing a "Linear" regression in Microsoft Excel results in "y = -0.768x - 28.802" with an R^2 value of 1. The A and Ea values calculated by MRH are thus: A=1.87x10^11 cm3/mol/s, Ea=1.53 kcal/mol, in agreement w/database.
+
+*** NOTE: MRH interprets table and "H + CO --> HCO" discussion to mean that the rate coefficients reported are LOWER LIMITS. The discussion appears to suggest that the authors suspect oxygen contamination; they further note that the reaction between H-atom and O2 is 10^4 times faster than the H+CO-->HCO rxn. ***
+""",
+    history = [
+        ("Wed Sep  5 14:31:26 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1978GOR/IVA79:13"""),
+    ],
+)
+
