@@ -46,48 +46,6 @@ u"""
 )
 
 entry(
-    index = 424,
-    label = "COm;C_methyl",
-    group1 = 
-"""
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
-""",
-    group2 = 
-"""
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (3.06e+06,"cm^3/(mol*s)","*|/",3),
-        n = 1.89,
-        alpha = 0,
-        E0 = (4.82,"kcal/mol","+|-",2),
-        Tmin = (600,"K"),
-        Tmax = (2000,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 3,
-    shortDesc = u"""MRH CBS-QB3 calculations with 1dHR corrections""",
-    longDesc = 
-u"""
-CH3 + CO = CH3CO
-MRH CBS-QB3 calculations with 1D hindered rotor corrections [MRHCBSQB31DHR]_.
-
-Methyl (doublet): external symmetry number (EXTSYM) = 6
-CO (singlet): EXTSYM = 1
-TS (doublet): EXTSYM = 1, one hindered rotor (methyl group, symmetry = 3)
-CH3CO (doublet): EXTSYM = 1, one hindered rotor (methyl group, symmetry = 3)
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 425,
     label = "COm;CH2CH3",
     group1 = 
