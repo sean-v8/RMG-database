@@ -46,59 +46,6 @@ u"""
 )
 
 entry(
-    index = 419,
-    label = "COm;C_methyl",
-    group1 = 
-"""
-1 *1 C {2S,2T} {2,D}
-2    O 0       {1,D}
-""",
-    group2 = 
-"""
-1 *2 C 1 {2,S} {3,S} {4,S}
-2    H 0 {1,S}
-3    H 0 {1,S}
-4    H 0 {1,S}
-""",
-    kinetics = ArrheniusEP(
-        A = (5.06e+11,"cm^3/(mol*s)","*|/",3.16),
-        n = 0,
-        alpha = 0,
-        E0 = (6.88,"kcal/mol"),
-        Tmin = (300,"K"),
-        Tmax = (500,"K"),
-    ),
-    reference = None,
-    referenceType = "",
-    rank = 4,
-    shortDesc = u"""Baulch et al. [94]""",
-    longDesc = 
-u"""
-[94] Baulch, D.L.; Cobos, C.J.; Cox, R.A.; Frank, P.; Hayman, G,; Just, T.; Kerr, J.A.; Murrells, T.; Pilling, M.J.; 
-Troe, J.; Walker, R.W.; Warnatz, J. J. Phys. Chem. Ref. Data 1994, 23, 847.
-
-CO + CH3 --> CH3C0. Extensive literature review.
-
-pg 871 Evaluated Kinetic Data for Combustion Modelling Supplement 1, Table 3. Combination reactions.
-
-RMG data matches reference data for k(infinity).
-
-Verified by Karma James
-
-pg.973-974: Discussion on evaluated data
-
-CH3+CO(+m) --> CH3CO(+m): RMG stores k_inf rate coefficient.  The recommended rate
-
-coefficient comes from the preferred (from this reference) rxn rate and the equilibrium
-constant (from Bencsura et al.)
-MRH 31-Aug-2009
-""",
-    history = [
-        ("Mon Aug 27 14:48:27 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from the old RMG database."""),
-    ],
-)
-
-entry(
     index = 420,
     label = "COm;C_rad/H2/Cs",
     group1 = 

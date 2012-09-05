@@ -166,3 +166,54 @@ Plotting ln(k) vs. 1000/T[=K] and performing a "Linear" regression in Microsoft 
     ],
 )
 
+entry(
+    index = 3,
+    label = "1994BAU/COB847-1033:55",
+    reactant1 = 
+"""
+1 *2 C 1
+""",
+    reactant2 = 
+"""
+1 *1 C 2T {2,D}
+2    O 0  {1,D}
+""",
+    product1 = 
+"""
+1 *2 C 0 {2,S}
+2 *1 C 1 {1,S} {3,D}
+3    O 0 {2,D}
+""",
+    degeneracy = 1,
+    kinetics = Arrhenius(
+        A = (506000,"m^3/(mol*s)","*|/",3.16),
+        n = 0,
+        Ea = (28.768,"kJ/mol"),
+        T0 = 1,
+        Tmin = (300,"K"),
+        Tmax = (500,"K"),
+    ),
+    reference = Article(
+        authors = ["Baulch, D.L.", "Cobos, C.J.", "Cox, R.A.", "Frank, P.", "Hayman, G.", "Just, Th.", "Kerr, J.A.", "Murrells, T.", "Pilling, M.J.", "Troe, J.", "Walker, R.W.", "Warnatz, J."],
+        title = u'Evaluated kinetic data for combusion modelling. Supplement I',
+        journal = "J. Phys. Chem. Ref. Data",
+        volume = "23",
+        pages = """847-1033""",
+        year = "1994",
+        url = "http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:55",
+    ),
+    referenceType = "review",
+    shortDesc = u"""Extensive literature review""",
+    longDesc = 
+u"""
+Uncertainty: 3.1600001
+
+===
+
+M. Harper, 8/31/09: RMG stores k_inf rate coefficient. The recommended rate coefficient comes from the preferred (from this reference) rxn rate and the equilibrium constant (from Bencsura et al.). (p. 973-974)
+""",
+    history = [
+        ("Wed Sep  5 14:37:21 2012","Sean Troiano <stroiano7@gmail.com>","action","""Imported from NIST database at http://kinetics.nist.gov/kinetics/Detail?id=1994BAU/COB847-1033:55"""),
+    ],
+)
+
